@@ -16,6 +16,7 @@ var class_ogre_1_1_hlms_unlit =
     [ "HlmsUnlit", "class_ogre_1_1_hlms_unlit.html#abdfe6cc9dfdd44b55d840e8fb5fd48c8", null ],
     [ "~HlmsUnlit", "class_ogre_1_1_hlms_unlit.html#a4c49b8aa34b41611ba38b19b8889d2af", null ],
     [ "_changeRenderSystem", "class_ogre_1_1_hlms_unlit.html#a15d5b6f45828732e6b6e5fa8dc214baf", null ],
+    [ "_clearShaderCache", "class_ogre_1_1_hlms_unlit.html#a2712f2732aaface8c3429cbd2c375578", null ],
     [ "_collectSamplerblocks", "class_ogre_1_1_hlms_unlit.html#aa68a87d738a3272c4a4b39b5104d0ade", null ],
     [ "_getProperty", "class_ogre_1_1_hlms_unlit.html#a2653ec312ecd49c7a080335544ba87f0", null ],
     [ "_loadJson", "class_ogre_1_1_hlms_unlit.html#aca3105a12465f325665db387e758bd6c", null ],

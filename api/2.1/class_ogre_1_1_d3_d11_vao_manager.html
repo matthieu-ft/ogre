@@ -128,7 +128,8 @@ $(document).ready(function(){initNavTree('class_ogre_1_1_d3_d11_vao_manager.html
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_ogre_1_1_d3_d11_vao_manager__inherit__graph.svg" width="183" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_ogre_1_1_d3_d11_vao_manager__inherit__graph.svg" width="183" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -242,6 +243,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aba0c4166083e407daf30bdf74293fccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9df77c2bc3c9467e21808e6ca62785a2"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_vao_manager.html#a9df77c2bc3c9467e21808e6ca62785a2">getUavBufferMaxSize</a> (void) const </td></tr>
 <tr class="separator:a9df77c2bc3c9467e21808e6ca62785a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad755907ce311a03ad71f1732a0bcb773"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_d3_d11_vao_manager.html#ad755907ce311a03ad71f1732a0bcb773">isFrameFinished</a> (<a class="el" href="namespace_ogre.html#adf2a0cf2e77143b5ee1d38a75e289545">uint32</a> frameCount)</td></tr>
+<tr class="memdesc:ad755907ce311a03ad71f1732a0bcb773"><td class="mdescLeft">&#160;</td><td class="mdescRight">See <a class="el" href="class_ogre_1_1_vao_manager.html#a48589a1d12b10aa89082ebca7a9c524d" title="If this returns true, then waitForSpecificFrameToFinish is guaranteed to return immediately. ">VaoManager::isFrameFinished</a>.  <a href="#ad755907ce311a03ad71f1732a0bcb773">More...</a><br /></td></tr>
+<tr class="separator:ad755907ce311a03ad71f1732a0bcb773"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8357fe4fb4849772b94baa4bf47c7ded"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_allocated_object.html#a8357fe4fb4849772b94baa4bf47c7ded">operator delete</a> (void *ptr)</td></tr>
 <tr class="separator:a8357fe4fb4849772b94baa4bf47c7ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c727e879a260c37b00ce5505fe8e144"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_allocated_object.html#a1c727e879a260c37b00ce5505fe8e144">operator delete</a> (void *ptr, void *)</td></tr>
@@ -275,6 +279,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a32f45ab2439f6006ce7c7296047e7184"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d29b276731a8aeef821863bad178459"><td class="memItemLeft" align="right" valign="top">ID3D11Query *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_d3_d11_vao_manager.html#a2d29b276731a8aeef821863bad178459">waitFor</a> (ID3D11Query *fenceName)</td></tr>
 <tr class="separator:a2d29b276731a8aeef821863bad178459"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa99e8eb352189ff130bbf293b6cd77c3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_d3_d11_vao_manager.html#aa99e8eb352189ff130bbf293b6cd77c3">waitForSpecificFrameToFinish</a> (<a class="el" href="namespace_ogre.html#adf2a0cf2e77143b5ee1d38a75e289545">uint32</a> frameCount)</td></tr>
+<tr class="memdesc:aa99e8eb352189ff130bbf293b6cd77c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">See <a class="el" href="class_ogre_1_1_vao_manager.html#af029f21d9a83ae3024e36695a3f554f7" title="Waits for a specific frame to be ready. ">VaoManager::waitForSpecificFrameToFinish</a>.  <a href="#aa99e8eb352189ff130bbf293b6cd77c3">More...</a><br /></td></tr>
+<tr class="separator:aa99e8eb352189ff130bbf293b6cd77c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af26ff1e7b0f57b7bd52ff6faac76ba37"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_ogre.html#a119732ea9d1e88bbddc47b4ac0fa21cb">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_d3_d11_vao_manager.html#af26ff1e7b0f57b7bd52ff6faac76ba37">waitForTailFrameToFinish</a> (void)</td></tr>
 <tr class="separator:af26ff1e7b0f57b7bd52ff6faac76ba37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -1673,6 +1680,34 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ad755907ce311a03ad71f1732a0bcb773"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Ogre::D3D11VaoManager::isFrameFinished </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_ogre.html#adf2a0cf2e77143b5ee1d38a75e289545">uint32</a>&#160;</td>
+          <td class="paramname"><em>frameCount</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>See <a class="el" href="class_ogre_1_1_vao_manager.html#a48589a1d12b10aa89082ebca7a9c524d" title="If this returns true, then waitForSpecificFrameToFinish is guaranteed to return immediately. ">VaoManager::isFrameFinished</a>. </p>
+
+<p>Implements <a class="el" href="class_ogre_1_1_vao_manager.html#a48589a1d12b10aa89082ebca7a9c524d">Ogre::VaoManager</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a7c48c351c69e8f682ca05ccc17791853"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2237,6 +2272,34 @@ template&lt;class Alloc &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="aa99e8eb352189ff130bbf293b6cd77c3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Ogre::D3D11VaoManager::waitForSpecificFrameToFinish </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_ogre.html#adf2a0cf2e77143b5ee1d38a75e289545">uint32</a>&#160;</td>
+          <td class="paramname"><em>frameCount</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>See <a class="el" href="class_ogre_1_1_vao_manager.html#af029f21d9a83ae3024e36695a3f554f7" title="Waits for a specific frame to be ready. ">VaoManager::waitForSpecificFrameToFinish</a>. </p>
+
+<p>Implements <a class="el" href="class_ogre_1_1_vao_manager.html#af029f21d9a83ae3024e36695a3f554f7">Ogre::VaoManager</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="af26ff1e7b0f57b7bd52ff6faac76ba37"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2273,7 +2336,7 @@ template&lt;class Alloc &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ogre.html">Ogre</a></li><li class="navelem"><a class="el" href="class_ogre_1_1_d3_d11_vao_manager.html">D3D11VaoManager</a></li>
-    <li class="footer">Generated on Tue Mar 28 2017 23:48:55 for OGRE by
+    <li class="footer">Generated on Thu May 4 2017 22:21:38 for OGRE by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

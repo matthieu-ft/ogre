@@ -7,7 +7,7 @@ var class_ogre_1_1_metal_buffer_interface =
     [ "advanceFrame", "class_ogre_1_1_metal_buffer_interface.html#abf9a12612da91c48eb1d051bc2357f32", null ],
     [ "getVboName", "class_ogre_1_1_metal_buffer_interface.html#a25c6b3d4422efbcb87a20ce08cde8068", null ],
     [ "getVboPoolIndex", "class_ogre_1_1_metal_buffer_interface.html#a31ba97853b49d00dca8a9dd20263daa8", null ],
-    [ "map", "class_ogre_1_1_metal_buffer_interface.html#a4e50bbd3a5547ef00b19799f55dd2799", null ],
+    [ "map", "class_ogre_1_1_metal_buffer_interface.html#abe156f1a97a4da9a3df954d22251dc19", null ],
     [ "regressFrame", "class_ogre_1_1_metal_buffer_interface.html#a45535a953631ce1b0da0560f7d3485bc", null ],
     [ "unmap", "class_ogre_1_1_metal_buffer_interface.html#a122e9bbd15ae7c2001723a5be181e87e", null ],
     [ "upload", "class_ogre_1_1_metal_buffer_interface.html#abc183c59ca908d4dc53149add87a0237", null ]

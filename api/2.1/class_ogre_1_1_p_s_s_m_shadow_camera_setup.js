@@ -6,7 +6,7 @@ var class_ogre_1_1_p_s_s_m_shadow_camera_setup =
     [ "calculateSplitPoints", "class_ogre_1_1_p_s_s_m_shadow_camera_setup.html#a3ad4827d62664b3aebcd4880c1dc2965", null ],
     [ "getMaxDistance", "class_ogre_1_1_p_s_s_m_shadow_camera_setup.html#ab59a1569e9387a57995d6ae8d1e68890", null ],
     [ "getMinDistance", "class_ogre_1_1_p_s_s_m_shadow_camera_setup.html#a57530d2edc09dd128b184251c9a53eb6", null ],
-    [ "getShadowCamera", "class_ogre_1_1_p_s_s_m_shadow_camera_setup.html#ab874f99eab535ad8ff12c4ee9f24d51f", null ],
+    [ "getShadowCamera", "class_ogre_1_1_p_s_s_m_shadow_camera_setup.html#aecb88dd4d6d22d3a15097dde926256c5", null ],
     [ "getSplitCount", "class_ogre_1_1_p_s_s_m_shadow_camera_setup.html#aedb28a58c6dc6200aa99b9cfba833f8b", null ],
     [ "getSplitPadding", "class_ogre_1_1_p_s_s_m_shadow_camera_setup.html#ab1cc7551a1d37c13e1b7d41dbea91442", null ],
     [ "getSplitPoints", "class_ogre_1_1_p_s_s_m_shadow_camera_setup.html#aa4752b0456b01b9e2af7021c8773d880", null ],

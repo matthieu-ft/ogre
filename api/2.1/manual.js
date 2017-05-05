@@ -68,12 +68,11 @@ var manual =
       [ "Shadow Nodes", "compositor.html#CompositorShadowNodes", [
         [ "Setting up shadow nodes", "compositor.html#CompositorShadowNodesSetup", null ],
         [ "Example", "compositor.html#CompositorShadowNodesExample", null ],
-        [ "Shadow map atlas", "compositor.html#CompositorShadowNodesAtlas", null ],
+        [ "Shadow map atlas & Point Lights", "compositor.html#CompositorShadowNodesAtlasAndPointLights", null ],
         [ "Reuse, recalculate and first", "compositor.html#CompositorShadowNodesReuseEtc", null ],
         [ "Shadow mapping setup types", "compositor.html#CompositorShadowNodesTypes", [
           [ "Uniform shadow mapping", "compositor.html#CompositorShadowNodesTypesUniform", null ],
           [ "Focused", "compositor.html#CompositorShadowNodesTypesFocused", null ],
-          [ "LispSM", "compositor.html#CompositorShadowNodesTypesLispSM", null ],
           [ "PSSM / CSM", "compositor.html#CompositorShadowNodesTypesPssm", null ],
           [ "Plane Optimal", "compositor.html#CompositorShadowNodesTypesPlaneOptimal", null ]
         ] ],
@@ -144,7 +143,7 @@ var manual =
       [ "The Hlms preprocessor", "hlms.html#HlmsPreprocessor", [
         [ "Preprocessor syntax", "hlms.html#HlmsPreprocessorSyntax", [
           [ "\\@property( expression )", "hlms.html#HlmsPreprocessorSyntaxProperty", null ],
-          [ "@foreach( scopedVar, count, [start] )", "hlms.html#HlmsPreprocessorSyntaxForeach", null ],
+          [ "@foreach( count, scopedVar, [start] )", "hlms.html#HlmsPreprocessorSyntaxForeach", null ],
           [ "@counter( variable )", "hlms.html#HlmsPreprocessorSyntaxCounter", null ],
           [ "@value( variable )", "hlms.html#HlmsPreprocessorSyntaxValue", null ],
           [ "@set add sub mul div mod min max", "hlms.html#HlmsPreprocessorSyntaxSetEtc", null ],

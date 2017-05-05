@@ -13,6 +13,7 @@ var class_ogre_1_1_hlms =
     [ "Hlms", "class_ogre_1_1_hlms.html#a95b467bb6efd01598aa3116ebdd41381", null ],
     [ "~Hlms", "class_ogre_1_1_hlms.html#a35f79b87545791d5d706a3bae0840fbf", null ],
     [ "_changeRenderSystem", "class_ogre_1_1_hlms.html#ab8744fe92c019a0f47330772904f4c58", null ],
+    [ "_clearShaderCache", "class_ogre_1_1_hlms.html#a2712f2732aaface8c3429cbd2c375578", null ],
     [ "_collectSamplerblocks", "class_ogre_1_1_hlms.html#ad8ee9c21796623473c8d48d2aa1ca613", null ],
     [ "_getProperty", "class_ogre_1_1_hlms.html#a2653ec312ecd49c7a080335544ba87f0", null ],
     [ "_loadJson", "class_ogre_1_1_hlms.html#ae4564995410bbba55027c36c83802441", null ],

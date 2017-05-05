@@ -904,7 +904,9 @@ var files =
     [ "OgreHardwareVertexBuffer.h", "_ogre_hardware_vertex_buffer_8h.html", "_ogre_hardware_vertex_buffer_8h" ],
     [ "OgreHeaderPrefix.h", "_ogre_header_prefix_8h.html", null ],
     [ "OgreHeaderSuffix.h", "_ogre_header_suffix_8h.html", null ],
-    [ "OgreHighLevelGpuProgram.h", "_ogre_high_level_gpu_program_8h.html", null ],
+    [ "OgreHighLevelGpuProgram.h", "_ogre_high_level_gpu_program_8h.html", [
+      [ "CmdEnableIncludeHeader", "class_ogre_1_1_high_level_gpu_program_1_1_cmd_enable_include_header.html", "class_ogre_1_1_high_level_gpu_program_1_1_cmd_enable_include_header" ]
+    ] ],
     [ "OgreHighLevelGpuProgramManager.h", "_ogre_high_level_gpu_program_manager_8h.html", null ],
     [ "OgreHlms.h", "_ogre_hlms_8h.html", [
       [ "DatablockEntry", "struct_ogre_1_1_hlms_1_1_datablock_entry.html", "struct_ogre_1_1_hlms_1_1_datablock_entry" ],
@@ -1740,7 +1742,7 @@ var files =
       [ "Geometry", "struct_ogre_1_1v1_1_1_vertex_shadow_map_helper_1_1_geometry.html", "struct_ogre_1_1v1_1_1_vertex_shadow_map_helper_1_1_geometry" ],
       [ "VertexShadowMapHelper", "class_ogre_1_1_vertex_shadow_map_helper.html", "class_ogre_1_1_vertex_shadow_map_helper" ]
     ] ],
-    [ "OgreViewport.h", "_ogre_viewport_8h.html", null ],
+    [ "OgreViewport.h", "_ogre_viewport_8h.html", "_ogre_viewport_8h" ],
     [ "OgreVisibilityFlags.h", "_ogre_visibility_flags_8h.html", "_ogre_visibility_flags_8h" ],
     [ "OgreVolumeCacheSource.h", "_ogre_volume_cache_source_8h.html", "_ogre_volume_cache_source_8h" ],
     [ "OgreVolumeChunk.h", "_ogre_volume_chunk_8h.html", "_ogre_volume_chunk_8h" ],

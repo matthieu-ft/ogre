@@ -13,6 +13,7 @@ var searchData=
   ['fastarray_3c_20lightclosest_20_3e',['FastArray&lt; LightClosest &gt;',['../class_ogre_1_1_fast_array.html',1,'Ogre']]],
   ['fastarray_3c_20lightcount_20_3e',['FastArray&lt; LightCount &gt;',['../class_ogre_1_1_fast_array.html',1,'Ogre']]],
   ['fastarray_3c_20ogre_3a_3askeletoninstance_20_2a_20_3e',['FastArray&lt; Ogre::SkeletonInstance * &gt;',['../class_ogre_1_1_fast_array.html',1,'Ogre']]],
+  ['fastarray_3c_20ogre_3a_3atexture_20_2a_20_3e',['FastArray&lt; Ogre::Texture * &gt;',['../class_ogre_1_1_fast_array.html',1,'Ogre']]],
   ['fastarray_3c_20pbsbakedtexture_20_3e',['FastArray&lt; PbsBakedTexture &gt;',['../class_ogre_1_1_fast_array.html',1,'Ogre']]],
   ['fastarray_3c_20queuedrenderable_20_3e',['FastArray&lt; QueuedRenderable &gt;',['../class_ogre_1_1_fast_array.html',1,'Ogre']]],
   ['fastarray_3c_20real_20_3e',['FastArray&lt; Real &gt;',['../class_ogre_1_1_fast_array.html',1,'Ogre']]],

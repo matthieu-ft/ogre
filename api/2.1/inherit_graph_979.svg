@@ -10,10 +10,10 @@
 <title>Graphical Class Hierarchy</title>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<g id="a_node1"><a xlink:href="struct_ogre_1_1vector.html" target="_top" xlink:title="Ogre::vector\&lt; v1::Hardware\lUniformBufferSharedPtr \&gt;">
+<g id="a_node1"><a xlink:href="struct_ogre_1_1vector.html" target="_top" xlink:title="Ogre::vector\&lt; v1::Hardware\lPixelBufferSharedPtr \&gt;">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-30.5 138,-30.5 138,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ogre::vector&lt; v1::Hardware</text>
-<text text-anchor="middle" x="69" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">UniformBufferSharedPtr &gt;</text>
+<text text-anchor="middle" x="69" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">PixelBufferSharedPtr &gt;</text>
 </a>
 </g>
 </g>

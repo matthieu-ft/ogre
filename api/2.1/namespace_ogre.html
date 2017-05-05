@@ -406,7 +406,11 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_compositor_pass_uav_def.html">CompositorPassUavDef</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_compositor_shadow_map_repeat_translator.html">CompositorShadowMapRepeatTranslator</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_compositor_shadow_map_target_translator.html">CompositorShadowMapTargetTranslator</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_compositor_shadow_map_target_type_translator.html">CompositorShadowMapTargetTypeTranslator</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_compositor_shadow_node.html">CompositorShadowNode</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shadow Nodes are special nodes (not to be confused with.  <a href="class_ogre_1_1_compositor_shadow_node.html#details">More...</a><br /></td></tr>
@@ -3391,94 +3395,99 @@ Enumerations</h2></td></tr>
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a7e097c81eaeb110052059b528a468caa">ID_ALLOW_WRITE_AFTER_WRITE</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a4120fab9883292ab8d8d34c61c7418cd">ID_EXPOSE</a>, 
 <br />
-&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a6b227676f10c3bb7b25b6070469e30aa">ID_LOD_BIAS</a>, 
+&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3acf1999a3da4f9e852e934a4180a84ffc">ID_SHADOW_MAP_FULL_VIEWPORT</a>, 
+<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a6b227676f10c3bb7b25b6070469e30aa">ID_LOD_BIAS</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a9ba19226735926d946d1e48146b054eb">ID_LOD_UPDATE_LIST</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a29632d036320246b383baac33353de7c">ID_LOD_CAMERA</a>, 
-<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a9451de7dbc0e607e3efc4fc1533d772f">ID_CULL_REUSE_DATA</a>, 
 <br />
-&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a52bfa02854664c3374ed9721c06b0a86">ID_CULL_CAMERA</a>, 
+&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a9451de7dbc0e607e3efc4fc1533d772f">ID_CULL_REUSE_DATA</a>, 
+<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a52bfa02854664c3374ed9721c06b0a86">ID_CULL_CAMERA</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a766519dac1de52e73c82f1a07c7e1cd1">ID_MATERIAL_SCHEME</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a2833e071edf79f6456730076527ce15d">ID_VISIBILITY_MASK</a>, 
-<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a4c2c08521c52e6d77d6a1265e77f0d2f">ID_SHADOWS_ENABLED</a>, 
 <br />
-&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3ac3a1a5967e8a1bcfa230d65feb3bc38f">ID_CAMERA</a>, 
+&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a4c2c08521c52e6d77d6a1265e77f0d2f">ID_SHADOWS_ENABLED</a>, 
+<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3ac3a1a5967e8a1bcfa230d65feb3bc38f">ID_CAMERA</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a87642afe5724343f37dde74a3f771bf4">ID_FIRST_RENDER_QUEUE</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a3919aac33a9010965433179baa514d7d">ID_LAST_RENDER_QUEUE</a>, 
-<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a20b15f0a70fd3b7cb5fce25ffd7d884c">ID_CAMERA_CUBEMAP_REORIENT</a>, 
 <br />
-&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3ae43aeacf44ef92795046b89d737e6403">ID_ENABLE_FORWARDPLUS</a>, 
+&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a20b15f0a70fd3b7cb5fce25ffd7d884c">ID_CAMERA_CUBEMAP_REORIENT</a>, 
+<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3ae43aeacf44ef92795046b89d737e6403">ID_ENABLE_FORWARDPLUS</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3aa86600dafe00d9e9b079f3b9b21f2649">ID_IS_PREPASS</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a62bd3e04052a49ddee45f30238bf85d1">ID_USE_PREPASS</a>, 
-<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a1c766e36ea0a82df464632a0b502241e">ID_USE_QUAD</a>, 
 <br />
-&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a0eea96f624f07a452999a82ee9bca555">ID_QUAD_NORMALS</a>, 
+&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a1c766e36ea0a82df464632a0b502241e">ID_USE_QUAD</a>, 
+<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a0eea96f624f07a452999a82ee9bca555">ID_QUAD_NORMALS</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a76fdb24aea436ad642933fcf0a50cb29">ID_CAMERA_FAR_CORNERS_VIEW_SPACE</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3aea50ce93419015eec4940a6d759e9156">ID_CAMERA_FAR_CORNERS_VIEW_SPACE_NORMALIZED</a>, 
-<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3af7ed7469c4b75c284ad394c9ade94253">ID_CAMERA_FAR_CORNERS_VIEW_SPACE_NORMALIZED_LH</a>, 
 <br />
-&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a09695bca554396df58bff51b33fbaa89">ID_CAMERA_FAR_CORNERS_WORLD_SPACE</a>, 
+&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3af7ed7469c4b75c284ad394c9ade94253">ID_CAMERA_FAR_CORNERS_VIEW_SPACE_NORMALIZED_LH</a>, 
+<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a09695bca554396df58bff51b33fbaa89">ID_CAMERA_FAR_CORNERS_WORLD_SPACE</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3ab32b76b0695413894bef27fa25fb01c1">ID_CAMERA_FAR_CORNERS_WORLD_SPACE_CENTERED</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a4ad9ea7847d9bf0fe41ee5f073a6728d">ID_CAMERA_DIRECTION</a>, 
-<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a1660d50778edeb1a0b0f52f3ad1adcc7">ID_INPUT</a>, 
 <br />
-&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a0e0a3e9d69d77d3dbcbf0855d5f429c1">ID_ALIAS_ON_COPY_FAILURE</a>, 
+&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a1660d50778edeb1a0b0f52f3ad1adcc7">ID_INPUT</a>, 
+<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a0e0a3e9d69d77d3dbcbf0855d5f429c1">ID_ALIAS_ON_COPY_FAILURE</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3aadd97324917ac6a799f2e99e3548605e">ID_BUFFERS</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a0e2c0bb853504437fda880de01aa6bce">ID_COLOUR</a>, 
-<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3acda138b8a528e372816c0616b21991a5">ID_DEPTH</a>, 
 <br />
-&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a32bde45760601a8bb614ab04a19b0f6d">ID_COLOUR_VALUE</a>, 
+&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3acda138b8a528e372816c0616b21991a5">ID_DEPTH</a>, 
+<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a32bde45760601a8bb614ab04a19b0f6d">ID_COLOUR_VALUE</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3abc73522c8c4f3db3b727ea70f139a836">ID_DEPTH_VALUE</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a0beca887cbf0f3f9e2232cfecb640ec2">ID_STENCIL_VALUE</a>, 
-<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3accbbf44f75b40866679d8b382052cfe7">ID_DISCARD_ONLY</a>, 
 <br />
-&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a28205f3646338056bbaf243d22bdb4cc">ID_CHECK</a>, 
+&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3accbbf44f75b40866679d8b382052cfe7">ID_DISCARD_ONLY</a>, 
+<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a28205f3646338056bbaf243d22bdb4cc">ID_CHECK</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a7e340c7e2742f7730306e54504c2492f">ID_REF_VALUE</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a942538a8440333b6367a2481e2410aa8">ID_MASK</a>, 
-<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3aae3abfa7b36b4c8b1ef70113f77bf469">ID_READ_MASK</a>, 
 <br />
-&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3aaf1701657de2ff338c2756894b6759ba">ID_BOTH</a>, 
+&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3aae3abfa7b36b4c8b1ef70113f77bf469">ID_READ_MASK</a>, 
+<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3aaf1701657de2ff338c2756894b6759ba">ID_BOTH</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a03b007559a2183b4365fa597e81c5186">ID_FRONT</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a9f7aa52dae209b16e10b405138fdf51b">ID_BACK</a>, 
-<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a5cdb123e59d12c4b6fec7ec57b0786e5">ID_COMP_FUNC</a>, 
 <br />
-&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a9f03c4f9f8e6dc26a080c6d046ca3687">ID_FAIL_OP</a>, 
+&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a5cdb123e59d12c4b6fec7ec57b0786e5">ID_COMP_FUNC</a>, 
+<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a9f03c4f9f8e6dc26a080c6d046ca3687">ID_FAIL_OP</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3add341842537815403f515c5e0b9613fb">ID_KEEP</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a930efb2d0eb619b3811fca5b43aa2db2">ID_INCREMENT</a>, 
-<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a92c8ffaeacd15047bb8e31ecf915f541">ID_DECREMENT</a>, 
 <br />
-&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3aa372f1de21ee5190a03444c417a38316">ID_INCREMENT_WRAP</a>, 
+&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a92c8ffaeacd15047bb8e31ecf915f541">ID_DECREMENT</a>, 
+<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3aa372f1de21ee5190a03444c417a38316">ID_INCREMENT_WRAP</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3ad10ec4b62617597a74c6236d60c328b3">ID_DECREMENT_WRAP</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3ab72484a3cc56cfdb8a775f94bc2fa8b9">ID_INVERT</a>, 
-<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a3f7e28a67ecf1f9c73d1253e0ba3b1c7">ID_DEPTH_FAIL_OP</a>, 
 <br />
-&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3af325cc38ad960a044285d57d2c99aa8d">ID_PASS_OP</a>, 
+&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a3f7e28a67ecf1f9c73d1253e0ba3b1c7">ID_DEPTH_FAIL_OP</a>, 
+<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3af325cc38ad960a044285d57d2c99aa8d">ID_PASS_OP</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a259e516c7efa2d2eb3a70869c322b5aa">ID_TWO_SIDED</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3af614a50fa7c98a76fce2eb9e04236f5a">ID_UAV</a>, 
-<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a9ad41f606abd415dcbdf5543b4d1b0a3">ID_UAV_EXTERNAL</a>, 
 <br />
-&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a11aba9968c2fea30cb90d9b2376e73d1">ID_UAV_BUFFER</a>, 
+&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a9ad41f606abd415dcbdf5543b4d1b0a3">ID_UAV_EXTERNAL</a>, 
+<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a11aba9968c2fea30cb90d9b2376e73d1">ID_UAV_BUFFER</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3ac844a12c6ec47dddb8d9a1f2c3b249f2">ID_STARTING_SLOT</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3ac0670f4d6d91c1dad9f5d14e932fef16">ID_KEEP_PREVIOUS_UAV</a>, 
-<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3acbe178b2ff0408044283f4a2d4093794">ID_READ</a>, 
 <br />
-&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3aafa67d5fedb0444e7ae40ba9440306e2">ID_WRITE</a>, 
+&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3acbe178b2ff0408044283f4a2d4093794">ID_READ</a>, 
+<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3aafa67d5fedb0444e7ae40ba9440306e2">ID_WRITE</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3aeb39be560f6de3519906dffad32dee82">ID_MIPMAP</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a360a6f6567596c4743b7c9e9e02ef200">ID_JOB</a>, 
-<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a674da73bc48a4a85233466fded215aec">ID_MIPMAP_METHOD</a>, 
 <br />
-&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3ad86e4188b07349a426d3a8de957b84cd">ID_API_DEFAULT</a>, 
+&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a674da73bc48a4a85233466fded215aec">ID_MIPMAP_METHOD</a>, 
+<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3ad86e4188b07349a426d3a8de957b84cd">ID_API_DEFAULT</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3ae40dca789094eaee2c9908a434ca2cd9">ID_COMPUTE_HQ</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3ae7b13a1e3ffc9763845cd8f740743ff5">ID_KERNEL_RADIUS</a>, 
-<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3ace623a702be9a7aeb4eb68e29a523b26">ID_GAUSS_DEVIATION</a>, 
 <br />
-&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a7cd861a63432b75d04469766dc7fed1b">ID_READ_BACK_AS_TEXTURE</a>, 
+&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3ace623a702be9a7aeb4eb68e29a523b26">ID_GAUSS_DEVIATION</a>, 
+<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a7cd861a63432b75d04469766dc7fed1b">ID_READ_BACK_AS_TEXTURE</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a52b8050298e35924a2f7482eeb370068">ID_SHADOW_NODE</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a1526ee526526c370eaa8609edcd211c6">ID_NUM_SPLITS</a>, 
-<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3ab2248cdf337cd0f38241de0ec80e6a49">ID_PSSM_SPLIT_PADDING</a>, 
 <br />
-&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a8dd1a0e09c79afa1818de42aa26e7624">ID_PSSM_LAMBDA</a>, 
-<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a152907bc201f5e3e1c40245117c0bedc">ID_SHADOW_MAP</a>, 
-<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a2d884dceeb5bc102043a0048a1e8300c">ID_SHADOW_ATLAS</a>, 
+&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3ab2248cdf337cd0f38241de0ec80e6a49">ID_PSSM_SPLIT_PADDING</a>, 
+<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a8dd1a0e09c79afa1818de42aa26e7624">ID_PSSM_LAMBDA</a>, 
+<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a47d48e51e74026d78ad19d31f83dc415">ID_SHADOW_MAP_TARGET_TYPE</a>, 
+<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3aad47abc04c9d9c97cce20fa145b11901">ID_SHADOW_MAP_REPEAT</a>, 
+<br />
+&#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a152907bc201f5e3e1c40245117c0bedc">ID_SHADOW_MAP</a>, 
+<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a78e88cb1ff5664c7f71b83cd0193e200">ID_UV</a>, 
+<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a3c3213a4174892559198604bc0e15f99">ID_ARRAY_INDEX</a>, 
 <a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a4d2780ec80e9c4cba88724d6fae8a210">ID_FSAA</a>, 
 <br />
 &#160;&#160;<a class="el" href="group___general.html#gga0b5cbeda8e74421290877666785271d3a3fe9608609faf64f4832aec057798fc4">ID_LIGHT</a>, 
@@ -4895,6 +4904,11 @@ Enumerations</h2></td></tr>
 <a class="el" href="group___general.html#gga8509892b3d9e8aab2d1dbd80a5a7b493adac56c48ee225547920e5c29bac4ab33">NumVertexPass</a>
  }</td></tr>
 <tr class="separator:ga8509892b3d9e8aab2d1dbd80a5a7b493"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2dad852ac69f7883f66d5580c9ffb0b0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___render_system.html#ga2dad852ac69f7883f66d5580c9ffb0b0">ViewportRenderTargetFlags</a> { <a class="el" href="group___render_system.html#gga2dad852ac69f7883f66d5580c9ffb0b0a56620589789dcb6ed27d17aa946d8e1b">VP_RTT_COLOUR_WRITE</a> = 1u &lt;&lt; 0u, 
+<a class="el" href="group___render_system.html#gga2dad852ac69f7883f66d5580c9ffb0b0ad7cdb1e5b8755c5dc1d54ec55fae4c3c">VP_RTT_READ_ONLY_DEPTH</a> = 1u &lt;&lt; 1u, 
+<a class="el" href="group___render_system.html#gga2dad852ac69f7883f66d5580c9ffb0b0a812558ce75da42bbbcbe6e7b639d4051">VP_RTT_READ_ONLY_STENCIL</a> = 1u &lt;&lt; 2u
+ }</td></tr>
+<tr class="separator:ga2dad852ac69f7883f66d5580c9ffb0b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabf2e0412a783a6f708ca1a58abb45c1b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___general.html#gabf2e0412a783a6f708ca1a58abb45c1b">WaveformType</a> { <br />
 &#160;&#160;<a class="el" href="group___general.html#ggabf2e0412a783a6f708ca1a58abb45c1ba7810779988e228dd8d3eef8ba0d566e2">WFT_SINE</a>, 
 <a class="el" href="group___general.html#ggabf2e0412a783a6f708ca1a58abb45c1bac2f92dba451adb7777e9275d0f2c898a">WFT_TRIANGLE</a>, 
@@ -8446,7 +8460,7 @@ template&lt;class C &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ogre.html">Ogre</a></li>
-    <li class="footer">Generated on Tue Mar 28 2017 23:48:54 for OGRE by
+    <li class="footer">Generated on Thu May 4 2017 22:21:36 for OGRE by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

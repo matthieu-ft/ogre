@@ -8,8 +8,8 @@ var class_ogre_1_1_g_l3_plus_dynamic_buffer =
     [ "flush", "class_ogre_1_1_g_l3_plus_dynamic_buffer.html#a2af5e4109eac865c006bcda4e990111c", null ],
     [ "getVboName", "class_ogre_1_1_g_l3_plus_dynamic_buffer.html#a1b6272cf6940e538f1a7aa67647b786d", null ],
     [ "getVboName", "class_ogre_1_1_g_l3_plus_dynamic_buffer.html#a1b6272cf6940e538f1a7aa67647b786d", null ],
-    [ "map", "class_ogre_1_1_g_l3_plus_dynamic_buffer.html#aa2fac453fbf8fd8907d579ba5e550090", null ],
-    [ "map", "class_ogre_1_1_g_l3_plus_dynamic_buffer.html#aa2fac453fbf8fd8907d579ba5e550090", null ],
+    [ "map", "class_ogre_1_1_g_l3_plus_dynamic_buffer.html#aad901c35e1999eb8c67f71df184c978c", null ],
+    [ "map", "class_ogre_1_1_g_l3_plus_dynamic_buffer.html#aad901c35e1999eb8c67f71df184c978c", null ],
     [ "unmap", "class_ogre_1_1_g_l3_plus_dynamic_buffer.html#ae62c14eef42ea7b436ddef77c8c2861a", null ],
     [ "unmap", "class_ogre_1_1_g_l3_plus_dynamic_buffer.html#ae62c14eef42ea7b436ddef77c8c2861a", null ]
 ];

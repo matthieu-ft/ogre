@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['uav',['Uav',['../struct_ogre_1_1_compute_property.html#a5503ecbcbeee97d79ef0b14c2cac9e85',1,'Ogre::ComputeProperty::Uav()'],['../class_ogre_1_1_shadow_texture_definition.html#aa96b720aa453f761076c817e0ab03bdb',1,'Ogre::ShadowTextureDefinition::uav()'],['../class_ogre_1_1_texture_definition_base_1_1_texture_definition.html#a8348ae7e6bedd486a0e88ce2fa8bc4e2',1,'Ogre::TextureDefinitionBase::TextureDefinition::uav()']]],
+  ['uav',['Uav',['../struct_ogre_1_1_compute_property.html#a5503ecbcbeee97d79ef0b14c2cac9e85',1,'Ogre::ComputeProperty::Uav()'],['../class_ogre_1_1_texture_definition_base_1_1_texture_definition.html#a8348ae7e6bedd486a0e88ce2fa8bc4e2',1,'Ogre::TextureDefinitionBase::TextureDefinition::uav()']]],
   ['uavslot',['uavSlot',['../struct_ogre_1_1_compositor_pass_def_1_1_uav_dependency.html#aab25d55f5aa42cf5023019852d31d703',1,'Ogre::CompositorPassDef::UavDependency::uavSlot()'],['../struct_ogre_1_1_compositor_pass_uav_def_1_1_texture_source.html#af9042829bedad027e8d4e16b71a2410e',1,'Ogre::CompositorPassUavDef::TextureSource::uavSlot()'],['../struct_ogre_1_1_compositor_pass_uav_def_1_1_buffer_source.html#a77995f21324680367561115d74307193',1,'Ogre::CompositorPassUavDef::BufferSource::uavSlot()']]],
   ['uintbuffersize',['uintBufferSize',['../struct_ogre_1_1_gpu_named_constants.html#aa78a9520e9515038318893626480112c',1,'Ogre::GpuNamedConstants']]],
   ['uncompressedsize',['uncompressedSize',['../struct_ogre_1_1_file_info.html#a66c7bf4f59feb619016a5c70e4ded4ee',1,'Ogre::FileInfo']]],
@@ -99,7 +99,9 @@ var searchData=
   ['uvdiffuseswizzle7',['UvDiffuseSwizzle7',['../struct_ogre_1_1_unlit_property.html#a73913563873b1ebde8a2b86ffa54fe8a',1,'Ogre::UnlitProperty']]],
   ['uvdiffuseswizzle8',['UvDiffuseSwizzle8',['../struct_ogre_1_1_unlit_property.html#a14a597273ad4f18cd2e30fd173cdfb96',1,'Ogre::UnlitProperty']]],
   ['uvdiffuseswizzle9',['UvDiffuseSwizzle9',['../struct_ogre_1_1_unlit_property.html#a2fd61aeb85206153008a9a1330055e65',1,'Ogre::UnlitProperty']]],
+  ['uvlength',['uvLength',['../class_ogre_1_1_shadow_texture_definition.html#a6b5048cef58070a4608897ab718eb9c4',1,'Ogre::ShadowTextureDefinition']]],
   ['uvnormal',['UvNormal',['../struct_ogre_1_1_pbs_property.html#a8535ff2f0757f3bb9f9bec6a974432e8',1,'Ogre::PbsProperty::UvNormal()'],['../struct_ogre_1_1_pbs_mobile_property.html#adcb9b6ad6056869f47880cb1a093e8f4',1,'Ogre::PbsMobileProperty::UvNormal()']]],
+  ['uvoffset',['uvOffset',['../class_ogre_1_1_shadow_texture_definition.html#a9415b07e2e36a433b61767818fa214d8',1,'Ogre::ShadowTextureDefinition']]],
   ['uvrect',['uvRect',['../struct_ogre_1_1_font_1_1_glyph_info.html#a46b20f8f199e3d2f698aa44a6553ab50',1,'Ogre::Font::GlyphInfo']]],
   ['uvroughness',['UvRoughness',['../struct_ogre_1_1_pbs_property.html#a6661e3fc093712a1267dcce3d5f1d7ac',1,'Ogre::PbsProperty::UvRoughness()'],['../struct_ogre_1_1_pbs_mobile_property.html#a1b26e5dd827e0febcf98d7c722b52f85',1,'Ogre::PbsMobileProperty::UvRoughness()']]],
   ['uvsource',['uvSource',['../struct_ogre_1_1_pbs_mobile_shader_creation_data.html#a313e17e279cf50eb01c1a4aa0410a272',1,'Ogre::PbsMobileShaderCreationData::uvSource()'],['../struct_ogre_1_1_unlit_property_1_1_diffuse_map_ptr.html#aec650b44d996e845b3b86ccb3a69e5e1',1,'Ogre::UnlitProperty::DiffuseMapPtr::uvSource()']]],

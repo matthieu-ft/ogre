@@ -4,7 +4,7 @@ var class_ogre_1_1_shadow_camera_setup =
     [ "~ShadowCameraSetup", "class_ogre_1_1_shadow_camera_setup.html#a790a06721a8e3c6f48218aa659c334ef", null ],
     [ "getMaxDistance", "class_ogre_1_1_shadow_camera_setup.html#ab59a1569e9387a57995d6ae8d1e68890", null ],
     [ "getMinDistance", "class_ogre_1_1_shadow_camera_setup.html#a57530d2edc09dd128b184251c9a53eb6", null ],
-    [ "getShadowCamera", "class_ogre_1_1_shadow_camera_setup.html#ae3c6e4f487aae2a68775cd7af10d1fa7", null ],
+    [ "getShadowCamera", "class_ogre_1_1_shadow_camera_setup.html#ab6e8a9669102634c5a9a1273133f8240", null ],
     [ "operator delete", "class_ogre_1_1_shadow_camera_setup.html#a8357fe4fb4849772b94baa4bf47c7ded", null ],
     [ "operator delete", "class_ogre_1_1_shadow_camera_setup.html#a1c727e879a260c37b00ce5505fe8e144", null ],
     [ "operator delete", "class_ogre_1_1_shadow_camera_setup.html#acb46d4b0a597156d9ba5abc39d127792", null ],

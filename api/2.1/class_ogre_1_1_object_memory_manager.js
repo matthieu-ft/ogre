@@ -7,6 +7,7 @@ var class_ogre_1_1_object_memory_manager =
     [ "_setTwin", "class_ogre_1_1_object_memory_manager.html#ada9ae13f4b0cc10d7dee8e8d15a02313", null ],
     [ "applyRebase", "class_ogre_1_1_object_memory_manager.html#a0b745fa9ad3f3b67e99ad691338b6bac", null ],
     [ "buildDiffList", "class_ogre_1_1_object_memory_manager.html#aa1d94b69514c23e720a686ad7e9750b7", null ],
+    [ "calculateTotalNumObjectDataIncludingFragmentedSlots", "class_ogre_1_1_object_memory_manager.html#a4ac700ecbd217020bf6cef88aeaa39e4", null ],
     [ "getFirstObjectData", "class_ogre_1_1_object_memory_manager.html#a5a3205860c2fded5b34bb8f0802526af", null ],
     [ "getMemoryManagerType", "class_ogre_1_1_object_memory_manager.html#adf32ad6623229095c3293173d54d7a2b", null ],
     [ "getNumRenderQueues", "class_ogre_1_1_object_memory_manager.html#a3215b8b1170598d4d256517a948c658a", null ],

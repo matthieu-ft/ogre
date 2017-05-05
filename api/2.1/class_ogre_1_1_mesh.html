@@ -133,7 +133,8 @@ $(document).ready(function(){initNavTree('class_ogre_1_1_mesh.html','');});
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_ogre_1_1_mesh__inherit__graph.svg" width="286" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_ogre_1_1_mesh__inherit__graph.svg" width="286" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -224,9 +225,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a702af78cbc4869e64c369fb11c4f1eb5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_string_interface.html#a702af78cbc4869e64c369fb11c4f1eb5">copyParametersTo</a> (<a class="el" href="class_ogre_1_1_string_interface.html">StringInterface</a> *dest) const </td></tr>
 <tr class="memdesc:a702af78cbc4869e64c369fb11c4f1eb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method for copying this object's parameters to another object.  <a href="#a702af78cbc4869e64c369fb11c4f1eb5">More...</a><br /></td></tr>
 <tr class="separator:a702af78cbc4869e64c369fb11c4f1eb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23d5c021503b8fac8938be4ba956f2ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ogre_1_1_sub_mesh.html">SubMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_mesh.html#a23d5c021503b8fac8938be4ba956f2ce">createSubMesh</a> (void)</td></tr>
-<tr class="memdesc:a23d5c021503b8fac8938be4ba956f2ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="class_ogre_1_1_sub_mesh.html" title="Defines a part of a complete mesh. ">SubMesh</a>.  <a href="#a23d5c021503b8fac8938be4ba956f2ce">More...</a><br /></td></tr>
-<tr class="separator:a23d5c021503b8fac8938be4ba956f2ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd8f8725c5277d5f05b857bc404916bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ogre_1_1_sub_mesh.html">SubMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_mesh.html#afd8f8725c5277d5f05b857bc404916bc">createSubMesh</a> (size_t index=~0u)</td></tr>
+<tr class="memdesc:afd8f8725c5277d5f05b857bc404916bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="class_ogre_1_1_sub_mesh.html" title="Defines a part of a complete mesh. ">SubMesh</a>.  <a href="#afd8f8725c5277d5f05b857bc404916bc">More...</a><br /></td></tr>
+<tr class="separator:afd8f8725c5277d5f05b857bc404916bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acece9a38f44d7b91a3e5af871b8eb939"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_mesh.html#acece9a38f44d7b91a3e5af871b8eb939">dearrangeToInefficient</a> (void)</td></tr>
 <tr class="memdesc:acece9a38f44d7b91a3e5af871b8eb939"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reverts the effects from arrangeEfficient by converting all 16-bit half float back to 32-bit float; and QTangents to Normal, Tangent + Reflection representation, which are more compatible for doing certain operations vertex operations in the CPU.  <a href="#acece9a38f44d7b91a3e5af871b8eb939">More...</a><br /></td></tr>
 <tr class="separator:acece9a38f44d7b91a3e5af871b8eb939"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1228,15 +1229,15 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a23d5c021503b8fac8938be4ba956f2ce"></a>
+<a class="anchor" id="afd8f8725c5277d5f05b857bc404916bc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_ogre_1_1_sub_mesh.html">SubMesh</a>* Ogre::Mesh::createSubMesh </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>index</em> = <code>~0u</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1244,6 +1245,12 @@ Friends</h2></td></tr>
 
 <p>Creates a new <a class="el" href="class_ogre_1_1_sub_mesh.html" title="Defines a part of a complete mesh. ">SubMesh</a>. </p>
 <dl class="section remark"><dt>Remarks</dt><dd>Method for manually creating geometry for the mesh. Note - use with extreme caution - you must be sure that you have set up the geometry properly. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>Optional param that will insert the submesh at the specified index. This should be less than <a class="el" href="class_ogre_1_1_mesh.html#afe20aa1c72451105ffd82b69aac42a36" title="Gets the number of sub meshes which comprise this mesh. ">getNumSubMeshes()</a>, otherwise it indicates the new submesh will simply be appended to the submesh list. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -3290,7 +3297,7 @@ Meshes can optionally be assigned a skeleton which can be used to animate the me
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ogre.html">Ogre</a></li><li class="navelem"><a class="el" href="class_ogre_1_1_mesh.html">Mesh</a></li>
-    <li class="footer">Generated on Tue Mar 28 2017 23:48:57 for OGRE by
+    <li class="footer">Generated on Thu May 4 2017 22:21:41 for OGRE by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

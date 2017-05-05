@@ -27,6 +27,7 @@ var searchData=
   ['archive',['archive',['../struct_ogre_1_1_file_info.html#abfa635472f6acfaca380a4a6be39f853',1,'Ogre::FileInfo::archive()'],['../struct_ogre_1_1_resource_group_manager_1_1_resource_location.html#a6c67405ce5274cbf9e7ecefc1840539b',1,'Ogre::ResourceGroupManager::ResourceLocation::archive()']]],
   ['arg1',['arg1',['../struct_ogre_1_1_texture_unit_state_1_1_texture_effect.html#aba2780418ca3a03d94d6ca23c91c6615',1,'Ogre::TextureUnitState::TextureEffect']]],
   ['arg2',['arg2',['../struct_ogre_1_1_texture_unit_state_1_1_texture_effect.html#a91a3e4c00a58f31c59aa1081e62d0b73',1,'Ogre::TextureUnitState::TextureEffect']]],
+  ['arrayidx',['arrayIdx',['../class_ogre_1_1_shadow_texture_definition.html#a9e5b8c6d0098da31d67c40d1bb5a28c1',1,'Ogre::ShadowTextureDefinition']]],
   ['arraysize',['arraySize',['../struct_ogre_1_1_gpu_constant_definition.html#acaf52008903308ca818a1fc816d88231',1,'Ogre::GpuConstantDefinition']]],
   ['ashift',['ashift',['../struct_ogre_1_1_pixel_format_description.html#aaf375ced0cdeab46a2430e0149e9fb61',1,'Ogre::PixelFormatDescription']]],
   ['aspectratio',['aspectRatio',['../struct_ogre_1_1_font_1_1_glyph_info.html#a4eec8222d9985bb3b15d886120fd1ae6',1,'Ogre::Font::GlyphInfo']]],

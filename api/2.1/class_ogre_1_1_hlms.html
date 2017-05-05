@@ -131,7 +131,8 @@ $(document).ready(function(){initNavTree('class_ogre_1_1_hlms.html','');});
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_ogre_1_1_hlms__inherit__graph.svg" width="618" height="266"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_ogre_1_1_hlms__inherit__graph.svg" width="618" height="266"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -162,6 +163,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a35f79b87545791d5d706a3bae0840fbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8744fe92c019a0f47330772904f4c58"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_hlms.html#ab8744fe92c019a0f47330772904f4c58">_changeRenderSystem</a> (<a class="el" href="class_ogre_1_1_render_system.html">RenderSystem</a> *newRs)</td></tr>
 <tr class="separator:ab8744fe92c019a0f47330772904f4c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2712f2732aaface8c3429cbd2c375578"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_hlms.html#a2712f2732aaface8c3429cbd2c375578">_clearShaderCache</a> (void)</td></tr>
+<tr class="separator:a2712f2732aaface8c3429cbd2c375578"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8ee9c21796623473c8d48d2aa1ca613"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_hlms.html#ad8ee9c21796623473c8d48d2aa1ca613">_collectSamplerblocks</a> (<a class="el" href="struct_ogre_1_1set.html">set</a>&lt; const <a class="el" href="struct_ogre_1_1_hlms_samplerblock.html">HlmsSamplerblock</a> * &gt;::type &amp;outSamplerblocks, const <a class="el" href="class_ogre_1_1_hlms_datablock.html">HlmsDatablock</a> *datablock) const </td></tr>
 <tr class="separator:ad8ee9c21796623473c8d48d2aa1ca613"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2653ec312ecd49c7a080335544ba87f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ogre.html#a1c37a43c04753c9ae0c17108c9e6c9d2">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_hlms.html#a2653ec312ecd49c7a080335544ba87f0">_getProperty</a> (<a class="el" href="struct_ogre_1_1_id_string.html">IdString</a> key, <a class="el" href="namespace_ogre.html#a1c37a43c04753c9ae0c17108c9e6c9d2">int32</a> defaultVal=0) const </td></tr>
@@ -447,7 +450,23 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_ogre_1_1_hlms_compute.html#a02d3d6b937ffe865b634f2a39e8317bb">Ogre::HlmsCompute</a>, <a class="el" href="class_ogre_1_1_hlms_buffer_manager.html#af34ff1ef7360108d8bfce45bac74f97a">Ogre::HlmsBufferManager</a>, <a class="el" href="class_ogre_1_1_hlms_pbs.html#aba086bc50037b29f4f2e5ee69a9ee9f4">Ogre::HlmsPbs</a>, and <a class="el" href="class_ogre_1_1_hlms_unlit.html#a15d5b6f45828732e6b6e5fa8dc214baf">Ogre::HlmsUnlit</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ogre_1_1_hlms_compute.html#a02d3d6b937ffe865b634f2a39e8317bb">Ogre::HlmsCompute</a>, <a class="el" href="class_ogre_1_1_hlms_pbs.html#aba086bc50037b29f4f2e5ee69a9ee9f4">Ogre::HlmsPbs</a>, <a class="el" href="class_ogre_1_1_hlms_buffer_manager.html#af34ff1ef7360108d8bfce45bac74f97a">Ogre::HlmsBufferManager</a>, and <a class="el" href="class_ogre_1_1_hlms_unlit.html#a15d5b6f45828732e6b6e5fa8dc214baf">Ogre::HlmsUnlit</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2712f2732aaface8c3429cbd2c375578"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ogre::Hlms::_clearShaderCache </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -997,7 +1016,7 @@ Static Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>New <a class="el" href="class_ogre_1_1_texture.html" title="Abstract class representing a Texture resource. ">Texture</a> hash (may be equal or different to lastTextureHash). </dd></dl>
 
-<p>Implemented in <a class="el" href="class_ogre_1_1_hlms_compute.html#a002b6cca591aa0d14cec171eced03cf7">Ogre::HlmsCompute</a>, <a class="el" href="class_ogre_1_1_hlms_pbs.html#ac20ca22ce34a7133e930bc2753c7bdec">Ogre::HlmsPbs</a>, <a class="el" href="class_ogre_1_1_hlms_unlit.html#adccb87154b7dfa33a9690044ee874c98">Ogre::HlmsUnlit</a>, <a class="el" href="class_ogre_1_1_hlms_pbs_mobile.html#a2a74416b0d7d8c89416eda7db2c39176">Ogre::HlmsPbsMobile</a>, <a class="el" href="class_ogre_1_1_hlms_low_level.html#adf1df169f035043b8236e9224de90e4a">Ogre::HlmsLowLevel</a>, and <a class="el" href="class_ogre_1_1_hlms_unlit_mobile.html#a7dedc63f5fffd10e74985dbaf8d6915f">Ogre::HlmsUnlitMobile</a>.</p>
+<p>Implemented in <a class="el" href="class_ogre_1_1_hlms_pbs.html#ac20ca22ce34a7133e930bc2753c7bdec">Ogre::HlmsPbs</a>, <a class="el" href="class_ogre_1_1_hlms_compute.html#a002b6cca591aa0d14cec171eced03cf7">Ogre::HlmsCompute</a>, <a class="el" href="class_ogre_1_1_hlms_unlit.html#adccb87154b7dfa33a9690044ee874c98">Ogre::HlmsUnlit</a>, <a class="el" href="class_ogre_1_1_hlms_pbs_mobile.html#a2a74416b0d7d8c89416eda7db2c39176">Ogre::HlmsPbsMobile</a>, <a class="el" href="class_ogre_1_1_hlms_low_level.html#adf1df169f035043b8236e9224de90e4a">Ogre::HlmsLowLevel</a>, and <a class="el" href="class_ogre_1_1_hlms_unlit_mobile.html#a7dedc63f5fffd10e74985dbaf8d6915f">Ogre::HlmsUnlitMobile</a>.</p>
 
 </div>
 </div>
@@ -1051,7 +1070,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_ogre_1_1_hlms_compute.html#af7c1fbc691c19e8b6910af0ab9cff868">Ogre::HlmsCompute</a>, <a class="el" href="class_ogre_1_1_hlms_pbs.html#ab925d9f9eb243c2c124ec51838abbba9">Ogre::HlmsPbs</a>, <a class="el" href="class_ogre_1_1_hlms_unlit.html#a2f4a39762b9a845e0a9dcc586c60ff4c">Ogre::HlmsUnlit</a>, and <a class="el" href="class_ogre_1_1_hlms_low_level.html#a29acd2d757172bd8b9519f60702c7c12">Ogre::HlmsLowLevel</a>.</p>
+<p>Implemented in <a class="el" href="class_ogre_1_1_hlms_pbs.html#ab925d9f9eb243c2c124ec51838abbba9">Ogre::HlmsPbs</a>, <a class="el" href="class_ogre_1_1_hlms_compute.html#af7c1fbc691c19e8b6910af0ab9cff868">Ogre::HlmsCompute</a>, <a class="el" href="class_ogre_1_1_hlms_unlit.html#a2f4a39762b9a845e0a9dcc586c60ff4c">Ogre::HlmsUnlit</a>, and <a class="el" href="class_ogre_1_1_hlms_low_level.html#a29acd2d757172bd8b9519f60702c7c12">Ogre::HlmsLowLevel</a>.</p>
 
 </div>
 </div>
@@ -2028,7 +2047,7 @@ template&lt;class Alloc &gt; </div>
 
 <p>This gets called after executing the command buffer. </p>
 
-<p>Reimplemented in <a class="el" href="class_ogre_1_1_hlms_buffer_manager.html#aa3240ad2b9912d94dcecc3c89b4b08ec">Ogre::HlmsBufferManager</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ogre_1_1_hlms_pbs.html#a77e7ca58aba14e4fe2a869a4c6791106">Ogre::HlmsPbs</a>, and <a class="el" href="class_ogre_1_1_hlms_buffer_manager.html#aa3240ad2b9912d94dcecc3c89b4b08ec">Ogre::HlmsBufferManager</a>.</p>
 
 </div>
 </div>
@@ -2113,7 +2132,7 @@ template&lt;class Alloc &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A hash and cached property parameters. Unlike , the cache must be kept by the caller and not by us (because it may change every frame and is one for the whole pass, but <a class="el" href="class_ogre_1_1_mesh.html" title="Resource holding data about 3D mesh. ">Mesh</a>' properties usually stay consistent through its lifetime but may differ per mesh) </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_ogre_1_1_hlms_buffer_manager.html#a4d83d3a354c0d165c2463b2c88a26426">Ogre::HlmsBufferManager</a>, <a class="el" href="class_ogre_1_1_hlms_pbs.html#aea753fbc8e2f47194297a9f729f4cf9c">Ogre::HlmsPbs</a>, <a class="el" href="class_ogre_1_1_hlms_unlit.html#acb4b2bce4331f49d744df15300147fc9">Ogre::HlmsUnlit</a>, <a class="el" href="class_ogre_1_1_hlms_pbs_mobile.html#a82b818ae16c7ffbdb563532fbe5d27b3">Ogre::HlmsPbsMobile</a>, <a class="el" href="class_ogre_1_1_hlms_low_level.html#af1a304d65b1950610720ad4868ea3e6c">Ogre::HlmsLowLevel</a>, and <a class="el" href="class_ogre_1_1_hlms_unlit_mobile.html#ad690778a386ff5f1922915a5f0a1497e">Ogre::HlmsUnlitMobile</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ogre_1_1_hlms_pbs.html#aea753fbc8e2f47194297a9f729f4cf9c">Ogre::HlmsPbs</a>, <a class="el" href="class_ogre_1_1_hlms_buffer_manager.html#a4d83d3a354c0d165c2463b2c88a26426">Ogre::HlmsBufferManager</a>, <a class="el" href="class_ogre_1_1_hlms_unlit.html#acb4b2bce4331f49d744df15300147fc9">Ogre::HlmsUnlit</a>, <a class="el" href="class_ogre_1_1_hlms_pbs_mobile.html#a82b818ae16c7ffbdb563532fbe5d27b3">Ogre::HlmsPbsMobile</a>, <a class="el" href="class_ogre_1_1_hlms_low_level.html#af1a304d65b1950610720ad4868ea3e6c">Ogre::HlmsLowLevel</a>, and <a class="el" href="class_ogre_1_1_hlms_unlit_mobile.html#ad690778a386ff5f1922915a5f0a1497e">Ogre::HlmsUnlitMobile</a>.</p>
 
 </div>
 </div>
@@ -2253,7 +2272,7 @@ template&lt;class Alloc &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ogre.html">Ogre</a></li><li class="navelem"><a class="el" href="class_ogre_1_1_hlms.html">Hlms</a></li>
-    <li class="footer">Generated on Tue Mar 28 2017 23:48:57 for OGRE by
+    <li class="footer">Generated on Thu May 4 2017 22:21:40 for OGRE by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -128,7 +128,8 @@ $(document).ready(function(){initNavTree('class_ogre_1_1_object_memory_manager.h
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_ogre_1_1_object_memory_manager__inherit__graph.svg" width="204" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_ogre_1_1_object_memory_manager__inherit__graph.svg" width="204" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -151,6 +152,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa1d94b69514c23e720a686ad7e9750b7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_object_memory_manager.html#aa1d94b69514c23e720a686ad7e9750b7">buildDiffList</a> (<a class="el" href="namespace_ogre.html#aa8263b218e7d187ad5ef03a73a6ad7fd">uint16</a> level, const <a class="el" href="namespace_ogre.html#a43278e35ec4d27a6f37928aa78eded36">MemoryPoolVec</a> &amp;basePtrs, <a class="el" href="class_ogre_1_1_array_memory_manager.html#aac88868dab1629f0becfe78f25f27426">ArrayMemoryManager::PtrdiffVec</a> &amp;outDiffsList)</td></tr>
 <tr class="memdesc:aa1d94b69514c23e720a686ad7e9750b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the manager needs to grow it's memory pool to honour more node requests.  <a href="#aa1d94b69514c23e720a686ad7e9750b7">More...</a><br /></td></tr>
 <tr class="separator:aa1d94b69514c23e720a686ad7e9750b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ac700ecbd217020bf6cef88aeaa39e4"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_object_memory_manager.html#a4ac700ecbd217020bf6cef88aeaa39e4">calculateTotalNumObjectDataIncludingFragmentedSlots</a> () const </td></tr>
+<tr class="memdesc:a4ac700ecbd217020bf6cef88aeaa39e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the opposite of getTotalNumObjects.  <a href="#a4ac700ecbd217020bf6cef88aeaa39e4">More...</a><br /></td></tr>
+<tr class="separator:a4ac700ecbd217020bf6cef88aeaa39e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a3205860c2fded5b34bb8f0802526af"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_object_memory_manager.html#a5a3205860c2fded5b34bb8f0802526af">getFirstObjectData</a> (<a class="el" href="struct_ogre_1_1_object_data.html">ObjectData</a> &amp;outObjectData, size_t renderQueue)</td></tr>
 <tr class="memdesc:a5a3205860c2fded5b34bb8f0802526af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a <a class="el" href="struct_ogre_1_1_object_data.html" title="Represents the transform of a single object, arranged in SoA (Structure of Arrays) ...">ObjectData</a> pointing to the first <a class="el" href="class_ogre_1_1_movable_object.html" title="Abstract class defining a movable object in a scene. ">MovableObject</a> in the given render queue.  <a href="#a5a3205860c2fded5b34bb8f0802526af">More...</a><br /></td></tr>
 <tr class="separator:a5a3205860c2fded5b34bb8f0802526af"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -408,6 +412,24 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a4ac700ecbd217020bf6cef88aeaa39e4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t Ogre::ObjectMemoryManager::calculateTotalNumObjectDataIncludingFragmentedSlots </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This is the opposite of getTotalNumObjects. </p>
+<p>This function returns the sum of the return values of getFirstObjectData </p>
+
+</div>
+</div>
 <a class="anchor" id="a5a3205860c2fded5b34bb8f0802526af"></a>
 <div class="memitem">
 <div class="memproto">
@@ -507,7 +529,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Retrieves the sum of the number of objects in all render queues. </p>
-<dl class="section remark"><dt>Remarks</dt><dd>The value is cached to avoid iterating through all RQ levels, however be <b>very careful</b> with this value it may not be equal to the sum of all <a class="el" href="class_ogre_1_1_object_memory_manager.html#a5a3205860c2fded5b34bb8f0802526af" title="Retrieves a ObjectData pointing to the first MovableObject in the given render queue. ">getFirstObjectData()</a> from all render queues. </dd></dl>
+<dl class="section remark"><dt>Remarks</dt><dd>The value is cached to avoid iterating through all RQ levels, however be <b>VERY CAREFUL</b> with this value it may not be equal to the sum of all <a class="el" href="class_ogre_1_1_object_memory_manager.html#a5a3205860c2fded5b34bb8f0802526af" title="Retrieves a ObjectData pointing to the first MovableObject in the given render queue. ">getFirstObjectData()</a> from all render queues. Specially careful when distributing work to different threads, since you may have to include skipping unassigned slots, and thus the last thread may end up writing out of bounds if you use getTotalNumObjects to allocate a buffer to hold results instead of calculateTotalNumObjectDataIncludingFragmentedSlots (depends on how your algorithm works). </dd></dl>
 <dl class="section user"><dt></dt><dd>When ARRAY_PACKED_REALS = 4, and 4 objects have been created but the 2nd one has been deleted, getFirstObjectData will still return 4 until the 4th object is removed or a cleanup is performed; whereas getTotalNumObjects will return the actual number of objects. </dd></dl>
 
 </div>
@@ -767,7 +789,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ogre.html">Ogre</a></li><li class="navelem"><a class="el" href="class_ogre_1_1_object_memory_manager.html">ObjectMemoryManager</a></li>
-    <li class="footer">Generated on Tue Mar 28 2017 23:48:58 for OGRE by
+    <li class="footer">Generated on Thu May 4 2017 22:21:42 for OGRE by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

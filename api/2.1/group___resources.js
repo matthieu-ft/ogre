@@ -824,6 +824,10 @@ var group___resources =
     ] ],
     [ "GpuResource", "struct_ogre_1_1_gpu_resource.html", null ],
     [ "HighLevelGpuProgram", "class_ogre_1_1_high_level_gpu_program.html", [
+      [ "CmdEnableIncludeHeader", "class_ogre_1_1_high_level_gpu_program_1_1_cmd_enable_include_header.html", [
+        [ "doGet", "class_ogre_1_1_high_level_gpu_program_1_1_cmd_enable_include_header.html#acaee4df7e26a193975a85e11b7019454", null ],
+        [ "doSet", "class_ogre_1_1_high_level_gpu_program_1_1_cmd_enable_include_header.html#a10eae9f9581faf21371af037f416c0f5", null ]
+      ] ],
       [ "LoadingState", "class_ogre_1_1_high_level_gpu_program.html#a07e619aa09d3bc6789a6667cb4fc572c", [
         [ "LOADSTATE_UNLOADED", "class_ogre_1_1_high_level_gpu_program.html#a07e619aa09d3bc6789a6667cb4fc572ca28d463296cacdfc115dbc3fb02d00e94", null ],
         [ "LOADSTATE_LOADING", "class_ogre_1_1_high_level_gpu_program.html#a07e619aa09d3bc6789a6667cb4fc572caf138fc9087e0dc755bff08a83720cbb5", null ],
@@ -852,6 +856,7 @@ var group___resources =
       [ "getConstantDefinitions", "class_ogre_1_1_high_level_gpu_program.html#a4f70ca415d8650fe1ac7d937ceba4c03", null ],
       [ "getCreator", "class_ogre_1_1_high_level_gpu_program.html#a741224f735dfd9ce324a4e8e621d868c", null ],
       [ "getDefaultParameters", "class_ogre_1_1_high_level_gpu_program.html#a04675a861df66c30e431f95aa84320f5", null ],
+      [ "getEnableIncludeHeader", "class_ogre_1_1_high_level_gpu_program.html#abea2ea39f286cd90922d7291eb26d31d", null ],
       [ "getGroup", "class_ogre_1_1_high_level_gpu_program.html#ae712b3ff458ccbf8e1ff1e33d695bf60", null ],
       [ "getHandle", "class_ogre_1_1_high_level_gpu_program.html#ae3be647e47679266df79b565ffbe1de7", null ],
       [ "getLanguage", "class_ogre_1_1_high_level_gpu_program.html#a1019b2e5f65051c0a5bbc3cf4e0c495c", null ],
@@ -906,6 +911,7 @@ var group___resources =
       [ "setBackgroundLoaded", "class_ogre_1_1_high_level_gpu_program.html#ae0a0007de944eb3c2f933a372a752b35", null ],
       [ "setBuildParametersFromReflection", "class_ogre_1_1_high_level_gpu_program.html#a91663e447c0a4addd142cc2be5c1800b", null ],
       [ "setComputeGroupDimensions", "class_ogre_1_1_high_level_gpu_program.html#a84c3904bfaeeb1166dbca41e0c9f3b29", null ],
+      [ "setEnableIncludeHeader", "class_ogre_1_1_high_level_gpu_program.html#a0fe2bbcc7cd9416e534b1f213c38cecd", null ],
       [ "setManuallyLoaded", "class_ogre_1_1_high_level_gpu_program.html#a82174dc4f4a0645332483ced7904c2f6", null ],
       [ "setManualNamedConstants", "class_ogre_1_1_high_level_gpu_program.html#ad12bddb95c7311f31f602cb70b8350c5", null ],
       [ "setManualNamedConstantsFile", "class_ogre_1_1_high_level_gpu_program.html#afdadf659ccac4facdc86e55a266eebcf", null ],
@@ -923,6 +929,7 @@ var group___resources =
       [ "setVertexTextureFetchRequired", "class_ogre_1_1_high_level_gpu_program.html#a463bffd1f68fc8ae3c29d64402e9ca8d", null ],
       [ "touch", "class_ogre_1_1_high_level_gpu_program.html#ae229b1f58092109adef55bfc6f864d79", null ],
       [ "unload", "class_ogre_1_1_high_level_gpu_program.html#aa31bef1bfaa87731622e56f11b548e27", null ],
+      [ "msEnableIncludeHeaderCmd", "class_ogre_1_1_high_level_gpu_program.html#abe36db3d6c7275c9fd7c50a6ffba6cb8", null ],
       [ "OGRE_AUTO_MUTEX", "class_ogre_1_1_high_level_gpu_program.html#a104d9db8bfcff1f37b29157bbe070f7a", null ]
     ] ],
     [ "HighLevelGpuProgramFactory", "class_ogre_1_1_high_level_gpu_program_factory.html", [
@@ -1031,6 +1038,7 @@ var group___resources =
       [ "Hlms", "class_ogre_1_1_hlms.html#a95b467bb6efd01598aa3116ebdd41381", null ],
       [ "~Hlms", "class_ogre_1_1_hlms.html#a35f79b87545791d5d706a3bae0840fbf", null ],
       [ "_changeRenderSystem", "class_ogre_1_1_hlms.html#ab8744fe92c019a0f47330772904f4c58", null ],
+      [ "_clearShaderCache", "class_ogre_1_1_hlms.html#a2712f2732aaface8c3429cbd2c375578", null ],
       [ "_collectSamplerblocks", "class_ogre_1_1_hlms.html#ad8ee9c21796623473c8d48d2aa1ca613", null ],
       [ "_getProperty", "class_ogre_1_1_hlms.html#a2653ec312ecd49c7a080335544ba87f0", null ],
       [ "_loadJson", "class_ogre_1_1_hlms.html#ae4564995410bbba55027c36c83802441", null ],
@@ -1126,13 +1134,15 @@ var group___resources =
       [ "LightsSpotParams", "struct_ogre_1_1_hlms_base_prop.html#a40ff0a3f0e04714a95cf1ce4bd43778e", null ],
       [ "Metal", "struct_ogre_1_1_hlms_base_prop.html#a1737a4e449ff76e8d27766aa7e80a909", null ],
       [ "Normal", "struct_ogre_1_1_hlms_base_prop.html#a2931671f6a6b10ea235aad794ba2123c", null ],
-      [ "NumShadowMaps", "struct_ogre_1_1_hlms_base_prop.html#af279ff0c47c5b5b08da3efd6945d9904", null ],
+      [ "NumShadowMapLights", "struct_ogre_1_1_hlms_base_prop.html#ace3cbe522d76fb401140dc4e34dad333", null ],
+      [ "NumShadowMapTextures", "struct_ogre_1_1_hlms_base_prop.html#a947900d6885d779d04f859c6b0f5b2b1", null ],
       [ "Pose", "struct_ogre_1_1_hlms_base_prop.html#ad20efb9f96fcd8abff55af3369051f0d", null ],
       [ "PrePass", "struct_ogre_1_1_hlms_base_prop.html#a6fba3acb9cb9f6e4a75351dd329603f4", null ],
       [ "PssmSplits", "struct_ogre_1_1_hlms_base_prop.html#a312b15037ab21a8e1b74940f41765d55", null ],
       [ "QTangent", "struct_ogre_1_1_hlms_base_prop.html#a77ae8d0a31323839d2f7b052b106ad32", null ],
       [ "RenderDepthOnly", "struct_ogre_1_1_hlms_base_prop.html#ae5365cca56bc9377b99e6e5e0fc7aefe", null ],
       [ "ShadowCaster", "struct_ogre_1_1_hlms_base_prop.html#afc08b5769b4ea5316b8dda636bee1e73", null ],
+      [ "ShadowCasterPoint", "struct_ogre_1_1_hlms_base_prop.html#a087247ae98d52c3272916702e1cee479", null ],
       [ "ShadowUsesDepthTexture", "struct_ogre_1_1_hlms_base_prop.html#a8b2aebafc43e597c1148cdfd06a50f67", null ],
       [ "Skeleton", "struct_ogre_1_1_hlms_base_prop.html#a9c4a36915ecc02dec9501c5c3bed5502", null ],
       [ "Syntax", "struct_ogre_1_1_hlms_base_prop.html#a2cd566a2316cec4b2e0e9aab58993dca", null ],
@@ -1320,6 +1330,7 @@ var group___resources =
     [ "HlmsMacroblock", "struct_ogre_1_1_hlms_macroblock.html", [
       [ "HlmsMacroblock", "struct_ogre_1_1_hlms_macroblock.html#a59013785563e6a19b27a03943b85acdd", null ],
       [ "operator!=", "struct_ogre_1_1_hlms_macroblock.html#a053b192a445a63cf400a5eeacc673b21", null ],
+      [ "operator==", "struct_ogre_1_1_hlms_macroblock.html#ae4c314e5aec2426a9312203496f71c34", null ],
       [ "mAllowGlobalDefaults", "struct_ogre_1_1_hlms_macroblock.html#a8202a5d073a92de41e05e2b6fe50ff26", null ],
       [ "mBlockType", "struct_ogre_1_1_hlms_macroblock.html#ae0a844b4cc3a0bba5e822b66b553bcbe", null ],
       [ "mCullMode", "struct_ogre_1_1_hlms_macroblock.html#a0b69626f1e6edb6eb6a21cf48f4ebb2a", null ],
@@ -1398,7 +1409,9 @@ var group___resources =
       [ "hwGamma", "struct_ogre_1_1_hlms_pass_pso.html#a0dacc28e5ffe3f487fd2fd17bb8a2369", null ],
       [ "multisampleCount", "struct_ogre_1_1_hlms_pass_pso.html#a37a39e4edfa0d5f362f5cb63899e3d9f", null ],
       [ "multisampleQuality", "struct_ogre_1_1_hlms_pass_pso.html#a5df56df4798069fc8a3e784f791ebd5d", null ],
-      [ "stencilParams", "struct_ogre_1_1_hlms_pass_pso.html#a9a9b1b99d1cf98165d58ba99a6837549", null ]
+      [ "padding0", "struct_ogre_1_1_hlms_pass_pso.html#a761ab5a50180cac71fc105d40a16903e", null ],
+      [ "stencilParams", "struct_ogre_1_1_hlms_pass_pso.html#a9a9b1b99d1cf98165d58ba99a6837549", null ],
+      [ "strongMacroblock", "struct_ogre_1_1_hlms_pass_pso.html#abf77d38cd0b5d03b3acd9ac7f5caeb9a", null ]
     ] ],
     [ "HlmsPbsDatablock", "class_ogre_1_1_hlms_pbs_datablock.html", [
       [ "TransparencyModes", "class_ogre_1_1_hlms_pbs_datablock.html#adf6c922e4527b98a3a98aa573b382ceb", [
@@ -1860,7 +1873,7 @@ var group___resources =
       [ "clone", "class_ogre_1_1_mesh.html#ab85133a4f30a0eb9254339b5af8416d9", null ],
       [ "copy", "class_ogre_1_1_mesh.html#a988b2092bfb0516c31d4f34fecc150dd", null ],
       [ "copyParametersTo", "class_ogre_1_1_mesh.html#a702af78cbc4869e64c369fb11c4f1eb5", null ],
-      [ "createSubMesh", "class_ogre_1_1_mesh.html#a23d5c021503b8fac8938be4ba956f2ce", null ],
+      [ "createSubMesh", "class_ogre_1_1_mesh.html#afd8f8725c5277d5f05b857bc404916bc", null ],
       [ "dearrangeToInefficient", "class_ogre_1_1_mesh.html#acece9a38f44d7b91a3e5af871b8eb939", null ],
       [ "destroySubMesh", "class_ogre_1_1_mesh.html#a27eeabd7eb8282be7115a6c5944b0b0e", null ],
       [ "escalateLoading", "class_ogre_1_1_mesh.html#a367f6fe60bb211cb4c32e3825ca67e4c", null ],
@@ -2829,6 +2842,7 @@ var group___resources =
       [ "getConstantDefinitions", "class_ogre_1_1_unified_high_level_gpu_program.html#a4f70ca415d8650fe1ac7d937ceba4c03", null ],
       [ "getCreator", "class_ogre_1_1_unified_high_level_gpu_program.html#a741224f735dfd9ce324a4e8e621d868c", null ],
       [ "getDefaultParameters", "class_ogre_1_1_unified_high_level_gpu_program.html#a0bf65fa41c95db4f218764a99ee0e99d", null ],
+      [ "getEnableIncludeHeader", "class_ogre_1_1_unified_high_level_gpu_program.html#abea2ea39f286cd90922d7291eb26d31d", null ],
       [ "getGroup", "class_ogre_1_1_unified_high_level_gpu_program.html#ae712b3ff458ccbf8e1ff1e33d695bf60", null ],
       [ "getHandle", "class_ogre_1_1_unified_high_level_gpu_program.html#ae3be647e47679266df79b565ffbe1de7", null ],
       [ "getLanguage", "class_ogre_1_1_unified_high_level_gpu_program.html#a38135d9a3a577ffb532a93a4c12a38b4", null ],
@@ -2884,6 +2898,7 @@ var group___resources =
       [ "setBackgroundLoaded", "class_ogre_1_1_unified_high_level_gpu_program.html#adba65f42995100300f2983555f7214cc", null ],
       [ "setBuildParametersFromReflection", "class_ogre_1_1_unified_high_level_gpu_program.html#a91663e447c0a4addd142cc2be5c1800b", null ],
       [ "setComputeGroupDimensions", "class_ogre_1_1_unified_high_level_gpu_program.html#a84c3904bfaeeb1166dbca41e0c9f3b29", null ],
+      [ "setEnableIncludeHeader", "class_ogre_1_1_unified_high_level_gpu_program.html#a0fe2bbcc7cd9416e534b1f213c38cecd", null ],
       [ "setManuallyLoaded", "class_ogre_1_1_unified_high_level_gpu_program.html#a82174dc4f4a0645332483ced7904c2f6", null ],
       [ "setManualNamedConstants", "class_ogre_1_1_unified_high_level_gpu_program.html#ad12bddb95c7311f31f602cb70b8350c5", null ],
       [ "setManualNamedConstantsFile", "class_ogre_1_1_unified_high_level_gpu_program.html#afdadf659ccac4facdc86e55a266eebcf", null ],
@@ -2902,6 +2917,7 @@ var group___resources =
       [ "setVertexTextureFetchRequired", "class_ogre_1_1_unified_high_level_gpu_program.html#a463bffd1f68fc8ae3c29d64402e9ca8d", null ],
       [ "touch", "class_ogre_1_1_unified_high_level_gpu_program.html#a682949c30fe1718d4514b25df77774c2", null ],
       [ "unload", "class_ogre_1_1_unified_high_level_gpu_program.html#aa2afd5199e4fb4f9e071bcc3b5805d52", null ],
+      [ "msEnableIncludeHeaderCmd", "class_ogre_1_1_unified_high_level_gpu_program.html#abe36db3d6c7275c9fd7c50a6ffba6cb8", null ],
       [ "OGRE_AUTO_MUTEX", "class_ogre_1_1_unified_high_level_gpu_program.html#a104d9db8bfcff1f37b29157bbe070f7a", null ]
     ] ],
     [ "UnifiedHighLevelGpuProgramFactory", "class_ogre_1_1_unified_high_level_gpu_program_factory.html", [

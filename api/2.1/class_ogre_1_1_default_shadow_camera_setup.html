@@ -128,7 +128,8 @@ $(document).ready(function(){initNavTree('class_ogre_1_1_default_shadow_camera_s
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_ogre_1_1_default_shadow_camera_setup__inherit__graph.svg" width="234" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_ogre_1_1_default_shadow_camera_setup__inherit__graph.svg" width="234" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -143,9 +144,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab59a1569e9387a57995d6ae8d1e68890"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57530d2edc09dd128b184251c9a53eb6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ogre.html#aa3a7b6dfb905e6572d62f0dfa3d4274d">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_shadow_camera_setup.html#a57530d2edc09dd128b184251c9a53eb6">getMinDistance</a> () const </td></tr>
 <tr class="separator:a57530d2edc09dd128b184251c9a53eb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa075dd7903299ef324ec35fbaf74eeaf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_default_shadow_camera_setup.html#aa075dd7903299ef324ec35fbaf74eeaf">getShadowCamera</a> (const <a class="el" href="class_ogre_1_1_scene_manager.html">SceneManager</a> *sm, const <a class="el" href="class_ogre_1_1_camera.html">Camera</a> *cam, const <a class="el" href="class_ogre_1_1_light.html">Light</a> *light, <a class="el" href="class_ogre_1_1_camera.html">Camera</a> *texCam, size_t iteration) const </td></tr>
-<tr class="memdesc:aa075dd7903299ef324ec35fbaf74eeaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default shadow camera setup.  <a href="#aa075dd7903299ef324ec35fbaf74eeaf">More...</a><br /></td></tr>
-<tr class="separator:aa075dd7903299ef324ec35fbaf74eeaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af31f036bc307d8621e5f6a41d32fd8ca"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_default_shadow_camera_setup.html#af31f036bc307d8621e5f6a41d32fd8ca">getShadowCamera</a> (const <a class="el" href="class_ogre_1_1_scene_manager.html">SceneManager</a> *sm, const <a class="el" href="class_ogre_1_1_camera.html">Camera</a> *cam, const <a class="el" href="class_ogre_1_1_light.html">Light</a> *light, <a class="el" href="class_ogre_1_1_camera.html">Camera</a> *texCam, size_t iteration, const <a class="el" href="class_ogre_1_1_vector2.html">Vector2</a> &amp;viewportRealSize) const </td></tr>
+<tr class="memdesc:af31f036bc307d8621e5f6a41d32fd8ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default shadow camera setup.  <a href="#af31f036bc307d8621e5f6a41d32fd8ca">More...</a><br /></td></tr>
+<tr class="separator:af31f036bc307d8621e5f6a41d32fd8ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8357fe4fb4849772b94baa4bf47c7ded"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_allocated_object.html#a8357fe4fb4849772b94baa4bf47c7ded">operator delete</a> (void *ptr)</td></tr>
 <tr class="separator:a8357fe4fb4849772b94baa4bf47c7ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c727e879a260c37b00ce5505fe8e144"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_allocated_object.html#a1c727e879a260c37b00ce5505fe8e144">operator delete</a> (void *ptr, void *)</td></tr>
@@ -263,7 +264,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa075dd7903299ef324ec35fbaf74eeaf"></a>
+<a class="anchor" id="af31f036bc307d8621e5f6a41d32fd8ca"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -298,7 +299,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>iteration</em>&#160;</td>
+          <td class="paramname"><em>iteration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_ogre_1_1_vector2.html">Vector2</a> &amp;&#160;</td>
+          <td class="paramname"><em>viewportRealSize</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -315,9 +322,9 @@ Public Member Functions</h2></td></tr>
 
 <p>Default shadow camera setup. </p>
 
-<p>Implements <a class="el" href="class_ogre_1_1_shadow_camera_setup.html#ae3c6e4f487aae2a68775cd7af10d1fa7">Ogre::ShadowCameraSetup</a>.</p>
+<p>Implements <a class="el" href="class_ogre_1_1_shadow_camera_setup.html#ab6e8a9669102634c5a9a1273133f8240">Ogre::ShadowCameraSetup</a>.</p>
 
-<p>Reimplemented in <a class="el" href="class_ogre_1_1_p_s_s_m_shadow_camera_setup.html#ab874f99eab535ad8ff12c4ee9f24d51f">Ogre::PSSMShadowCameraSetup</a>, and <a class="el" href="class_ogre_1_1_focused_shadow_camera_setup.html#a5060e478728ac9e64106b13b9d555a82">Ogre::FocusedShadowCameraSetup</a>.</p>
+<p>Reimplemented in <a class="el" href="class_ogre_1_1_p_s_s_m_shadow_camera_setup.html#aecb88dd4d6d22d3a15097dde926256c5">Ogre::PSSMShadowCameraSetup</a>, and <a class="el" href="class_ogre_1_1_focused_shadow_camera_setup.html#a6ecaee186835f8d479ba1e8ac688fba1">Ogre::FocusedShadowCameraSetup</a>.</p>
 
 </div>
 </div>
@@ -704,7 +711,7 @@ template&lt;class Alloc &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ogre.html">Ogre</a></li><li class="navelem"><a class="el" href="class_ogre_1_1_default_shadow_camera_setup.html">DefaultShadowCameraSetup</a></li>
-    <li class="footer">Generated on Tue Mar 28 2017 23:48:55 for OGRE by
+    <li class="footer">Generated on Thu May 4 2017 22:21:38 for OGRE by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

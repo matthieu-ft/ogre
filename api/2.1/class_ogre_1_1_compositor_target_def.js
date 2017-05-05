@@ -7,6 +7,7 @@ var class_ogre_1_1_compositor_target_def =
     [ "getCompositorPassesNonConst", "class_ogre_1_1_compositor_target_def.html#ab3eaf5cd3427abe9fa00bfdd0b37333f", null ],
     [ "getRenderTargetName", "class_ogre_1_1_compositor_target_def.html#a62a0d0ed176293bfd7c3236503c80a99", null ],
     [ "getRtIndex", "class_ogre_1_1_compositor_target_def.html#a051d0545ef17aa811015891d0d2a21cd", null ],
+    [ "getShadowMapSupportedLightTypes", "class_ogre_1_1_compositor_target_def.html#a34478aea029f932851ee3898b14f288e", null ],
     [ "operator delete", "class_ogre_1_1_compositor_target_def.html#a8357fe4fb4849772b94baa4bf47c7ded", null ],
     [ "operator delete", "class_ogre_1_1_compositor_target_def.html#a1c727e879a260c37b00ce5505fe8e144", null ],
     [ "operator delete", "class_ogre_1_1_compositor_target_def.html#acb46d4b0a597156d9ba5abc39d127792", null ],
@@ -17,5 +18,6 @@ var class_ogre_1_1_compositor_target_def =
     [ "operator new", "class_ogre_1_1_compositor_target_def.html#ab78a921e54419be677839cdf15d1f0b8", null ],
     [ "operator new[]", "class_ogre_1_1_compositor_target_def.html#a4be37baef81876985aa1071ad5acc6dd", null ],
     [ "operator new[]", "class_ogre_1_1_compositor_target_def.html#afa2943846ba6a2b5824a12857139cf5e", null ],
-    [ "setNumPasses", "class_ogre_1_1_compositor_target_def.html#a18e78bc5c721786e07d10df5c3809563", null ]
+    [ "setNumPasses", "class_ogre_1_1_compositor_target_def.html#a18e78bc5c721786e07d10df5c3809563", null ],
+    [ "setShadowMapSupportedLightTypes", "class_ogre_1_1_compositor_target_def.html#a8633b1cdc6a1e9a0d3bd31e083ac20c5", null ]
 ];

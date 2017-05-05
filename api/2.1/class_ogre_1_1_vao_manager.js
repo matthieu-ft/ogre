@@ -37,6 +37,7 @@ var class_ogre_1_1_vao_manager =
     [ "getTimer", "class_ogre_1_1_vao_manager.html#a68920b89d7ab929fc78d2013ef419bbe", null ],
     [ "getUavBufferAlignment", "class_ogre_1_1_vao_manager.html#aba0c4166083e407daf30bdf74293fccd", null ],
     [ "getUavBufferMaxSize", "class_ogre_1_1_vao_manager.html#a9df77c2bc3c9467e21808e6ca62785a2", null ],
+    [ "isFrameFinished", "class_ogre_1_1_vao_manager.html#a48589a1d12b10aa89082ebca7a9c524d", null ],
     [ "operator delete", "class_ogre_1_1_vao_manager.html#a8357fe4fb4849772b94baa4bf47c7ded", null ],
     [ "operator delete", "class_ogre_1_1_vao_manager.html#a1c727e879a260c37b00ce5505fe8e144", null ],
     [ "operator delete", "class_ogre_1_1_vao_manager.html#acb46d4b0a597156d9ba5abc39d127792", null ],
@@ -50,5 +51,6 @@ var class_ogre_1_1_vao_manager =
     [ "setDefaultStagingBufferlifetime", "class_ogre_1_1_vao_manager.html#a445b8e5486e061745af43d1831f60eb6", null ],
     [ "supportsIndirectBuffers", "class_ogre_1_1_vao_manager.html#af2cdb0f658cf0fa45bcfc7b5dc519a11", null ],
     [ "supportsPersistentMapping", "class_ogre_1_1_vao_manager.html#a32f45ab2439f6006ce7c7296047e7184", null ],
+    [ "waitForSpecificFrameToFinish", "class_ogre_1_1_vao_manager.html#af029f21d9a83ae3024e36695a3f554f7", null ],
     [ "waitForTailFrameToFinish", "class_ogre_1_1_vao_manager.html#a1b746e3cfc05da2d1fded8949f27b0e4", null ]
 ];

@@ -11,6 +11,7 @@ var class_ogre_1_1_hlms_buffer_manager =
     [ "HlmsBufferManager", "class_ogre_1_1_hlms_buffer_manager.html#ae3f22c54275deeb8bc99cbde91e6ab39", null ],
     [ "~HlmsBufferManager", "class_ogre_1_1_hlms_buffer_manager.html#af3bc3991b51fbbccd0633d07148a7ae6", null ],
     [ "_changeRenderSystem", "class_ogre_1_1_hlms_buffer_manager.html#af34ff1ef7360108d8bfce45bac74f97a", null ],
+    [ "_clearShaderCache", "class_ogre_1_1_hlms_buffer_manager.html#a2712f2732aaface8c3429cbd2c375578", null ],
     [ "_collectSamplerblocks", "class_ogre_1_1_hlms_buffer_manager.html#ad8ee9c21796623473c8d48d2aa1ca613", null ],
     [ "_getProperty", "class_ogre_1_1_hlms_buffer_manager.html#a2653ec312ecd49c7a080335544ba87f0", null ],
     [ "_loadJson", "class_ogre_1_1_hlms_buffer_manager.html#ae4564995410bbba55027c36c83802441", null ],

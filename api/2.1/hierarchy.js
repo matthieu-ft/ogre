@@ -37,6 +37,7 @@ var hierarchy =
     [ "Ogre::FastArray< LightClosest >", "class_ogre_1_1_fast_array.html", null ],
     [ "Ogre::FastArray< LightCount >", "class_ogre_1_1_fast_array.html", null ],
     [ "Ogre::FastArray< Ogre::SkeletonInstance * >", "class_ogre_1_1_fast_array.html", null ],
+    [ "Ogre::FastArray< Ogre::Texture * >", "class_ogre_1_1_fast_array.html", null ],
     [ "Ogre::FastArray< PbsBakedTexture >", "class_ogre_1_1_fast_array.html", null ],
     [ "Ogre::FastArray< QueuedRenderable >", "class_ogre_1_1_fast_array.html", null ],
     [ "Ogre::FastArray< Real >", "class_ogre_1_1_fast_array.html", null ],
@@ -906,7 +907,9 @@ var hierarchy =
       [ "Ogre::ScriptParser", "class_ogre_1_1_script_parser.html", null ],
       [ "Ogre::ScriptTranslator", "class_ogre_1_1_script_translator.html", [
         [ "Ogre::CompositorPassTranslator", "class_ogre_1_1_compositor_pass_translator.html", null ],
+        [ "Ogre::CompositorShadowMapRepeatTranslator", "class_ogre_1_1_compositor_shadow_map_repeat_translator.html", null ],
         [ "Ogre::CompositorShadowMapTargetTranslator", "class_ogre_1_1_compositor_shadow_map_target_translator.html", null ],
+        [ "Ogre::CompositorShadowMapTargetTypeTranslator", "class_ogre_1_1_compositor_shadow_map_target_type_translator.html", null ],
         [ "Ogre::CompositorTargetTranslator", "class_ogre_1_1_compositor_target_translator.html", null ],
         [ "Ogre::CompositorTextureBaseTranslator", "class_ogre_1_1_compositor_texture_base_translator.html", [
           [ "Ogre::CompositorNodeTranslator", "class_ogre_1_1_compositor_node_translator.html", null ],
@@ -1636,6 +1639,7 @@ var hierarchy =
       [ "Ogre::GLSLShader::CmdMaxOutputVertices", "class_ogre_1_1_g_l_s_l_shader_1_1_cmd_max_output_vertices.html", null ],
       [ "Ogre::GLSLShader::CmdOutputOperationType", "class_ogre_1_1_g_l_s_l_shader_1_1_cmd_output_operation_type.html", null ],
       [ "Ogre::GLSLShader::CmdPreprocessorDefines", "class_ogre_1_1_g_l_s_l_shader_1_1_cmd_preprocessor_defines.html", null ],
+      [ "Ogre::HighLevelGpuProgram::CmdEnableIncludeHeader", "class_ogre_1_1_high_level_gpu_program_1_1_cmd_enable_include_header.html", null ],
       [ "Ogre::MetalProgram::CmdEntryPoint", "class_ogre_1_1_metal_program_1_1_cmd_entry_point.html", null ],
       [ "Ogre::MetalProgram::CmdPreprocessorDefines", "class_ogre_1_1_metal_program_1_1_cmd_preprocessor_defines.html", null ],
       [ "Ogre::MetalProgram::CmdShaderReflectionPairHint", "class_ogre_1_1_metal_program_1_1_cmd_shader_reflection_pair_hint.html", null ],

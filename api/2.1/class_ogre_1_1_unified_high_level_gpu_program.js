@@ -32,6 +32,7 @@ var class_ogre_1_1_unified_high_level_gpu_program =
     [ "getConstantDefinitions", "class_ogre_1_1_unified_high_level_gpu_program.html#a4f70ca415d8650fe1ac7d937ceba4c03", null ],
     [ "getCreator", "class_ogre_1_1_unified_high_level_gpu_program.html#a741224f735dfd9ce324a4e8e621d868c", null ],
     [ "getDefaultParameters", "class_ogre_1_1_unified_high_level_gpu_program.html#a0bf65fa41c95db4f218764a99ee0e99d", null ],
+    [ "getEnableIncludeHeader", "class_ogre_1_1_unified_high_level_gpu_program.html#abea2ea39f286cd90922d7291eb26d31d", null ],
     [ "getGroup", "class_ogre_1_1_unified_high_level_gpu_program.html#ae712b3ff458ccbf8e1ff1e33d695bf60", null ],
     [ "getHandle", "class_ogre_1_1_unified_high_level_gpu_program.html#ae3be647e47679266df79b565ffbe1de7", null ],
     [ "getLanguage", "class_ogre_1_1_unified_high_level_gpu_program.html#a38135d9a3a577ffb532a93a4c12a38b4", null ],
@@ -87,6 +88,7 @@ var class_ogre_1_1_unified_high_level_gpu_program =
     [ "setBackgroundLoaded", "class_ogre_1_1_unified_high_level_gpu_program.html#adba65f42995100300f2983555f7214cc", null ],
     [ "setBuildParametersFromReflection", "class_ogre_1_1_unified_high_level_gpu_program.html#a91663e447c0a4addd142cc2be5c1800b", null ],
     [ "setComputeGroupDimensions", "class_ogre_1_1_unified_high_level_gpu_program.html#a84c3904bfaeeb1166dbca41e0c9f3b29", null ],
+    [ "setEnableIncludeHeader", "class_ogre_1_1_unified_high_level_gpu_program.html#a0fe2bbcc7cd9416e534b1f213c38cecd", null ],
     [ "setManuallyLoaded", "class_ogre_1_1_unified_high_level_gpu_program.html#a82174dc4f4a0645332483ced7904c2f6", null ],
     [ "setManualNamedConstants", "class_ogre_1_1_unified_high_level_gpu_program.html#ad12bddb95c7311f31f602cb70b8350c5", null ],
     [ "setManualNamedConstantsFile", "class_ogre_1_1_unified_high_level_gpu_program.html#afdadf659ccac4facdc86e55a266eebcf", null ],
@@ -105,5 +107,6 @@ var class_ogre_1_1_unified_high_level_gpu_program =
     [ "setVertexTextureFetchRequired", "class_ogre_1_1_unified_high_level_gpu_program.html#a463bffd1f68fc8ae3c29d64402e9ca8d", null ],
     [ "touch", "class_ogre_1_1_unified_high_level_gpu_program.html#a682949c30fe1718d4514b25df77774c2", null ],
     [ "unload", "class_ogre_1_1_unified_high_level_gpu_program.html#aa2afd5199e4fb4f9e071bcc3b5805d52", null ],
+    [ "msEnableIncludeHeaderCmd", "class_ogre_1_1_unified_high_level_gpu_program.html#abe36db3d6c7275c9fd7c50a6ffba6cb8", null ],
     [ "OGRE_AUTO_MUTEX", "class_ogre_1_1_unified_high_level_gpu_program.html#a104d9db8bfcff1f37b29157bbe070f7a", null ]
 ];

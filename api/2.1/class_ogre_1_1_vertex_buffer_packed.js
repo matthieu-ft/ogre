@@ -22,7 +22,7 @@ var class_ogre_1_1_vertex_buffer_packed =
     [ "getTotalSizeBytes", "class_ogre_1_1_vertex_buffer_packed.html#a48dcb8f7265bf4885200819c48dadf4d", null ],
     [ "getVertexElements", "class_ogre_1_1_vertex_buffer_packed.html#a44ecd60e179bb126230ba538a4c42db2", null ],
     [ "isCurrentlyMapped", "class_ogre_1_1_vertex_buffer_packed.html#ac38206a7fab33fdd9184b5a13bb06225", null ],
-    [ "map", "class_ogre_1_1_vertex_buffer_packed.html#ac339017fa1f0459ba580345344a5c094", null ],
+    [ "map", "class_ogre_1_1_vertex_buffer_packed.html#a087111d602caab019259df5f5b8ff14f", null ],
     [ "operator delete", "class_ogre_1_1_vertex_buffer_packed.html#a8357fe4fb4849772b94baa4bf47c7ded", null ],
     [ "operator delete", "class_ogre_1_1_vertex_buffer_packed.html#a1c727e879a260c37b00ce5505fe8e144", null ],
     [ "operator delete", "class_ogre_1_1_vertex_buffer_packed.html#acb46d4b0a597156d9ba5abc39d127792", null ],

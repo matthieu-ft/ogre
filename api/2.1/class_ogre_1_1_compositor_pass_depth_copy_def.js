@@ -1,7 +1,8 @@
 var class_ogre_1_1_compositor_pass_depth_copy_def =
 [
     [ "UavDependencyVec", "class_ogre_1_1_compositor_pass_depth_copy_def.html#a114c9c278a29353ebe78cc7d7e3fce6f", null ],
-    [ "CompositorPassDepthCopyDef", "class_ogre_1_1_compositor_pass_depth_copy_def.html#a596eeb45ce196815ea0e6da6f73c4cf8", null ],
+    [ "CompositorPassDepthCopyDef", "class_ogre_1_1_compositor_pass_depth_copy_def.html#af8dce88fce2b1540d453ff2fa212163e", null ],
+    [ "getParentTargetDef", "class_ogre_1_1_compositor_pass_depth_copy_def.html#a4ae3f225a74e940688341935a608a773", null ],
     [ "getRtIndex", "class_ogre_1_1_compositor_pass_depth_copy_def.html#ac02bbb784cc52bd13935c6787a4d541c", null ],
     [ "getType", "class_ogre_1_1_compositor_pass_depth_copy_def.html#a8690f05e9180ec95cc7366f1fc6962e6", null ],
     [ "operator delete", "class_ogre_1_1_compositor_pass_depth_copy_def.html#a8357fe4fb4849772b94baa4bf47c7ded", null ],
@@ -25,6 +26,9 @@ var class_ogre_1_1_compositor_pass_depth_copy_def =
     [ "mIdentifier", "class_ogre_1_1_compositor_pass_depth_copy_def.html#ab32b226a745dfd996d7b94a7197044eb", null ],
     [ "mIncludeOverlays", "class_ogre_1_1_compositor_pass_depth_copy_def.html#aacdeaffb7cacec5f264de2be66410c67", null ],
     [ "mNumInitialPasses", "class_ogre_1_1_compositor_pass_depth_copy_def.html#a70ba2384e061021d6eceb5dd20b66d47", null ],
+    [ "mReadOnlyDepth", "class_ogre_1_1_compositor_pass_depth_copy_def.html#a368fcc3ba3874f5ae9f4eaf8eb46652e", null ],
+    [ "mReadOnlyStencil", "class_ogre_1_1_compositor_pass_depth_copy_def.html#a1e9e560eddce4c5ac862789a1a752909", null ],
+    [ "mShadowMapFullViewport", "class_ogre_1_1_compositor_pass_depth_copy_def.html#a0fdf3a38961c32069cde61f23d7ff674", null ],
     [ "mShadowMapIdx", "class_ogre_1_1_compositor_pass_depth_copy_def.html#aecd3ae94eb59058a4f064cf3aff60a95", null ],
     [ "mUavDependencies", "class_ogre_1_1_compositor_pass_depth_copy_def.html#af603f6cce02284ad5a4781c261a05137", null ],
     [ "mViewportModifierMask", "class_ogre_1_1_compositor_pass_depth_copy_def.html#aa78f703dc8c8b28cf575ac419653dc40", null ],

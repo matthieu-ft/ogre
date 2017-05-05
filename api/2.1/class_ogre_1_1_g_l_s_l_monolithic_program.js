@@ -39,6 +39,7 @@ var class_ogre_1_1_g_l_s_l_monolithic_program =
     [ "getCreator", "class_ogre_1_1_g_l_s_l_monolithic_program.html#a741224f735dfd9ce324a4e8e621d868c", null ],
     [ "getDefaultParameters", "class_ogre_1_1_g_l_s_l_monolithic_program.html#a04675a861df66c30e431f95aa84320f5", null ],
     [ "getDomainShader", "class_ogre_1_1_g_l_s_l_monolithic_program.html#a2dfa9bc6b28baa1b124a66bb8bb6a263", null ],
+    [ "getEnableIncludeHeader", "class_ogre_1_1_g_l_s_l_monolithic_program.html#abea2ea39f286cd90922d7291eb26d31d", null ],
     [ "getFragmentShader", "class_ogre_1_1_g_l_s_l_monolithic_program.html#a8d68c013a57034a0b4b2839fa0d74e94", null ],
     [ "getGeometryShader", "class_ogre_1_1_g_l_s_l_monolithic_program.html#a9bdceb591e173a60ac85ed2188f51abe", null ],
     [ "getGLProgramHandle", "class_ogre_1_1_g_l_s_l_monolithic_program.html#a01a50babaf4339066dc1339f2e2553d0", null ],
@@ -107,6 +108,7 @@ var class_ogre_1_1_g_l_s_l_monolithic_program =
     [ "setBuildParametersFromReflection", "class_ogre_1_1_g_l_s_l_monolithic_program.html#a91663e447c0a4addd142cc2be5c1800b", null ],
     [ "setColumnMajorMatrices", "class_ogre_1_1_g_l_s_l_monolithic_program.html#abb8ff4274f72679df0ddabea0ce0f4b5", null ],
     [ "setComputeGroupDimensions", "class_ogre_1_1_g_l_s_l_monolithic_program.html#a84c3904bfaeeb1166dbca41e0c9f3b29", null ],
+    [ "setEnableIncludeHeader", "class_ogre_1_1_g_l_s_l_monolithic_program.html#a0fe2bbcc7cd9416e534b1f213c38cecd", null ],
     [ "setInputOperationType", "class_ogre_1_1_g_l_s_l_monolithic_program.html#a310252b842fb357d7236c320dd6d65d8", null ],
     [ "setManuallyLoaded", "class_ogre_1_1_g_l_s_l_monolithic_program.html#a82174dc4f4a0645332483ced7904c2f6", null ],
     [ "setManualNamedConstants", "class_ogre_1_1_g_l_s_l_monolithic_program.html#ad12bddb95c7311f31f602cb70b8350c5", null ],
@@ -131,5 +133,6 @@ var class_ogre_1_1_g_l_s_l_monolithic_program =
     [ "updatePassIterationUniforms", "class_ogre_1_1_g_l_s_l_monolithic_program.html#ab8b968c5a64cb8281e913d84f0026028", null ],
     [ "updateUniformBlocks", "class_ogre_1_1_g_l_s_l_monolithic_program.html#ad09756b38f600e85d3e7a4cc520a40a5", null ],
     [ "updateUniforms", "class_ogre_1_1_g_l_s_l_monolithic_program.html#a41f26aa8518b54da2a5a9d1af59f6316", null ],
+    [ "msEnableIncludeHeaderCmd", "class_ogre_1_1_g_l_s_l_monolithic_program.html#abe36db3d6c7275c9fd7c50a6ffba6cb8", null ],
     [ "OGRE_AUTO_MUTEX", "class_ogre_1_1_g_l_s_l_monolithic_program.html#a104d9db8bfcff1f37b29157bbe070f7a", null ]
 ];

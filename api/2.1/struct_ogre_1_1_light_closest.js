@@ -5,5 +5,7 @@ var struct_ogre_1_1_light_closest =
     [ "operator<", "struct_ogre_1_1_light_closest.html#a4110cd956b540cf7c2a9d929c0c947d2", null ],
     [ "distance", "struct_ogre_1_1_light_closest.html#a43fe3b6affe917c42bb034ccf73d7f70", null ],
     [ "globalIndex", "struct_ogre_1_1_light_closest.html#aed0c94b9023439bf8fb67600270e9908", null ],
-    [ "light", "struct_ogre_1_1_light_closest.html#acbce018accfaf2c19f1e1d4cdf8d94c9", null ]
+    [ "isDirty", "struct_ogre_1_1_light_closest.html#a6bd8cb7091587a2252e78339cf3d9070", null ],
+    [ "isStatic", "struct_ogre_1_1_light_closest.html#aabcad38af292fdfc1e2179c1a9be4ac3", null ],
+    [ "light", "struct_ogre_1_1_light_closest.html#aa41b81d253b1af2e9951905238e0a7dc", null ]
 ];

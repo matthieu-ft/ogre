@@ -44,6 +44,7 @@ var class_ogre_1_1_g_l_s_l_shader =
     [ "getConstantDefinitions", "class_ogre_1_1_g_l_s_l_shader.html#a4f70ca415d8650fe1ac7d937ceba4c03", null ],
     [ "getCreator", "class_ogre_1_1_g_l_s_l_shader.html#a741224f735dfd9ce324a4e8e621d868c", null ],
     [ "getDefaultParameters", "class_ogre_1_1_g_l_s_l_shader.html#a04675a861df66c30e431f95aa84320f5", null ],
+    [ "getEnableIncludeHeader", "class_ogre_1_1_g_l_s_l_shader.html#abea2ea39f286cd90922d7291eb26d31d", null ],
     [ "getGLProgramHandle", "class_ogre_1_1_g_l_s_l_shader.html#ae6de7799cd9238df16f5af483a79d2cb", null ],
     [ "getGLShaderHandle", "class_ogre_1_1_g_l_s_l_shader.html#a974305e7c82b7aaf78140157b0cd05bc", null ],
     [ "getGLShaderType", "class_ogre_1_1_g_l_s_l_shader.html#a8c1fd85042ddf4b4811278a27c500842", null ],
@@ -109,6 +110,7 @@ var class_ogre_1_1_g_l_s_l_shader =
     [ "setBuildParametersFromReflection", "class_ogre_1_1_g_l_s_l_shader.html#a91663e447c0a4addd142cc2be5c1800b", null ],
     [ "setColumnMajorMatrices", "class_ogre_1_1_g_l_s_l_shader.html#a079bddd2bf8c361ba53e23dfc610cae3", null ],
     [ "setComputeGroupDimensions", "class_ogre_1_1_g_l_s_l_shader.html#a84c3904bfaeeb1166dbca41e0c9f3b29", null ],
+    [ "setEnableIncludeHeader", "class_ogre_1_1_g_l_s_l_shader.html#a0fe2bbcc7cd9416e534b1f213c38cecd", null ],
     [ "setInputOperationType", "class_ogre_1_1_g_l_s_l_shader.html#a47827d609f0132753850b36fa2921298", null ],
     [ "setLinked", "class_ogre_1_1_g_l_s_l_shader.html#a2967f6bcabd793f928cc11cd8b8a4b63", null ],
     [ "setManuallyLoaded", "class_ogre_1_1_g_l_s_l_shader.html#a82174dc4f4a0645332483ced7904c2f6", null ],
@@ -133,5 +135,6 @@ var class_ogre_1_1_g_l_s_l_shader =
     [ "unbind", "class_ogre_1_1_g_l_s_l_shader.html#a7d0c8fb73555f0b9fed00147733d8b46", null ],
     [ "unbindAll", "class_ogre_1_1_g_l_s_l_shader.html#a109ae5cf8b2a72f7009c0c2fd127fa6f", null ],
     [ "unload", "class_ogre_1_1_g_l_s_l_shader.html#aa31bef1bfaa87731622e56f11b548e27", null ],
+    [ "msEnableIncludeHeaderCmd", "class_ogre_1_1_g_l_s_l_shader.html#abe36db3d6c7275c9fd7c50a6ffba6cb8", null ],
     [ "OGRE_AUTO_MUTEX", "class_ogre_1_1_g_l_s_l_shader.html#a104d9db8bfcff1f37b29157bbe070f7a", null ]
 ];

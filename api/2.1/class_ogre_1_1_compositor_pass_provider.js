@@ -1,7 +1,7 @@
 var class_ogre_1_1_compositor_pass_provider =
 [
     [ "addPass", "class_ogre_1_1_compositor_pass_provider.html#ac8d669f3ac8b6967718ffcd86c6760d4", null ],
-    [ "addPassDef", "class_ogre_1_1_compositor_pass_provider.html#a65f62ef3e6714d08a1f45f97522e717b", null ],
+    [ "addPassDef", "class_ogre_1_1_compositor_pass_provider.html#a9a494009901c274f05dc02c8c97d2870", null ],
     [ "operator delete", "class_ogre_1_1_compositor_pass_provider.html#a8357fe4fb4849772b94baa4bf47c7ded", null ],
     [ "operator delete", "class_ogre_1_1_compositor_pass_provider.html#a1c727e879a260c37b00ce5505fe8e144", null ],
     [ "operator delete", "class_ogre_1_1_compositor_pass_provider.html#acb46d4b0a597156d9ba5abc39d127792", null ],

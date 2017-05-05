@@ -130,7 +130,8 @@ $(document).ready(function(){initNavTree('class_ogre_1_1_d3_d11_render_system.ht
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_ogre_1_1_d3_d11_render_system__inherit__graph.svg" width="198" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_ogre_1_1_d3_d11_render_system__inherit__graph.svg" width="198" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -324,9 +325,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a12a20155af70858e84a081388754d523"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62b358abe191b667b1b4beec17972ce4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_d3_d11_render_system.html#a62b358abe191b667b1b4beec17972ce4">_setRenderOperation</a> (const <a class="el" href="struct_ogre_1_1v1_1_1_cb_render_op.html">v1::CbRenderOp</a> *cmd)</td></tr>
 <tr class="separator:a62b358abe191b667b1b4beec17972ce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe5b34a22740489869c2fe716f77c1b3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_d3_d11_render_system.html#abe5b34a22740489869c2fe716f77c1b3">_setRenderTarget</a> (<a class="el" href="class_ogre_1_1_render_target.html">RenderTarget</a> *target, bool colourWrite)</td></tr>
-<tr class="memdesc:abe5b34a22740489869c2fe716f77c1b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set current render target to target, enabling its GL context if needed.  <a href="#abe5b34a22740489869c2fe716f77c1b3">More...</a><br /></td></tr>
-<tr class="separator:abe5b34a22740489869c2fe716f77c1b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad024e58c16e259b07ebfcc24253dc1e9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_d3_d11_render_system.html#ad024e58c16e259b07ebfcc24253dc1e9">_setRenderTarget</a> (<a class="el" href="class_ogre_1_1_render_target.html">RenderTarget</a> *target, <a class="el" href="namespace_ogre.html#a119732ea9d1e88bbddc47b4ac0fa21cb">uint8</a> viewportRenderTargetFlags)</td></tr>
+<tr class="memdesc:ad024e58c16e259b07ebfcc24253dc1e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set current render target to target, enabling its GL context if needed.  <a href="#ad024e58c16e259b07ebfcc24253dc1e9">More...</a><br /></td></tr>
+<tr class="separator:ad024e58c16e259b07ebfcc24253dc1e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79b7ca9a17491099296c2a15bf799579"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_d3_d11_render_system.html#a79b7ca9a17491099296c2a15bf799579">_setSurfaceParams</a> (const <a class="el" href="class_ogre_1_1_colour_value.html">ColourValue</a> &amp;ambient, const <a class="el" href="class_ogre_1_1_colour_value.html">ColourValue</a> &amp;diffuse, const <a class="el" href="class_ogre_1_1_colour_value.html">ColourValue</a> &amp;specular, const <a class="el" href="class_ogre_1_1_colour_value.html">ColourValue</a> &amp;emissive, <a class="el" href="namespace_ogre.html#aa3a7b6dfb905e6572d62f0dfa3d4274d">Real</a> shininess, <a class="el" href="group___general.html#gaf3fdba7211d7078a43201a1721532f9e">TrackVertexColourType</a> tracking)</td></tr>
 <tr class="memdesc:a79b7ca9a17491099296c2a15bf799579"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the surface properties to be used for future rendering.  <a href="#a79b7ca9a17491099296c2a15bf799579">More...</a><br /></td></tr>
 <tr class="separator:a79b7ca9a17491099296c2a15bf799579"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3058,7 +3059,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="abe5b34a22740489869c2fe716f77c1b3"></a>
+<a class="anchor" id="ad024e58c16e259b07ebfcc24253dc1e9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3074,8 +3075,8 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>colourWrite</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespace_ogre.html#a119732ea9d1e88bbddc47b4ac0fa21cb">uint8</a>&#160;</td>
+          <td class="paramname"><em>viewportRenderTargetFlags</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -3092,7 +3093,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Set current render target to target, enabling its GL context if needed. </p>
 
-<p>Implements <a class="el" href="class_ogre_1_1_render_system.html#a3d4cf070938d7a6323444e8df63fa9d9">Ogre::RenderSystem</a>.</p>
+<p>Implements <a class="el" href="class_ogre_1_1_render_system.html#acc80b8466afcbb22e347be459322a8e6">Ogre::RenderSystem</a>.</p>
 
 </div>
 </div>
@@ -7214,7 +7215,7 @@ Once this init sequence is completed the threads are independent but this startu
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ogre.html">Ogre</a></li><li class="navelem"><a class="el" href="class_ogre_1_1_d3_d11_render_system.html">D3D11RenderSystem</a></li>
-    <li class="footer">Generated on Tue Mar 28 2017 23:48:55 for OGRE by
+    <li class="footer">Generated on Thu May 4 2017 22:21:38 for OGRE by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

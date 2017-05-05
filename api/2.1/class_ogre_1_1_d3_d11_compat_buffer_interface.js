@@ -6,7 +6,7 @@ var class_ogre_1_1_d3_d11_compat_buffer_interface =
     [ "advanceFrame", "class_ogre_1_1_d3_d11_compat_buffer_interface.html#a5c62188ac23660695bf1a97f0416bfb7", null ],
     [ "getVboName", "class_ogre_1_1_d3_d11_compat_buffer_interface.html#ab8196ae5a215d632f977c9927528319b", null ],
     [ "getVboPoolIndex", "class_ogre_1_1_d3_d11_compat_buffer_interface.html#a198724b4316a40232d719ca8ef7d91a7", null ],
-    [ "map", "class_ogre_1_1_d3_d11_compat_buffer_interface.html#abe23e9fe337f916db20d8c461b3b9cf8", null ],
+    [ "map", "class_ogre_1_1_d3_d11_compat_buffer_interface.html#a8ee65a080430653dbfab11003cf21975", null ],
     [ "regressFrame", "class_ogre_1_1_d3_d11_compat_buffer_interface.html#a896a242a4185faac264405fada1cacb9", null ],
     [ "unmap", "class_ogre_1_1_d3_d11_compat_buffer_interface.html#a3999094d4294f5af9fc1924b552668f2", null ],
     [ "upload", "class_ogre_1_1_d3_d11_compat_buffer_interface.html#abc183c59ca908d4dc53149add87a0237", null ]

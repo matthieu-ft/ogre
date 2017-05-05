@@ -7,7 +7,7 @@ var class_ogre_1_1_n_u_l_l_buffer_interface =
     [ "advanceFrame", "class_ogre_1_1_n_u_l_l_buffer_interface.html#ac55544ac28f60cee55daf3cc9e4bb503", null ],
     [ "getNullDataPtr", "class_ogre_1_1_n_u_l_l_buffer_interface.html#a894409149e0e80673b9c855b8b726e05", null ],
     [ "getVboPoolIndex", "class_ogre_1_1_n_u_l_l_buffer_interface.html#a1045e14dc644b7b649a11dc7a466ce96", null ],
-    [ "map", "class_ogre_1_1_n_u_l_l_buffer_interface.html#a8f399a98110a7444b1323dd1be396645", null ],
+    [ "map", "class_ogre_1_1_n_u_l_l_buffer_interface.html#a6da207ea74d2547b501664f1e1a2cf4d", null ],
     [ "nullDataPtr", "class_ogre_1_1_n_u_l_l_buffer_interface.html#a12f47883b7828ea2c4d9258b0376d687", null ],
     [ "regressFrame", "class_ogre_1_1_n_u_l_l_buffer_interface.html#a0d50915e40552c106fd42add473a537c", null ],
     [ "unmap", "class_ogre_1_1_n_u_l_l_buffer_interface.html#a12277dc2356426d34b1dbae685c17eae", null ],

@@ -15,7 +15,7 @@ var class_ogre_1_1_d3_d11_depth_buffer =
     [ "_setPoolId", "class_ogre_1_1_d3_d11_depth_buffer.html#a7af5c611687492846891914dcac303d2", null ],
     [ "copyTo", "class_ogre_1_1_d3_d11_depth_buffer.html#a2c0b3bd4598e7e95aa1d20ddf5bfc055", null ],
     [ "getBitDepth", "class_ogre_1_1_d3_d11_depth_buffer.html#a728fb1f26362f18ea1ba9ff5fc263b05", null ],
-    [ "getDepthStencilView", "class_ogre_1_1_d3_d11_depth_buffer.html#af3aadc8064740491af6ea0d0d9a338e4", null ],
+    [ "getDepthStencilView", "class_ogre_1_1_d3_d11_depth_buffer.html#a347e2f0b6d457e79e7ac768a6a944ccd", null ],
     [ "getDepthTextureView", "class_ogre_1_1_d3_d11_depth_buffer.html#a3ddb01a8a624ba46acc380c640c7e1f2", null ],
     [ "getFormat", "class_ogre_1_1_d3_d11_depth_buffer.html#ad9d3f9f465862cc7de0efa0798d5a63a", null ],
     [ "getFsaa", "class_ogre_1_1_d3_d11_depth_buffer.html#a7f521691f0eab6e1bdfa7b1d501f7687", null ],

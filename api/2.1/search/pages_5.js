@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['manual',['Manual',['../manual.html',1,'']]]
+  ['linux',['Linux',['../SettingUpOgreLinux.html',1,'SettingUpOgre']]]
 ];

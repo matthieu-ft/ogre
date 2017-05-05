@@ -34,7 +34,7 @@ var class_ogre_1_1_mesh =
     [ "clone", "class_ogre_1_1_mesh.html#ab85133a4f30a0eb9254339b5af8416d9", null ],
     [ "copy", "class_ogre_1_1_mesh.html#a988b2092bfb0516c31d4f34fecc150dd", null ],
     [ "copyParametersTo", "class_ogre_1_1_mesh.html#a702af78cbc4869e64c369fb11c4f1eb5", null ],
-    [ "createSubMesh", "class_ogre_1_1_mesh.html#a23d5c021503b8fac8938be4ba956f2ce", null ],
+    [ "createSubMesh", "class_ogre_1_1_mesh.html#afd8f8725c5277d5f05b857bc404916bc", null ],
     [ "dearrangeToInefficient", "class_ogre_1_1_mesh.html#acece9a38f44d7b91a3e5af871b8eb939", null ],
     [ "destroySubMesh", "class_ogre_1_1_mesh.html#a27eeabd7eb8282be7115a6c5944b0b0e", null ],
     [ "escalateLoading", "class_ogre_1_1_mesh.html#a367f6fe60bb211cb4c32e3825ca67e4c", null ],

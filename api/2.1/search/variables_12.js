@@ -21,6 +21,7 @@ var searchData=
   ['shadershift',['ShaderShift',['../class_ogre_1_1_rq_bits.html#a7fc8e11b8ebe8faf5da11fb8b8f07734',1,'Ogre::RqBits']]],
   ['shadershifttransp',['ShaderShiftTransp',['../class_ogre_1_1_rq_bits.html#a8a7cde7ace43b431345cfd5ed802e2b7',1,'Ogre::RqBits']]],
   ['shadowcaster',['ShadowCaster',['../struct_ogre_1_1_hlms_base_prop.html#afc08b5769b4ea5316b8dda636bee1e73',1,'Ogre::HlmsBaseProp']]],
+  ['shadowcasterpoint',['ShadowCasterPoint',['../struct_ogre_1_1_hlms_base_prop.html#a087247ae98d52c3272916702e1cee479',1,'Ogre::HlmsBaseProp']]],
   ['shadowmaptechnique',['shadowMapTechnique',['../class_ogre_1_1_shadow_texture_definition.html#a1c82ba62c6bd28831012501ece8a226d',1,'Ogre::ShadowTextureDefinition']]],
   ['shadowusesdepthtexture',['ShadowUsesDepthTexture',['../struct_ogre_1_1_hlms_base_prop.html#a8b2aebafc43e597c1148cdfd06a50f67',1,'Ogre::HlmsBaseProp']]],
   ['sharedblendindextoboneindexmap',['sharedBlendIndexToBoneIndexMap',['../class_ogre_1_1v1_1_1_mesh.html#a5fa853298aec47a59eadf4aeb6e956b3',1,'Ogre::v1::Mesh']]],
@@ -79,6 +80,7 @@ var searchData=
   ['stencilpassop',['stencilPassOp',['../struct_ogre_1_1_stencil_state_op.html#aa89bc154a983111ac0edf18b8bf9db46',1,'Ogre::StencilStateOp']]],
   ['strategy',['strategy',['../struct_ogre_1_1_lod_config.html#a9634e8bfa3c423b7a2ad130f5db9ca61',1,'Ogre::LodConfig']]],
   ['stride',['stride',['../struct_ogre_1_1_d3_d11_vao_manager_1_1_vao_1_1_vertex_binding.html#a148d204e91d10079d32263b38c3fa42d',1,'Ogre::D3D11VaoManager::Vao::VertexBinding::stride()'],['../struct_ogre_1_1_g_l3_plus_vao_manager_1_1_vao_1_1_vertex_binding.html#ada93d6bfd25b4cce405ddfa19b0958a9',1,'Ogre::GL3PlusVaoManager::Vao::VertexBinding::stride()'],['../struct_ogre_1_1_n_u_l_l_vao_manager_1_1_vao_1_1_vertex_binding.html#a3519451d15fb2bc6b4b9c5d791ac01a0',1,'Ogre::NULLVaoManager::Vao::VertexBinding::stride()']]],
+  ['strongmacroblock',['strongMacroblock',['../struct_ogre_1_1_hlms_pass_pso.html#abf77d38cd0b5d03b3acd9ac7f5caeb9a',1,'Ogre::HlmsPassPso']]],
   ['subclass_5fchunk_5fid',['SUBCLASS_CHUNK_ID',['../class_ogre_1_1_simple_page_content_collection.html#a83a7da85aebcb68a7d0042ac11391d3b',1,'Ogre::SimplePageContentCollection']]],
   ['subclass_5fchunk_5fversion',['SUBCLASS_CHUNK_VERSION',['../class_ogre_1_1_simple_page_content_collection.html#acec3e8d6e9439e811e76a3ed1584f1f7',1,'Ogre::SimplePageContentCollection']]],
   ['subentity',['subEntity',['../struct_ogre_1_1_entity_material_lod_changed_event.html#ac0412a14eced59d5a41f2812b2efc95a',1,'Ogre::EntityMaterialLodChangedEvent']]],
@@ -90,5 +92,5 @@ var searchData=
   ['supportsmorphanimation',['supportsMorphAnimation',['../struct_ogre_1_1_material_script_program_definition.html#a7d0607b541edd5abfc19a1e933eed431',1,'Ogre::MaterialScriptProgramDefinition']]],
   ['supportsposeanimation',['supportsPoseAnimation',['../struct_ogre_1_1_material_script_program_definition.html#aceffe25ef1a661814764abcff14693a3',1,'Ogre::MaterialScriptProgramDefinition']]],
   ['supportsskeletalanimation',['supportsSkeletalAnimation',['../struct_ogre_1_1_material_script_program_definition.html#ae1581e882fed968d73656a5a389679ca',1,'Ogre::MaterialScriptProgramDefinition']]],
-  ['syntax',['syntax',['../struct_ogre_1_1_material_script_program_definition.html#a8392666564161eed2e77efed86ead9fd',1,'Ogre::MaterialScriptProgramDefinition::syntax()'],['../struct_ogre_1_1_hlms_base_prop.html#a2cd566a2316cec4b2e0e9aab58993dca',1,'Ogre::HlmsBaseProp::Syntax()']]]
+  ['syntax',['Syntax',['../struct_ogre_1_1_hlms_base_prop.html#a2cd566a2316cec4b2e0e9aab58993dca',1,'Ogre::HlmsBaseProp::Syntax()'],['../struct_ogre_1_1_material_script_program_definition.html#a8392666564161eed2e77efed86ead9fd',1,'Ogre::MaterialScriptProgramDefinition::syntax()']]]
 ];

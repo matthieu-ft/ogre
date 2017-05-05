@@ -434,6 +434,11 @@ Enumerations</h2></td></tr>
  }<tr class="memdesc:gaa9c06899edc6b7aed7bf3b29abe9bb31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum describing the ways to generate texture coordinates.  <a href="group___render_system.html#gaa9c06899edc6b7aed7bf3b29abe9bb31">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:gaa9c06899edc6b7aed7bf3b29abe9bb31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2dad852ac69f7883f66d5580c9ffb0b0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___render_system.html#ga2dad852ac69f7883f66d5580c9ffb0b0">Ogre::ViewportRenderTargetFlags</a> { <a class="el" href="group___render_system.html#gga2dad852ac69f7883f66d5580c9ffb0b0a56620589789dcb6ed27d17aa946d8e1b">Ogre::VP_RTT_COLOUR_WRITE</a> = 1u &lt;&lt; 0u, 
+<a class="el" href="group___render_system.html#gga2dad852ac69f7883f66d5580c9ffb0b0ad7cdb1e5b8755c5dc1d54ec55fae4c3c">Ogre::VP_RTT_READ_ONLY_DEPTH</a> = 1u &lt;&lt; 1u, 
+<a class="el" href="group___render_system.html#gga2dad852ac69f7883f66d5580c9ffb0b0a812558ce75da42bbbcbe6e7b639d4051">Ogre::VP_RTT_READ_ONLY_STENCIL</a> = 1u &lt;&lt; 2u
+ }</td></tr>
+<tr class="separator:ga2dad852ac69f7883f66d5580c9ffb0b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -939,6 +944,29 @@ Functions</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="ggaa9c06899edc6b7aed7bf3b29abe9bb31abcbba9b2c16dc5c57c479dfc486095db"></a>TEXCALC_PROJECTIVE_TEXTURE&#160;</td><td class="fielddoc">
 <p>Projective texture. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga2dad852ac69f7883f66d5580c9ffb0b0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group___render_system.html#ga2dad852ac69f7883f66d5580c9ffb0b0">Ogre::ViewportRenderTargetFlags</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="gga2dad852ac69f7883f66d5580c9ffb0b0a56620589789dcb6ed27d17aa946d8e1b"></a>VP_RTT_COLOUR_WRITE&#160;</td><td class="fielddoc">
+<p>Do not write colour, only depth/stencil. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga2dad852ac69f7883f66d5580c9ffb0b0ad7cdb1e5b8755c5dc1d54ec55fae4c3c"></a>VP_RTT_READ_ONLY_DEPTH&#160;</td><td class="fielddoc">
+<p>Assume stencil is read only (it's a hint, not an enforcement) </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga2dad852ac69f7883f66d5580c9ffb0b0a812558ce75da42bbbcbe6e7b639d4051"></a>VP_RTT_READ_ONLY_STENCIL&#160;</td><td class="fielddoc">
+<p>Assume stencil is read only (it's a hint, not an enforcement) </p>
 </td></tr>
 </table>
 
@@ -1533,7 +1561,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 28 2017 23:48:54 for OGRE by
+    <li class="footer">Generated on Thu May 4 2017 22:21:36 for OGRE by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

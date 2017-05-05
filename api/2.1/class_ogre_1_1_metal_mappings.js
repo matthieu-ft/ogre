@@ -4,6 +4,7 @@ var class_ogre_1_1_metal_mappings =
     [ "get", "class_ogre_1_1_metal_mappings.html#ad99440b4a061be822967795ff46f3ccf", null ],
     [ "get", "class_ogre_1_1_metal_mappings.html#a597ae408174f585569acd47a35b801ae", null ],
     [ "get", "class_ogre_1_1_metal_mappings.html#a2e3d3fd1b83bf03fc591b7f58890fd57", null ],
+    [ "get", "class_ogre_1_1_metal_mappings.html#a85fd33bfd63563d19b28d714127ffa74", null ],
     [ "get", "class_ogre_1_1_metal_mappings.html#a23a115f0274ef7f6116e559c03c29a75", null ],
     [ "get", "class_ogre_1_1_metal_mappings.html#ae1b0ed13741ffa3cdafb25753939fadb", null ],
     [ "get", "class_ogre_1_1_metal_mappings.html#a34a7706237275f7963b58e8169d96377", null ],

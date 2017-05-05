@@ -45,6 +45,7 @@ var class_ogre_1_1_d3_d11_vao_manager =
     [ "getTimer", "class_ogre_1_1_d3_d11_vao_manager.html#a68920b89d7ab929fc78d2013ef419bbe", null ],
     [ "getUavBufferAlignment", "class_ogre_1_1_d3_d11_vao_manager.html#aba0c4166083e407daf30bdf74293fccd", null ],
     [ "getUavBufferMaxSize", "class_ogre_1_1_d3_d11_vao_manager.html#a9df77c2bc3c9467e21808e6ca62785a2", null ],
+    [ "isFrameFinished", "class_ogre_1_1_d3_d11_vao_manager.html#ad755907ce311a03ad71f1732a0bcb773", null ],
     [ "mergeContiguousBlocks", "class_ogre_1_1_d3_d11_vao_manager.html#a7c48c351c69e8f682ca05ccc17791853", null ],
     [ "operator delete", "class_ogre_1_1_d3_d11_vao_manager.html#a8357fe4fb4849772b94baa4bf47c7ded", null ],
     [ "operator delete", "class_ogre_1_1_d3_d11_vao_manager.html#a1c727e879a260c37b00ce5505fe8e144", null ],
@@ -61,5 +62,6 @@ var class_ogre_1_1_d3_d11_vao_manager =
     [ "supportsPersistentMapping", "class_ogre_1_1_d3_d11_vao_manager.html#a32f45ab2439f6006ce7c7296047e7184", null ],
     [ "waitFor", "class_ogre_1_1_d3_d11_vao_manager.html#ae4216732c59e762d045e0138ad3c00c8", null ],
     [ "waitFor", "class_ogre_1_1_d3_d11_vao_manager.html#a2d29b276731a8aeef821863bad178459", null ],
+    [ "waitForSpecificFrameToFinish", "class_ogre_1_1_d3_d11_vao_manager.html#aa99e8eb352189ff130bbf293b6cd77c3", null ],
     [ "waitForTailFrameToFinish", "class_ogre_1_1_d3_d11_vao_manager.html#af26ff1e7b0f57b7bd52ff6faac76ba37", null ]
 ];

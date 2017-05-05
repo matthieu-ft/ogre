@@ -11,7 +11,7 @@ var class_ogre_1_1_d3_d11_buffer_interface =
     [ "getDynamicBuffer", "class_ogre_1_1_d3_d11_buffer_interface.html#a2257a92c33b891b2bd6772e5cc6cbd5e", null ],
     [ "getVboName", "class_ogre_1_1_d3_d11_buffer_interface.html#aaf048718bb76ff5a37e08383a6232be5", null ],
     [ "getVboPoolIndex", "class_ogre_1_1_d3_d11_buffer_interface.html#a6cc7a9ad44452a53b9e750e49a5d45cd", null ],
-    [ "map", "class_ogre_1_1_d3_d11_buffer_interface.html#a568a914d7e124221017a14a72b80bfec", null ],
+    [ "map", "class_ogre_1_1_d3_d11_buffer_interface.html#a1b33034e7c2479a25f65f20906a8e00a", null ],
     [ "regressFrame", "class_ogre_1_1_d3_d11_buffer_interface.html#a7e19000cb7a2369f7339476222d4875b", null ],
     [ "unmap", "class_ogre_1_1_d3_d11_buffer_interface.html#ab5666d7ed9c5c91d6f31ba9d458674ad", null ],
     [ "upload", "class_ogre_1_1_d3_d11_buffer_interface.html#abc183c59ca908d4dc53149add87a0237", null ]

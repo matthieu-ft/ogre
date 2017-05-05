@@ -1,7 +1,8 @@
 var class_ogre_1_1_compositor_pass_clear_def =
 [
     [ "UavDependencyVec", "class_ogre_1_1_compositor_pass_clear_def.html#a114c9c278a29353ebe78cc7d7e3fce6f", null ],
-    [ "CompositorPassClearDef", "class_ogre_1_1_compositor_pass_clear_def.html#a5494a8e9bfb265ea4edddecff48ba316", null ],
+    [ "CompositorPassClearDef", "class_ogre_1_1_compositor_pass_clear_def.html#a37e0be85fbb9473a93f008f6c55a6f7c", null ],
+    [ "getParentTargetDef", "class_ogre_1_1_compositor_pass_clear_def.html#a4ae3f225a74e940688341935a608a773", null ],
     [ "getRtIndex", "class_ogre_1_1_compositor_pass_clear_def.html#ac02bbb784cc52bd13935c6787a4d541c", null ],
     [ "getType", "class_ogre_1_1_compositor_pass_clear_def.html#a8690f05e9180ec95cc7366f1fc6962e6", null ],
     [ "operator delete", "class_ogre_1_1_compositor_pass_clear_def.html#a8357fe4fb4849772b94baa4bf47c7ded", null ],
@@ -26,6 +27,9 @@ var class_ogre_1_1_compositor_pass_clear_def =
     [ "mIdentifier", "class_ogre_1_1_compositor_pass_clear_def.html#ab32b226a745dfd996d7b94a7197044eb", null ],
     [ "mIncludeOverlays", "class_ogre_1_1_compositor_pass_clear_def.html#aacdeaffb7cacec5f264de2be66410c67", null ],
     [ "mNumInitialPasses", "class_ogre_1_1_compositor_pass_clear_def.html#a70ba2384e061021d6eceb5dd20b66d47", null ],
+    [ "mReadOnlyDepth", "class_ogre_1_1_compositor_pass_clear_def.html#a368fcc3ba3874f5ae9f4eaf8eb46652e", null ],
+    [ "mReadOnlyStencil", "class_ogre_1_1_compositor_pass_clear_def.html#a1e9e560eddce4c5ac862789a1a752909", null ],
+    [ "mShadowMapFullViewport", "class_ogre_1_1_compositor_pass_clear_def.html#a0fdf3a38961c32069cde61f23d7ff674", null ],
     [ "mShadowMapIdx", "class_ogre_1_1_compositor_pass_clear_def.html#aecd3ae94eb59058a4f064cf3aff60a95", null ],
     [ "mStencilValue", "class_ogre_1_1_compositor_pass_clear_def.html#ad37b68b8cfe87bbdbfa763313510c9b6", null ],
     [ "mUavDependencies", "class_ogre_1_1_compositor_pass_clear_def.html#af603f6cce02284ad5a4781c261a05137", null ],

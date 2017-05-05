@@ -94,15 +94,15 @@
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
 <g id="a_node6"><a xlink:href="class_ogre_1_1_d3_d9_resource.html" target="_top" xlink:title="Represents a Direct3D rendering resource. ">
-<polygon fill="none" stroke="black" points="176,-112.5 176,-131.5 287,-131.5 287,-112.5 176,-112.5"/>
-<text text-anchor="middle" x="231.5" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ogre::D3D9Resource</text>
+<polygon fill="none" stroke="black" points="177,-112.5 177,-131.5 288,-131.5 288,-112.5 177,-112.5"/>
+<text text-anchor="middle" x="232.5" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ogre::D3D9Resource</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node1 -->
 <g id="edge5" class="edge"><title>Node6&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M214.033,-105.537C203.156,-95.9087 189.556,-83.8694 180.479,-75.8339"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="211.892,-108.316 221.699,-112.324 216.532,-103.075 211.892,-108.316"/>
+<path fill="none" stroke="midnightblue" d="M214.746,-105.537C203.692,-95.9087 189.869,-83.8694 180.643,-75.8339"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="212.699,-108.395 222.539,-112.324 217.297,-103.117 212.699,-108.395"/>
 </g>
 </g>
 </svg>

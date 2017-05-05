@@ -44,6 +44,7 @@ var class_ogre_1_1_metal_vao_manager =
     [ "getTimer", "class_ogre_1_1_metal_vao_manager.html#a68920b89d7ab929fc78d2013ef419bbe", null ],
     [ "getUavBufferAlignment", "class_ogre_1_1_metal_vao_manager.html#aba0c4166083e407daf30bdf74293fccd", null ],
     [ "getUavBufferMaxSize", "class_ogre_1_1_metal_vao_manager.html#a9df77c2bc3c9467e21808e6ca62785a2", null ],
+    [ "isFrameFinished", "class_ogre_1_1_metal_vao_manager.html#a5fb8a0af72643b336653847940be7cba", null ],
     [ "mergeContiguousBlocks", "class_ogre_1_1_metal_vao_manager.html#abc42862fb69d9e609fd3bc06f0d98323", null ],
     [ "operator delete", "class_ogre_1_1_metal_vao_manager.html#a8357fe4fb4849772b94baa4bf47c7ded", null ],
     [ "operator delete", "class_ogre_1_1_metal_vao_manager.html#a1c727e879a260c37b00ce5505fe8e144", null ],
@@ -59,5 +60,6 @@ var class_ogre_1_1_metal_vao_manager =
     [ "supportsIndirectBuffers", "class_ogre_1_1_metal_vao_manager.html#af2cdb0f658cf0fa45bcfc7b5dc519a11", null ],
     [ "supportsPersistentMapping", "class_ogre_1_1_metal_vao_manager.html#a32f45ab2439f6006ce7c7296047e7184", null ],
     [ "waitFor", "class_ogre_1_1_metal_vao_manager.html#a9c4b755aeadffcf4fe37e464b1193643", null ],
-    [ "waitForTailFrameToFinish", "class_ogre_1_1_metal_vao_manager.html#ac3e5503a9fb16535d8fd2f0a88676d7d", null ]
+    [ "waitForSpecificFrameToFinish", "class_ogre_1_1_metal_vao_manager.html#ac41fe86f4c8ef9b9802d1e26bd6b6297", null ],
+    [ "waitForTailFrameToFinish", "class_ogre_1_1_metal_vao_manager.html#a0550a0204c696aa7a8cdf72724f6e7de", null ]
 ];

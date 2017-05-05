@@ -132,7 +132,8 @@ $(document).ready(function(){initNavTree('class_ogre_1_1_compositor_shadow_node_
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_ogre_1_1_compositor_shadow_node_def__inherit__graph.svg" width="235" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_ogre_1_1_compositor_shadow_node_def__inherit__graph.svg" width="235" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -168,9 +169,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a315def6f034b385f877d5e18fc9a63fe"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_compositor_shadow_node_def.html#a315def6f034b385f877d5e18fc9a63fe">addBufferInput</a> (size_t inputChannel, <a class="el" href="struct_ogre_1_1_id_string.html">IdString</a> name)</td></tr>
 <tr class="memdesc:a315def6f034b385f877d5e18fc9a63fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Buffers.  <a href="#a315def6f034b385f877d5e18fc9a63fe">More...</a><br /></td></tr>
 <tr class="separator:a315def6f034b385f877d5e18fc9a63fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a901e7687eac515040a2d285fac9d4157"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ogre_1_1_shadow_texture_definition.html">ShadowTextureDefinition</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_compositor_shadow_node_def.html#a901e7687eac515040a2d285fac9d4157">addShadowTextureDefinition</a> (size_t lightIdx, size_t split, const <a class="el" href="namespace_ogre.html#af73bbdc8bed8a3e6fcd56bb8fa188c45">String</a> &amp;name, bool isAtlas)</td></tr>
-<tr class="memdesc:a901e7687eac515040a2d285fac9d4157"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new ShadowTexture definition.  <a href="#a901e7687eac515040a2d285fac9d4157">More...</a><br /></td></tr>
-<tr class="separator:a901e7687eac515040a2d285fac9d4157"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a533efd3c663f0458eb5834ba50a456c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ogre_1_1_shadow_texture_definition.html">ShadowTextureDefinition</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_compositor_shadow_node_def.html#a533efd3c663f0458eb5834ba50a456c9">addShadowTextureDefinition</a> (size_t lightIdx, size_t split, const <a class="el" href="namespace_ogre.html#af73bbdc8bed8a3e6fcd56bb8fa188c45">String</a> &amp;name, <a class="el" href="namespace_ogre.html#a119732ea9d1e88bbddc47b4ac0fa21cb">uint8</a> mrtIndex, const <a class="el" href="class_ogre_1_1_vector2.html">Vector2</a> &amp;uvOffset, const <a class="el" href="class_ogre_1_1_vector2.html">Vector2</a> &amp;uvLength, <a class="el" href="namespace_ogre.html#a119732ea9d1e88bbddc47b4ac0fa21cb">uint8</a> arrayIdx)</td></tr>
+<tr class="memdesc:a533efd3c663f0458eb5834ba50a456c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new ShadowTexture definition.  <a href="#a533efd3c663f0458eb5834ba50a456c9">More...</a><br /></td></tr>
+<tr class="separator:a533efd3c663f0458eb5834ba50a456c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad003f09aa38ab2a05b9e37a877588331"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ogre_1_1_compositor_target_def.html">CompositorTargetDef</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_compositor_node_def.html#ad003f09aa38ab2a05b9e37a877588331">addTargetPass</a> (const <a class="el" href="namespace_ogre.html#af73bbdc8bed8a3e6fcd56bb8fa188c45">String</a> &amp;renderTargetName, <a class="el" href="namespace_ogre.html#adf2a0cf2e77143b5ee1d38a75e289545">uint32</a> rtIndex=0)</td></tr>
 <tr class="memdesc:ad003f09aa38ab2a05b9e37a877588331"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new Target pass.  <a href="#ad003f09aa38ab2a05b9e37a877588331">More...</a><br /></td></tr>
 <tr class="separator:ad003f09aa38ab2a05b9e37a877588331"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,9 +216,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a341eb4e957b5e7e17d656bac2a8f9aec"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_compositor_node_def.html#a341eb4e957b5e7e17d656bac2a8f9aec">getPassNumber</a> (const <a class="el" href="class_ogre_1_1_compositor_pass_def.html">CompositorPassDef</a> *passDef) const </td></tr>
 <tr class="memdesc:a341eb4e957b5e7e17d656bac2a8f9aec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the pass # of the given pass definition in this node.  <a href="#a341eb4e957b5e7e17d656bac2a8f9aec">More...</a><br /></td></tr>
 <tr class="separator:a341eb4e957b5e7e17d656bac2a8f9aec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2b535ce4cac014eb5da3af02b98094c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ogre_1_1_shadow_texture_definition.html">ShadowTextureDefinition</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_compositor_shadow_node_def.html#ac2b535ce4cac014eb5da3af02b98094c">getShadowTextureDefinition</a> (size_t texIndex)</td></tr>
-<tr class="memdesc:ac2b535ce4cac014eb5da3af02b98094c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a shadow texture definition by its index.  <a href="#ac2b535ce4cac014eb5da3af02b98094c">More...</a><br /></td></tr>
-<tr class="separator:ac2b535ce4cac014eb5da3af02b98094c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ba25f0214f6a45ed113e614e8eb71d6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_ogre_1_1_shadow_texture_definition.html">ShadowTextureDefinition</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_compositor_shadow_node_def.html#a1ba25f0214f6a45ed113e614e8eb71d6">getShadowTextureDefinition</a> (size_t texIndex) const </td></tr>
+<tr class="memdesc:a1ba25f0214f6a45ed113e614e8eb71d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a shadow texture definition by its index.  <a href="#a1ba25f0214f6a45ed113e614e8eb71d6">More...</a><br /></td></tr>
+<tr class="separator:a1ba25f0214f6a45ed113e614e8eb71d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fcf3850e8135d4e6d4e3c92e9560c29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ogre_1_1_shadow_texture_definition.html">ShadowTextureDefinition</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_compositor_shadow_node_def.html#a0fcf3850e8135d4e6d4e3c92e9560c29">getShadowTextureDefinitionNonConst</a> (size_t texIndex)</td></tr>
+<tr class="separator:a0fcf3850e8135d4e6d4e3c92e9560c29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec5d7bd5e3197c1ca3dc53eac7489ec1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_compositor_node_def.html#aec5d7bd5e3197c1ca3dc53eac7489ec1">getStartEnabled</a> (void) const </td></tr>
 <tr class="separator:aec5d7bd5e3197c1ca3dc53eac7489ec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25399907b63825d292a0d6ac6eb47030"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ogre_1_1_compositor_target_def.html">CompositorTargetDef</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_compositor_node_def.html#a25399907b63825d292a0d6ac6eb47030">getTargetPass</a> (size_t passIndex)</td></tr>
@@ -654,7 +657,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a901e7687eac515040a2d285fac9d4157"></a>
+<a class="anchor" id="a533efd3c663f0458eb5834ba50a456c9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -679,8 +682,26 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>isAtlas</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespace_ogre.html#a119732ea9d1e88bbddc47b4ac0fa21cb">uint8</a>&#160;</td>
+          <td class="paramname"><em>mrtIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_ogre_1_1_vector2.html">Vector2</a> &amp;&#160;</td>
+          <td class="paramname"><em>uvOffset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_ogre_1_1_vector2.html">Vector2</a> &amp;&#160;</td>
+          <td class="paramname"><em>uvLength</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_ogre.html#a119732ea9d1e88bbddc47b4ac0fa21cb">uint8</a>&#160;</td>
+          <td class="paramname"><em>arrayIdx</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -696,8 +717,10 @@ Friends</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">lightIdx</td><td>Nth Closest <a class="el" href="class_ogre_1_1_light.html" title="Representation of a dynamic light source in the scene. ">Light</a> to assign this texture to. Must be unique unless split is different. </td></tr>
     <tr><td class="paramname">split</td><td>Split for the given light. Only valid for CSM/PSSM shadow maps. Must be unique for the same lightIdx. </td></tr>
-    <tr><td class="paramname">name</td><td>Name to alias this texture for reference. Must be unique and not contain the "global_" prefix. </td></tr>
-    <tr><td class="paramname">isAtlas</td><td>True if this shadow map is rendered in an UV atlas; which means we don't create our own texture, but rather reference another through the local name. </td></tr>
+    <tr><td class="paramname">name</td><td>Name to a declared texture that will hold our shadow map. Must not contain the "global_" prefix. </td></tr>
+    <tr><td class="paramname">uvOffset</td><td>Values in range [0; 1] to determine what region of the texture will hold our shadow map (i.e. UV atlas). Use <a class="el" href="class_ogre_1_1_vector2.html#a70fef72151781ad0174a004a8b6b3acc">Vector2::ZERO</a> if it covers the entire texture. </td></tr>
+    <tr><td class="paramname">uvLength</td><td>Values in range [0; 1] to determine what region of the texture will hold our shadow map (i.e. UV atlas). Use <a class="el" href="class_ogre_1_1_vector2.html#a165a67053e61b0733746453ce9ee5edb">Vector2::UNIT_SCALE</a> if it covers the entire texture. </td></tr>
+    <tr><td class="paramname">arrayIdx</td><td>If the texture is an array texture, index to the slice that holds our shadow map. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1479,7 +1502,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac2b535ce4cac014eb5da3af02b98094c"></a>
+<a class="anchor" id="a1ba25f0214f6a45ed113e614e8eb71d6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1487,7 +1510,33 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_ogre_1_1_shadow_texture_definition.html">ShadowTextureDefinition</a>* Ogre::CompositorShadowNodeDef::getShadowTextureDefinition </td>
+          <td class="memname">const <a class="el" href="class_ogre_1_1_shadow_texture_definition.html">ShadowTextureDefinition</a>* Ogre::CompositorShadowNodeDef::getShadowTextureDefinition </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>texIndex</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves a shadow texture definition by its index. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0fcf3850e8135d4e6d4e3c92e9560c29"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ogre_1_1_shadow_texture_definition.html">ShadowTextureDefinition</a>* Ogre::CompositorShadowNodeDef::getShadowTextureDefinitionNonConst </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>texIndex</em></td><td>)</td>
@@ -1500,8 +1549,6 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Retrieves a shadow texture definition by its index. </p>
 
 </div>
 </div>
@@ -2456,6 +2503,8 @@ template&lt;class Alloc &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>References <a class="el" href="class_ogre_1_1_shadow_texture_definition.html#a9e5b8c6d0098da31d67c40d1bb5a28c1">Ogre::ShadowTextureDefinition::arrayIdx</a>, <a class="el" href="class_ogre_1_1_shadow_texture_definition.html#a5f2c9f37b5d77028a1eb433098ad5e25">Ogre::ShadowTextureDefinition::mrtIndex</a>, <a class="el" href="class_ogre_1_1_shadow_texture_definition.html#ac6402ed16c96fb2a1f609210149367b5">Ogre::ShadowTextureDefinition::split</a>, <a class="el" href="class_ogre_1_1_shadow_texture_definition.html#a6b5048cef58070a4608897ab718eb9c4">Ogre::ShadowTextureDefinition::uvLength</a>, and <a class="el" href="class_ogre_1_1_shadow_texture_definition.html#a9415b07e2e36a433b61767818fa214d8">Ogre::ShadowTextureDefinition::uvOffset</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a9a8ce1017a00dc622a92dffe0077d05a"></a>
@@ -2593,9 +2642,6 @@ template&lt;class Alloc &gt; </div>
 <a class="anchor" id="ac104383e2903732544b0dcaefd730329"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Ogre::CompositorShadowNodeDef::setNumShadowTextureDefinitions </td>
@@ -2605,11 +2651,6 @@ template&lt;class Alloc &gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Reserves enough memory for all texture definitions. </p>
@@ -2620,8 +2661,6 @@ template&lt;class Alloc &gt; </div>
   </table>
   </dd>
 </dl>
-
-<p>References <a class="el" href="class_ogre_1_1_shadow_texture_definition.html#ac6402ed16c96fb2a1f609210149367b5">Ogre::ShadowTextureDefinition::split</a>.</p>
 
 </div>
 </div>
@@ -2735,7 +2774,7 @@ template&lt;class Alloc &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ogre.html">Ogre</a></li><li class="navelem"><a class="el" href="class_ogre_1_1_compositor_shadow_node_def.html">CompositorShadowNodeDef</a></li>
-    <li class="footer">Generated on Tue Mar 28 2017 23:48:54 for OGRE by
+    <li class="footer">Generated on Thu May 4 2017 22:21:37 for OGRE by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

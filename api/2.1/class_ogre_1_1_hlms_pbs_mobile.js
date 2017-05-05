@@ -11,6 +11,7 @@ var class_ogre_1_1_hlms_pbs_mobile =
     [ "HlmsPbsMobile", "class_ogre_1_1_hlms_pbs_mobile.html#a68fe6a8c43cdc7c697b42f62c9519afb", null ],
     [ "~HlmsPbsMobile", "class_ogre_1_1_hlms_pbs_mobile.html#a4ec7ed42fc55894f98e59762d2ecf074", null ],
     [ "_changeRenderSystem", "class_ogre_1_1_hlms_pbs_mobile.html#ab8744fe92c019a0f47330772904f4c58", null ],
+    [ "_clearShaderCache", "class_ogre_1_1_hlms_pbs_mobile.html#a2712f2732aaface8c3429cbd2c375578", null ],
     [ "_collectSamplerblocks", "class_ogre_1_1_hlms_pbs_mobile.html#ad8ee9c21796623473c8d48d2aa1ca613", null ],
     [ "_getProperty", "class_ogre_1_1_hlms_pbs_mobile.html#a2653ec312ecd49c7a080335544ba87f0", null ],
     [ "_loadJson", "class_ogre_1_1_hlms_pbs_mobile.html#ae4564995410bbba55027c36c83802441", null ],

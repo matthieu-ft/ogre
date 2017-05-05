@@ -131,7 +131,8 @@ $(document).ready(function(){initNavTree('class_ogre_1_1_array_memory_manager.ht
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_ogre_1_1_array_memory_manager__inherit__graph.svg" width="463" height="222"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_ogre_1_1_array_memory_manager__inherit__graph.svg" width="463" height="222"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -159,6 +160,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a887cf331d0bde49e30c9bacfa6b7a76f"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_array_memory_manager.html#a887cf331d0bde49e30c9bacfa6b7a76f">getFreeMemory</a> () const </td></tr>
 <tr class="memdesc:a887cf331d0bde49e30c9bacfa6b7a76f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets available memory in bytes.  <a href="#a887cf331d0bde49e30c9bacfa6b7a76f">More...</a><br /></td></tr>
 <tr class="separator:a887cf331d0bde49e30c9bacfa6b7a76f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac55c1bef4c17f9ab497db545f1cc5730"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_array_memory_manager.html#ac55c1bef4c17f9ab497db545f1cc5730">getNumUsedSlotsIncludingFragmented</a> () const </td></tr>
+<tr class="memdesc:ac55c1bef4c17f9ab497db545f1cc5730"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns mUsedMemory.  <a href="#ac55c1bef4c17f9ab497db545f1cc5730">More...</a><br /></td></tr>
+<tr class="separator:ac55c1bef4c17f9ab497db545f1cc5730"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3e161182863431487380e56d0bae431"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_array_memory_manager.html#af3e161182863431487380e56d0bae431">getUsedMemory</a> () const </td></tr>
 <tr class="memdesc:af3e161182863431487380e56d0bae431"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets used memory in bytes (not including waste)  <a href="#af3e161182863431487380e56d0bae431">More...</a><br /></td></tr>
 <tr class="separator:af3e161182863431487380e56d0bae431"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -330,6 +334,24 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ac55c1bef4c17f9ab497db545f1cc5730"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t Ogre::ArrayMemoryManager::getNumUsedSlotsIncludingFragmented </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns mUsedMemory. </p>
+<p>When ARRAY_PACKED_REALS = 4, and 4 objects have been created but the 2nd one has been deleted, getNumUsedSlotsIncludingFragmented will still return 4 until the 4th object is removed or a cleanup is performed </p>
+
+</div>
+</div>
 <a class="anchor" id="af3e161182863431487380e56d0bae431"></a>
 <div class="memitem">
 <div class="memproto">
@@ -412,7 +434,7 @@ Static Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ogre.html">Ogre</a></li><li class="navelem"><a class="el" href="class_ogre_1_1_array_memory_manager.html">ArrayMemoryManager</a></li>
-    <li class="footer">Generated on Tue Mar 28 2017 23:48:54 for OGRE by
+    <li class="footer">Generated on Thu May 4 2017 22:21:36 for OGRE by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

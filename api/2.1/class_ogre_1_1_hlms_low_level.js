@@ -11,6 +11,7 @@ var class_ogre_1_1_hlms_low_level =
     [ "HlmsLowLevel", "class_ogre_1_1_hlms_low_level.html#ae033fdbb53bf9a818dcd8df559b2b37a", null ],
     [ "~HlmsLowLevel", "class_ogre_1_1_hlms_low_level.html#abc184f4aa7c2d5b8c66db91ee527b858", null ],
     [ "_changeRenderSystem", "class_ogre_1_1_hlms_low_level.html#ab8744fe92c019a0f47330772904f4c58", null ],
+    [ "_clearShaderCache", "class_ogre_1_1_hlms_low_level.html#a2712f2732aaface8c3429cbd2c375578", null ],
     [ "_collectSamplerblocks", "class_ogre_1_1_hlms_low_level.html#ad8ee9c21796623473c8d48d2aa1ca613", null ],
     [ "_getAutoParamDataSource", "class_ogre_1_1_hlms_low_level.html#a730f4b72551fc001c2793b275413c37f", null ],
     [ "_getProperty", "class_ogre_1_1_hlms_low_level.html#a2653ec312ecd49c7a080335544ba87f0", null ],

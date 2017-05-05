@@ -11,6 +11,7 @@ var class_ogre_1_1_hlms_unlit_mobile =
     [ "HlmsUnlitMobile", "class_ogre_1_1_hlms_unlit_mobile.html#a266587a83644817ed2541de1134b6c64", null ],
     [ "~HlmsUnlitMobile", "class_ogre_1_1_hlms_unlit_mobile.html#a3dd9a6307f5d2a07e8087e3f7f25469a", null ],
     [ "_changeRenderSystem", "class_ogre_1_1_hlms_unlit_mobile.html#ab8744fe92c019a0f47330772904f4c58", null ],
+    [ "_clearShaderCache", "class_ogre_1_1_hlms_unlit_mobile.html#a2712f2732aaface8c3429cbd2c375578", null ],
     [ "_collectSamplerblocks", "class_ogre_1_1_hlms_unlit_mobile.html#ad8ee9c21796623473c8d48d2aa1ca613", null ],
     [ "_getProperty", "class_ogre_1_1_hlms_unlit_mobile.html#a2653ec312ecd49c7a080335544ba87f0", null ],
     [ "_loadJson", "class_ogre_1_1_hlms_unlit_mobile.html#ae4564995410bbba55027c36c83802441", null ],

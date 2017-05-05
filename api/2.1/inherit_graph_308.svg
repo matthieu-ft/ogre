@@ -10,10 +10,10 @@
 <title>Graphical Class Hierarchy</title>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<g id="a_node1"><a xlink:href="struct_ogre_1_1map.html" target="_top" xlink:title="Ogre::map\&lt; IdString,\l uint32 \&gt;">
+<g id="a_node1"><a xlink:href="struct_ogre_1_1map.html" target="_top" xlink:title="Ogre::map\&lt; IdString,\l String \&gt;">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-30.5 108,-30.5 108,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ogre::map&lt; IdString,</text>
-<text text-anchor="middle" x="54" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00"> uint32 &gt;</text>
+<text text-anchor="middle" x="54" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00"> String &gt;</text>
 </a>
 </g>
 </g>

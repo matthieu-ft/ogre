@@ -268,7 +268,7 @@ var group___render_system =
       [ "_setPointSpritesEnabled", "class_ogre_1_1_render_system.html#a7cca254fe5034f59e9d4dc4b9dc95742", null ],
       [ "_setProjectionMatrix", "class_ogre_1_1_render_system.html#a968dffb7114639b2c3aa39f6323fd66e", null ],
       [ "_setRenderOperation", "class_ogre_1_1_render_system.html#a0d1c42482bd2fbc446637af69ab19e3d", null ],
-      [ "_setRenderTarget", "class_ogre_1_1_render_system.html#a3d4cf070938d7a6323444e8df63fa9d9", null ],
+      [ "_setRenderTarget", "class_ogre_1_1_render_system.html#acc80b8466afcbb22e347be459322a8e6", null ],
       [ "_setSurfaceParams", "class_ogre_1_1_render_system.html#aca86be508b2afbbe67e2eac635ac640d", null ],
       [ "_setTessellationDomainTexture", "class_ogre_1_1_render_system.html#ad5c2b9367c6c47e15524fb87459c5d6f", null ],
       [ "_setTessellationHullTexture", "class_ogre_1_1_render_system.html#a5628bbc07d1298a44a2558b7f8c695b2", null ],
@@ -1938,6 +1938,8 @@ var group___render_system =
       [ "getMaterialScheme", "class_ogre_1_1_viewport.html#a6a7957a8f88824cb9dffad4627aed0c2", null ],
       [ "getOrientationMode", "class_ogre_1_1_viewport.html#a87092749b5ca126daea8d5e4f4f9d1a4", null ],
       [ "getOverlaysEnabled", "class_ogre_1_1_viewport.html#ad1a3965c457f32ef2b94a27c4d66d192", null ],
+      [ "getReadOnlStencil", "class_ogre_1_1_viewport.html#ad37e4b98bedb425ec6ec94d521561c52", null ],
+      [ "getReadOnlyDepth", "class_ogre_1_1_viewport.html#aaa313bf4704d20014fb6ed8dbee60ef1", null ],
       [ "getScissorActualHeight", "class_ogre_1_1_viewport.html#ab4ded1351c6ad54f6c39c12da17a79c8", null ],
       [ "getScissorActualLeft", "class_ogre_1_1_viewport.html#a5f4ab7b231a0a3b4aa103f51219c3ff0", null ],
       [ "getScissorActualTop", "class_ogre_1_1_viewport.html#ab36b19efef702028c2e50f773a386acd", null ],
@@ -1949,6 +1951,7 @@ var group___render_system =
       [ "getSkiesEnabled", "class_ogre_1_1_viewport.html#a7f298d53b2d7575bbacc0d556df14774", null ],
       [ "getTarget", "class_ogre_1_1_viewport.html#a87f6429f7060f2dc18aec304bb24e2b2", null ],
       [ "getTop", "class_ogre_1_1_viewport.html#a242540dcb26c2d3ebd3cbe0cb6c04728", null ],
+      [ "getViewportRenderTargetFlags", "class_ogre_1_1_viewport.html#ac93d6aefa7dbb6841654afe5077e18df", null ],
       [ "getVisibilityMask", "class_ogre_1_1_viewport.html#a84e9c01f4e8e62422be4fda269dd54cd", null ],
       [ "getWidth", "class_ogre_1_1_viewport.html#a6b2b7e7b071c6666c957f2cfbcdeeca6", null ],
       [ "operator delete", "class_ogre_1_1_viewport.html#a8357fe4fb4849772b94baa4bf47c7ded", null ],
@@ -1971,6 +1974,7 @@ var group___render_system =
       [ "setMaterialScheme", "class_ogre_1_1_viewport.html#a8e8577fd81c45b05de880106f364a281", null ],
       [ "setOrientationMode", "class_ogre_1_1_viewport.html#a10c41ba5b52fce35e3c2df7b6b38477b", null ],
       [ "setOverlaysEnabled", "class_ogre_1_1_viewport.html#a598f5bd68b1c88cd3ae5a50343965afd", null ],
+      [ "setReadOnly", "class_ogre_1_1_viewport.html#ad6ec46c13a97e83fb65c9c83f9a24c35", null ],
       [ "setScissors", "class_ogre_1_1_viewport.html#a31babbfc1a637c25fda94ce8d67aee54", null ],
       [ "setSkiesEnabled", "class_ogre_1_1_viewport.html#a176a24ccbb9881c4fc61f3f1aaba3c12", null ],
       [ "mGlobalIndex", "class_ogre_1_1_viewport.html#a3c6e3400076b8434e6892f24868b6cd7", null ]
@@ -2110,6 +2114,11 @@ var group___render_system =
       [ "TEXCALC_ENVIRONMENT_MAP_REFLECTION", "group___render_system.html#ggaa9c06899edc6b7aed7bf3b29abe9bb31ad4c1a576294c5fc8a0519783fc9e2eab", null ],
       [ "TEXCALC_ENVIRONMENT_MAP_NORMAL", "group___render_system.html#ggaa9c06899edc6b7aed7bf3b29abe9bb31aa296599db57208482d35f5d264d61578", null ],
       [ "TEXCALC_PROJECTIVE_TEXTURE", "group___render_system.html#ggaa9c06899edc6b7aed7bf3b29abe9bb31abcbba9b2c16dc5c57c479dfc486095db", null ]
+    ] ],
+    [ "ViewportRenderTargetFlags", "group___render_system.html#ga2dad852ac69f7883f66d5580c9ffb0b0", [
+      [ "VP_RTT_COLOUR_WRITE", "group___render_system.html#gga2dad852ac69f7883f66d5580c9ffb0b0a56620589789dcb6ed27d17aa946d8e1b", null ],
+      [ "VP_RTT_READ_ONLY_DEPTH", "group___render_system.html#gga2dad852ac69f7883f66d5580c9ffb0b0ad7cdb1e5b8755c5dc1d54ec55fae4c3c", null ],
+      [ "VP_RTT_READ_ONLY_STENCIL", "group___render_system.html#gga2dad852ac69f7883f66d5580c9ffb0b0a812558ce75da42bbbcbe6e7b639d4051", null ]
     ] ],
     [ "HardwareCounterBuffer", "group___render_system.html#ga4561ed2d5f5944d22e9d36e2b314d2a1", null ],
     [ "HardwareCounterBufferSharedPtr", "group___render_system.html#gae8db6c926f1f36da92271e16f3ed5fa0", null ],

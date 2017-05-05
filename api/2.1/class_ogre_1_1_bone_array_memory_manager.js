@@ -21,6 +21,7 @@ var class_ogre_1_1_bone_array_memory_manager =
     [ "getAllMemory", "class_ogre_1_1_bone_array_memory_manager.html#a7922ae44279408f813d537b77365c152", null ],
     [ "getFirstNode", "class_ogre_1_1_bone_array_memory_manager.html#a9190868192f4cd6b544832e168410768", null ],
     [ "getFreeMemory", "class_ogre_1_1_bone_array_memory_manager.html#a887cf331d0bde49e30c9bacfa6b7a76f", null ],
+    [ "getNumUsedSlotsIncludingFragmented", "class_ogre_1_1_bone_array_memory_manager.html#ac55c1bef4c17f9ab497db545f1cc5730", null ],
     [ "getUsedMemory", "class_ogre_1_1_bone_array_memory_manager.html#af3e161182863431487380e56d0bae431", null ],
     [ "getWastedMemory", "class_ogre_1_1_bone_array_memory_manager.html#ad48866d04f1cc283544bd116fafa8752", null ],
     [ "initialize", "class_ogre_1_1_bone_array_memory_manager.html#ad680fce37ec7058f94a5a69be2e2f4c5", null ],

@@ -11,6 +11,7 @@ var class_ogre_1_1_hlms_compute =
     [ "HlmsCompute", "class_ogre_1_1_hlms_compute.html#a128775f130a0541cde12245710aeec97", null ],
     [ "~HlmsCompute", "class_ogre_1_1_hlms_compute.html#a22c69dd809460cc1d543d3b9b2cd84ee", null ],
     [ "_changeRenderSystem", "class_ogre_1_1_hlms_compute.html#a02d3d6b937ffe865b634f2a39e8317bb", null ],
+    [ "_clearShaderCache", "class_ogre_1_1_hlms_compute.html#a2712f2732aaface8c3429cbd2c375578", null ],
     [ "_collectSamplerblocks", "class_ogre_1_1_hlms_compute.html#ad8ee9c21796623473c8d48d2aa1ca613", null ],
     [ "_getProperty", "class_ogre_1_1_hlms_compute.html#a2653ec312ecd49c7a080335544ba87f0", null ],
     [ "_loadJson", "class_ogre_1_1_hlms_compute.html#ae4564995410bbba55027c36c83802441", null ],

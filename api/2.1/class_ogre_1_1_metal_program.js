@@ -37,6 +37,7 @@ var class_ogre_1_1_metal_program =
     [ "getConstantDefinitions", "class_ogre_1_1_metal_program.html#a4f70ca415d8650fe1ac7d937ceba4c03", null ],
     [ "getCreator", "class_ogre_1_1_metal_program.html#a741224f735dfd9ce324a4e8e621d868c", null ],
     [ "getDefaultParameters", "class_ogre_1_1_metal_program.html#a04675a861df66c30e431f95aa84320f5", null ],
+    [ "getEnableIncludeHeader", "class_ogre_1_1_metal_program.html#abea2ea39f286cd90922d7291eb26d31d", null ],
     [ "getEntryPoint", "class_ogre_1_1_metal_program.html#af47667dae34340cc73595fd3f6f29fd5", null ],
     [ "getFunctionParamCount", "class_ogre_1_1_metal_program.html#a9cbdd270594f085dd7c43e2b8ae42116", null ],
     [ "getGroup", "class_ogre_1_1_metal_program.html#ae712b3ff458ccbf8e1ff1e33d695bf60", null ],
@@ -97,6 +98,7 @@ var class_ogre_1_1_metal_program =
     [ "setBackgroundLoaded", "class_ogre_1_1_metal_program.html#ae0a0007de944eb3c2f933a372a752b35", null ],
     [ "setBuildParametersFromReflection", "class_ogre_1_1_metal_program.html#a91663e447c0a4addd142cc2be5c1800b", null ],
     [ "setComputeGroupDimensions", "class_ogre_1_1_metal_program.html#a84c3904bfaeeb1166dbca41e0c9f3b29", null ],
+    [ "setEnableIncludeHeader", "class_ogre_1_1_metal_program.html#a0fe2bbcc7cd9416e534b1f213c38cecd", null ],
     [ "setEntryPoint", "class_ogre_1_1_metal_program.html#aba6027742b94046fbf825eb92acc933d", null ],
     [ "setManuallyLoaded", "class_ogre_1_1_metal_program.html#a82174dc4f4a0645332483ced7904c2f6", null ],
     [ "setManualNamedConstants", "class_ogre_1_1_metal_program.html#ad12bddb95c7311f31f602cb70b8350c5", null ],
@@ -118,5 +120,6 @@ var class_ogre_1_1_metal_program =
     [ "touch", "class_ogre_1_1_metal_program.html#ae229b1f58092109adef55bfc6f864d79", null ],
     [ "unload", "class_ogre_1_1_metal_program.html#aa31bef1bfaa87731622e56f11b548e27", null ],
     [ "updateBuffers", "class_ogre_1_1_metal_program.html#af2aa28210ce8a8dfd1b0e72cc6ab8c2a", null ],
+    [ "msEnableIncludeHeaderCmd", "class_ogre_1_1_metal_program.html#abe36db3d6c7275c9fd7c50a6ffba6cb8", null ],
     [ "OGRE_AUTO_MUTEX", "class_ogre_1_1_metal_program.html#a104d9db8bfcff1f37b29157bbe070f7a", null ]
 ];

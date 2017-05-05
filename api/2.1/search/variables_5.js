@@ -54,6 +54,7 @@ var searchData=
   ['execute_5fsetv1renderop',['execute_setV1RenderOp',['../class_ogre_1_1_command_buffer.html#a659e7a809255f7d2548c54e76279e908',1,'Ogre::CommandBuffer']]],
   ['execute_5fsetvao',['execute_setVao',['../class_ogre_1_1_command_buffer.html#a1a68ad1c10aca27cdc541b0520fe910a',1,'Ogre::CommandBuffer']]],
   ['execute_5fstartv1legacyrendering',['execute_startV1LegacyRendering',['../class_ogre_1_1_command_buffer.html#ac48a91595279b25edf61765b42b6725b',1,'Ogre::CommandBuffer']]],
+  ['exponentialshadowmaps',['ExponentialShadowMaps',['../struct_ogre_1_1_pbs_property.html#a9257282d35c21d999bc2223be956dad2',1,'Ogre::PbsProperty']]],
   ['exportlocation',['exportLocation',['../struct_ogre_1_1_hlms_texture_pack.html#a60468bc4cd9cffabdbb855f4a4a34cdb',1,'Ogre::HlmsTexturePack']]],
   ['externaltexturename',['externalTextureName',['../struct_ogre_1_1_compositor_pass_uav_def_1_1_texture_source.html#ab29b5d1a827c07352591ec3e4059d9b9',1,'Ogre::CompositorPassUavDef::TextureSource']]],
   ['extrabuffer',['extraBuffer',['../struct_ogre_1_1_const_buffer_pool_1_1_buffer_pool.html#a8d70a5ead4e4751f6bf0bdb7839e952f',1,'Ogre::ConstBufferPool::BufferPool']]],

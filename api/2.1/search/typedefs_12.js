@@ -63,7 +63,7 @@ var searchData=
   ['streamalloc',['StreamAlloc',['../namespace_ogre.html#ab1b4c43359603ea0d0cace50d6fc57ee',1,'Ogre']]],
   ['stridechangervec',['StrideChangerVec',['../class_ogre_1_1_d3_d11_vao_manager.html#a0aa1930c42f0277b03ad5bbb20413dd6',1,'Ogre::D3D11VaoManager::StrideChangerVec()'],['../class_ogre_1_1_g_l3_plus_vao_manager.html#a79c5a9e410625780fcc610f3243be960',1,'Ogre::GL3PlusVaoManager::StrideChangerVec()'],['../class_ogre_1_1_metal_vao_manager.html#a9ab4fc87cbd471535839f60c498551cb',1,'Ogre::MetalVaoManager::StrideChangerVec()'],['../class_ogre_1_1_n_u_l_l_vao_manager.html#a3517b44c909e542931b9b301891167bd',1,'Ogre::NULLVaoManager::StrideChangerVec()']]],
   ['string',['String',['../namespace_ogre.html#af73bbdc8bed8a3e6fcd56bb8fa188c45',1,'Ogre']]],
-  ['stringstream',['StringStream',['../namespace_ogre.html#a9f14407f349c1ec70ddab871a7806590',1,'Ogre::StringStream()'],['../namespace_ogre.html#a64e76a61ffe0fc66797727c518151d35',1,'Ogre::stringstream()']]],
+  ['stringstream',['stringstream',['../namespace_ogre.html#a64e76a61ffe0fc66797727c518151d35',1,'Ogre::stringstream()'],['../namespace_ogre.html#a9f14407f349c1ec70ddab871a7806590',1,'Ogre::StringStream()']]],
   ['stringvector',['StringVector',['../group___general.html#ga0899c03496d3c25c6555889aa76a78db',1,'Ogre']]],
   ['stringvectorptr',['StringVectorPtr',['../group___general.html#gae6b84ceebcdcc285f37bf9fba216697d',1,'Ogre']]],
   ['subentityalloc',['SubEntityAlloc',['../namespace_ogre.html#a11c9152a33c78bdc13a9cfdc41833d35',1,'Ogre']]],

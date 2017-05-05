@@ -116,6 +116,7 @@ $(document).ready(function(){initNavTree('class_ogre_1_1_g_l_s_l_separable_progr
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="class_ogre_1_1_g_l_s_l_separable_program-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ogre::GLSLSeparableProgram Class Reference</div>  </div>
@@ -131,7 +132,8 @@ $(document).ready(function(){initNavTree('class_ogre_1_1_g_l_s_l_separable_progr
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_ogre_1_1_g_l_s_l_separable_program__inherit__graph.svg" width="210" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_ogre_1_1_g_l_s_l_separable_program__inherit__graph.svg" width="210" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -234,6 +236,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a04675a861df66c30e431f95aa84320f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2dfa9bc6b28baa1b124a66bb8bb6a263"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ogre_1_1_g_l_s_l_shader.html">GLSLShader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_g_l_s_l_program.html#a2dfa9bc6b28baa1b124a66bb8bb6a263">getDomainShader</a> () const </td></tr>
 <tr class="separator:a2dfa9bc6b28baa1b124a66bb8bb6a263"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abea2ea39f286cd90922d7291eb26d31d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_high_level_gpu_program.html#abea2ea39f286cd90922d7291eb26d31d">getEnableIncludeHeader</a> (void) const </td></tr>
+<tr class="separator:abea2ea39f286cd90922d7291eb26d31d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d68c013a57034a0b4b2839fa0d74e94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ogre_1_1_g_l_s_l_shader.html">GLSLShader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_g_l_s_l_program.html#a8d68c013a57034a0b4b2839fa0d74e94">getFragmentShader</a> () const </td></tr>
 <tr class="separator:a8d68c013a57034a0b4b2839fa0d74e94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bdceb591e173a60ac85ed2188f51abe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ogre_1_1_g_l_s_l_shader.html">GLSLShader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_g_l_s_l_program.html#a9bdceb591e173a60ac85ed2188f51abe">getGeometryShader</a> () const </td></tr>
@@ -424,6 +428,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a84c3904bfaeeb1166dbca41e0c9f3b29"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_gpu_program.html#a84c3904bfaeeb1166dbca41e0c9f3b29">setComputeGroupDimensions</a> (<a class="el" href="class_ogre_1_1_vector3.html">Vector3</a> dimensions)</td></tr>
 <tr class="memdesc:a84c3904bfaeeb1166dbca41e0c9f3b29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the number of process groups dispatched by this compute program.  <a href="#a84c3904bfaeeb1166dbca41e0c9f3b29">More...</a><br /></td></tr>
 <tr class="separator:a84c3904bfaeeb1166dbca41e0c9f3b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fe2bbcc7cd9416e534b1f213c38cecd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_high_level_gpu_program.html#a0fe2bbcc7cd9416e534b1f213c38cecd">setEnableIncludeHeader</a> (bool bEnable)</td></tr>
+<tr class="memdesc:a0fe2bbcc7cd9416e534b1f213c38cecd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether we should parse the source code looking for include files and embedding the file.  <a href="#a0fe2bbcc7cd9416e534b1f213c38cecd">More...</a><br /></td></tr>
+<tr class="separator:a0fe2bbcc7cd9416e534b1f213c38cecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a310252b842fb357d7236c320dd6d65d8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_g_l_s_l_program.html#a310252b842fb357d7236c320dd6d65d8">setInputOperationType</a> (RenderOperation::OperationType operationType)</td></tr>
 <tr class="memdesc:a310252b842fb357d7236c320dd6d65d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the operation type that this geometry program expects to receive.  <a href="#a310252b842fb357d7236c320dd6d65d8">More...</a><br /></td></tr>
 <tr class="separator:a310252b842fb357d7236c320dd6d65d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -510,6 +517,11 @@ Static Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a104d9db8bfcff1f37b29157bbe070f7a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_resource.html#a104d9db8bfcff1f37b29157bbe070f7a">OGRE_AUTO_MUTEX</a></td></tr>
 <tr class="separator:a104d9db8bfcff1f37b29157bbe070f7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:abe36db3d6c7275c9fd7c50a6ffba6cb8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_ogre_1_1_high_level_gpu_program_1_1_cmd_enable_include_header.html">CmdEnableIncludeHeader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_high_level_gpu_program.html#abe36db3d6c7275c9fd7c50a6ffba6cb8">msEnableIncludeHeaderCmd</a></td></tr>
+<tr class="separator:abe36db3d6c7275c9fd7c50a6ffba6cb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Specialisation of <a class="el" href="class_ogre_1_1_g_l_s_l_program.html" title="C++ encapsulation of GLSL program object. ">GLSLProgram</a> to provide support for separable programs via the OpenGL program pipeline. </p>
@@ -1432,6 +1444,30 @@ Public Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abea2ea39f286cd90922d7291eb26d31d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ogre::HighLevelGpuProgram::getEnableIncludeHeader </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3429,6 +3465,48 @@ template&lt;class Alloc &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a0fe2bbcc7cd9416e534b1f213c38cecd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ogre::HighLevelGpuProgram::setEnableIncludeHeader </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>bEnable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether we should parse the source code looking for include files and embedding the file. </p>
+<p>Disabled by default to avoid slowing down when #include is not used. Not needed if the API natively supports it (D3D11). </p><dl class="section remark"><dt>Remarks</dt><dd>Single line comments are supported: #include "MyFile.h" &ndash;&gt; won't be included. <pre class="fragment">        Block comment lines are not supported, but may not matter if
+        the included file does not close the block:
+            / *
+                #include "MyFile.h" --&gt; file will be included anyway.
+              /
+
+        Preprocessor macros are not supported, but should not matter:
+            #if SOME_MACRO
+                #include "MyFile.h" --&gt; file will be included anyway.
+            #endif
+    @par
+        Recursive includes are supported (e.g. header includes a header)
+    @par
+        Beware included files mess up error reporting (wrong lines)
+    @param bEnable
+        True to support #include. Must be toggled before loading the source file.</pre> </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a310252b842fb357d7236c320dd6d65d8"></a>
 <div class="memitem">
 <div class="memproto">
@@ -4200,6 +4278,26 @@ template&lt;class Alloc &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="abe36db3d6c7275c9fd7c50a6ffba6cb8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ogre_1_1_high_level_gpu_program_1_1_cmd_enable_include_header.html">CmdEnableIncludeHeader</a> Ogre::HighLevelGpuProgram::msEnableIncludeHeaderCmd</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a104d9db8bfcff1f37b29157bbe070f7a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -4229,7 +4327,7 @@ template&lt;class Alloc &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ogre.html">Ogre</a></li><li class="navelem"><a class="el" href="class_ogre_1_1_g_l_s_l_separable_program.html">GLSLSeparableProgram</a></li>
-    <li class="footer">Generated on Tue Mar 28 2017 23:48:56 for OGRE by
+    <li class="footer">Generated on Thu May 4 2017 22:21:40 for OGRE by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -139,9 +139,14 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a43fe3b6affe917c42bb034ccf73d7f70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_ogre.html#aa3a7b6dfb905e6572d62f0dfa3d4274d">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ogre_1_1_light_closest.html#a43fe3b6affe917c42bb034ccf73d7f70">distance</a></td></tr>
 <tr class="separator:a43fe3b6affe917c42bb034ccf73d7f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed0c94b9023439bf8fb67600270e9908"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ogre_1_1_light_closest.html#aed0c94b9023439bf8fb67600270e9908">globalIndex</a></td></tr>
+<tr class="memdesc:aed0c94b9023439bf8fb67600270e9908"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index to SceneManager::mGlobalLightList.  <a href="#aed0c94b9023439bf8fb67600270e9908">More...</a><br /></td></tr>
 <tr class="separator:aed0c94b9023439bf8fb67600270e9908"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbce018accfaf2c19f1e1d4cdf8d94c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ogre_1_1_light.html">Light</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ogre_1_1_light_closest.html#acbce018accfaf2c19f1e1d4cdf8d94c9">light</a></td></tr>
-<tr class="separator:acbce018accfaf2c19f1e1d4cdf8d94c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bd8cb7091587a2252e78339cf3d9070"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ogre_1_1_light_closest.html#a6bd8cb7091587a2252e78339cf3d9070">isDirty</a></td></tr>
+<tr class="separator:a6bd8cb7091587a2252e78339cf3d9070"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabcad38af292fdfc1e2179c1a9be4ac3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ogre_1_1_light_closest.html#aabcad38af292fdfc1e2179c1a9be4ac3">isStatic</a></td></tr>
+<tr class="separator:aabcad38af292fdfc1e2179c1a9be4ac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa41b81d253b1af2e9951905238e0a7dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ogre_1_1_light.html">Light</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ogre_1_1_light_closest.html#aa41b81d253b1af2e9951905238e0a7dc">light</a></td></tr>
+<tr class="separator:aa41b81d253b1af2e9951905238e0a7dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Used as the light list, sorted. </p>
@@ -261,14 +266,41 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Index to SceneManager::mGlobalLightList. </p>
+<p>globalIndex may be == SceneManager::mGlobalLightList.size() if it holds a static light (see <a class="el" href="class_ogre_1_1_compositor_shadow_node.html#acf4e9f7b9d8e5b8c61bce6d164185e5d" title="Marks a shadow map as statically updated, and ties the given light to always use that shadow map...">CompositorShadowNode::setLightFixedToShadowMap</a>) that is not currently in camera. </p>
+
 </div>
 </div>
-<a class="anchor" id="acbce018accfaf2c19f1e1d4cdf8d94c9"></a>
+<a class="anchor" id="a6bd8cb7091587a2252e78339cf3d9070"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_ogre_1_1_light.html">Light</a> const* Ogre::LightClosest::light</td>
+          <td class="memname">bool Ogre::LightClosest::isDirty</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aabcad38af292fdfc1e2179c1a9be4ac3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ogre::LightClosest::isStatic</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa41b81d253b1af2e9951905238e0a7dc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ogre_1_1_light.html">Light</a>* Ogre::LightClosest::light</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -284,7 +316,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ogre.html">Ogre</a></li><li class="navelem"><a class="el" href="struct_ogre_1_1_light_closest.html">LightClosest</a></li>
-    <li class="footer">Generated on Tue Mar 28 2017 23:48:57 for OGRE by
+    <li class="footer">Generated on Thu May 4 2017 22:21:40 for OGRE by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

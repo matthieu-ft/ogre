@@ -7,6 +7,7 @@ var searchData=
   ['vertexelementtype',['VertexElementType',['../namespace_ogre.html#a027109503a988ba85f4c63b55082907f',1,'Ogre']]],
   ['vertexpass',['VertexPass',['../group___general.html#ga8509892b3d9e8aab2d1dbd80a5a7b493',1,'Ogre']]],
   ['vertexreductionmethod',['VertexReductionMethod',['../struct_ogre_1_1_lod_level.html#a39e40bdcbeea13357ace7e38e53446e3',1,'Ogre::LodLevel']]],
+  ['viewportrendertargetflags',['ViewportRenderTargetFlags',['../group___render_system.html#ga2dad852ac69f7883f66d5580c9ffb0b0',1,'Ogre']]],
   ['visibleside',['VisibleSide',['../class_ogre_1_1v1_1_1_patch_surface.html#a11936c1462bca0731a0946358047a516',1,'Ogre::v1::PatchSurface']]],
   ['vsoutputcompactpolicy',['VSOutputCompactPolicy',['../namespace_ogre_1_1_r_t_shader.html#ab0694782a83ac342574ac3cf1e053355',1,'Ogre::RTShader']]]
 ];

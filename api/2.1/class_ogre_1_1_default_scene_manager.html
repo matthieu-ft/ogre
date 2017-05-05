@@ -130,7 +130,8 @@ $(document).ready(function(){initNavTree('class_ogre_1_1_default_scene_manager.h
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_ogre_1_1_default_scene_manager__inherit__graph.svg" width="198" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_ogre_1_1_default_scene_manager__inherit__graph.svg" width="198" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -248,6 +249,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afa0e6b3f96d0740a12ccba7c829e394f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_scene_manager.html#afa0e6b3f96d0740a12ccba7c829e394f">_setCompositorTarget</a> (const <a class="el" href="struct_ogre_1_1_compositor_texture.html">CompositorTexture</a> &amp;compoTarget)</td></tr>
 <tr class="memdesc:afa0e6b3f96d0740a12ccba7c829e394f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The compositor we are currently writing to.  <a href="#afa0e6b3f96d0740a12ccba7c829e394f">More...</a><br /></td></tr>
 <tr class="separator:afa0e6b3f96d0740a12ccba7c829e394f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdd809e69cbbc4b565a27b8edef98ad1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_scene_manager.html#acdd809e69cbbc4b565a27b8edef98ad1">_setCurrentCompositorPass</a> (<a class="el" href="class_ogre_1_1_compositor_pass.html">CompositorPass</a> *pass)</td></tr>
+<tr class="separator:acdd809e69cbbc4b565a27b8edef98ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77f751eb7bce6624985c304f878d51d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_scene_manager.html#a77f751eb7bce6624985c304f878d51d9">_setCurrentRenderStage</a> (<a class="el" href="class_ogre_1_1_scene_manager.html#a51db39cc4fa15b28086a1793d42fc827">IlluminationRenderStage</a> stage)</td></tr>
 <tr class="separator:a77f751eb7bce6624985c304f878d51d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae333535bc17cb63a4500d4301b7270a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_scene_manager.html#ae333535bc17cb63a4500d4301b7270a0">_setCurrentShadowNode</a> (<a class="el" href="class_ogre_1_1_compositor_shadow_node.html">CompositorShadowNode</a> *shadowNode, bool isReused)</td></tr>
@@ -261,9 +264,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa484c6a44eaae0ec7ce646b51d6dc8c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_scene_manager.html#aa484c6a44eaae0ec7ce646b51d6dc8c3">_setLightCullingVisibility</a> (<a class="el" href="class_ogre_1_1_camera.html">Camera</a> *camera, bool collectLights, bool isCubemap)</td></tr>
 <tr class="memdesc:aa484c6a44eaae0ec7ce646b51d6dc8c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">See <a class="el" href="class_ogre_1_1_camera.html#ae458966f06b60f6bc658ae8606e77b9e" title="When a camera is created via SceneManager::createCamera, there are two additional parameters...">Camera::setLightCullingVisibility</a>.  <a href="#aa484c6a44eaae0ec7ce646b51d6dc8c3">More...</a><br /></td></tr>
 <tr class="separator:aa484c6a44eaae0ec7ce646b51d6dc8c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cbfc24a027d19fed2627e4f07a1e08b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_scene_manager.html#a1cbfc24a027d19fed2627e4f07a1e08b">_setPrePassMode</a> (<a class="el" href="group___general.html#ga63b5ab6176b81463bbdd0e260b751d2e">PrePassMode</a> mode, const <a class="el" href="group___effects.html#gae94be61ca436b40d1ab92080010fa909">TextureVec</a> *prepassTextures, const <a class="el" href="group___effects.html#gae94be61ca436b40d1ab92080010fa909">TextureVec</a> *ssrTexture)</td></tr>
-<tr class="memdesc:a1cbfc24a027d19fed2627e4f07a1e08b"><td class="mdescLeft">&#160;</td><td class="mdescRight">For internal use.  <a href="#a1cbfc24a027d19fed2627e4f07a1e08b">More...</a><br /></td></tr>
-<tr class="separator:a1cbfc24a027d19fed2627e4f07a1e08b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8c4733279dbd3bc63a6b0f7f8b3ce26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_scene_manager.html#ad8c4733279dbd3bc63a6b0f7f8b3ce26">_setPrePassMode</a> (<a class="el" href="group___general.html#ga63b5ab6176b81463bbdd0e260b751d2e">PrePassMode</a> mode, const <a class="el" href="group___effects.html#gae94be61ca436b40d1ab92080010fa909">TextureVec</a> *prepassTextures, const <a class="el" href="group___effects.html#gae94be61ca436b40d1ab92080010fa909">TextureVec</a> *prepassDepthTexture, const <a class="el" href="group___effects.html#gae94be61ca436b40d1ab92080010fa909">TextureVec</a> *ssrTexture)</td></tr>
+<tr class="memdesc:ad8c4733279dbd3bc63a6b0f7f8b3ce26"><td class="mdescLeft">&#160;</td><td class="mdescRight">For internal use.  <a href="#ad8c4733279dbd3bc63a6b0f7f8b3ce26">More...</a><br /></td></tr>
+<tr class="separator:ad8c4733279dbd3bc63a6b0f7f8b3ce26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae66f180b2925e6a9c674c62e058812f6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_scene_manager.html#ae66f180b2925e6a9c674c62e058812f6">_setSkyBox</a> (bool enable, const <a class="el" href="namespace_ogre.html#af73bbdc8bed8a3e6fcd56bb8fa188c45">String</a> &amp;materialName, <a class="el" href="namespace_ogre.html#a119732ea9d1e88bbddc47b4ac0fa21cb">uint8</a> renderQueue, <a class="el" href="namespace_ogre.html#aa3a7b6dfb905e6572d62f0dfa3d4274d">Real</a> distance=5000, const <a class="el" href="class_ogre_1_1_quaternion.html">Quaternion</a> &amp;orientation=<a class="el" href="class_ogre_1_1_quaternion.html#a441b8d52549e1dedec27420325a313ef">Quaternion::IDENTITY</a>, const <a class="el" href="namespace_ogre.html#af73bbdc8bed8a3e6fcd56bb8fa188c45">String</a> &amp;groupName=<a class="el" href="class_ogre_1_1_resource_group_manager.html#a813da407fd91dc1afee86103d3a4f5cc">ResourceGroupManager::DEFAULT_RESOURCE_GROUP_NAME</a>)</td></tr>
 <tr class="memdesc:ae66f180b2925e6a9c674c62e058812f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables / disables a 'sky box' i.e.  <a href="#ae66f180b2925e6a9c674c62e058812f6">More...</a><br /></td></tr>
 <tr class="separator:ae66f180b2925e6a9c674c62e058812f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -572,6 +575,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aaad40cbafeec5a7544f7c7b3f596f07a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_ogre_1_1_axis_aligned_box.html">AxisAlignedBox</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_scene_manager.html#aaad40cbafeec5a7544f7c7b3f596f07a">getCurrentCastersBox</a> (void) const </td></tr>
 <tr class="memdesc:aaad40cbafeec5a7544f7c7b3f596f07a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_ogre_1_1_compositor_shadow_node.html#a14e357231d33a8d3b3dac7a8c5553b8d" title="mCastersBox ">CompositorShadowNode::getCastersBox</a>  <a href="#aaad40cbafeec5a7544f7c7b3f596f07a">More...</a><br /></td></tr>
 <tr class="separator:aaad40cbafeec5a7544f7c7b3f596f07a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d9c1a943e3fea3a1ec235eab072d25b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_ogre_1_1_compositor_pass.html">CompositorPass</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_scene_manager.html#a3d9c1a943e3fea3a1ec235eab072d25b">getCurrentCompositorPass</a> (void) const </td></tr>
+<tr class="memdesc:a3d9c1a943e3fea3a1ec235eab072d25b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Note: May be null.  <a href="#a3d9c1a943e3fea3a1ec235eab072d25b">More...</a><br /></td></tr>
+<tr class="separator:a3d9c1a943e3fea3a1ec235eab072d25b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aada13bd64aff360f2be55e764a36da46"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group___effects.html#gae94be61ca436b40d1ab92080010fa909">TextureVec</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_scene_manager.html#aada13bd64aff360f2be55e764a36da46">getCurrentPrePassDepthTexture</a> (void) const </td></tr>
+<tr class="separator:aada13bd64aff360f2be55e764a36da46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b47cda6d7c3f4fe3568343a6adceed0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___general.html#ga63b5ab6176b81463bbdd0e260b751d2e">PrePassMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_scene_manager.html#a4b47cda6d7c3f4fe3568343a6adceed0">getCurrentPrePassMode</a> (void) const </td></tr>
 <tr class="separator:a4b47cda6d7c3f4fe3568343a6adceed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace88cb87b5155a868fc998db9699a086"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group___effects.html#gae94be61ca436b40d1ab92080010fa909">TextureVec</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ogre_1_1_scene_manager.html#ace88cb87b5155a868fc998db9699a086">getCurrentPrePassTextures</a> (void) const </td></tr>
@@ -2146,6 +2154,30 @@ SceneNode::createChildImpl Don't call this function directly </dd></dl>
 
 </div>
 </div>
+<a class="anchor" id="acdd809e69cbbc4b565a27b8edef98ad1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ogre::SceneManager::_setCurrentCompositorPass </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ogre_1_1_compositor_pass.html">CompositorPass</a> *&#160;</td>
+          <td class="paramname"><em>pass</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a77f751eb7bce6624985c304f878d51d9"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2306,7 +2338,7 @@ SceneNode::createChildImpl Don't call this function directly </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a1cbfc24a027d19fed2627e4f07a1e08b"></a>
+<a class="anchor" id="ad8c4733279dbd3bc63a6b0f7f8b3ce26"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2324,6 +2356,12 @@ SceneNode::createChildImpl Don't call this function directly </dd></dl>
           <td></td>
           <td class="paramtype">const <a class="el" href="group___effects.html#gae94be61ca436b40d1ab92080010fa909">TextureVec</a> *&#160;</td>
           <td class="paramname"><em>prepassTextures</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group___effects.html#gae94be61ca436b40d1ab92080010fa909">TextureVec</a> *&#160;</td>
+          <td class="paramname"><em>prepassDepthTexture</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -5831,6 +5869,56 @@ InstanceBatch::removeInstancedEntity </dd></dl>
 
 <p><a class="el" href="class_ogre_1_1_compositor_shadow_node.html#a14e357231d33a8d3b3dac7a8c5553b8d" title="mCastersBox ">CompositorShadowNode::getCastersBox</a> </p>
 <dl class="section remark"><dt>Remarks</dt><dd>Returns a null box if no active shadow node. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a3d9c1a943e3fea3a1ec235eab072d25b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_ogre_1_1_compositor_pass.html">CompositorPass</a>* Ogre::SceneManager::getCurrentCompositorPass </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Note: May be null. </p>
+
+</div>
+</div>
+<a class="anchor" id="aada13bd64aff360f2be55e764a36da46"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="group___effects.html#gae94be61ca436b40d1ab92080010fa909">TextureVec</a>* Ogre::SceneManager::getCurrentPrePassDepthTexture </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -9738,7 +9826,7 @@ Only a single pass is allowed in your material, although multiple techniques may
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ogre.html">Ogre</a></li><li class="navelem"><a class="el" href="class_ogre_1_1_default_scene_manager.html">DefaultSceneManager</a></li>
-    <li class="footer">Generated on Tue Mar 28 2017 23:48:55 for OGRE by
+    <li class="footer">Generated on Thu May 4 2017 22:21:38 for OGRE by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

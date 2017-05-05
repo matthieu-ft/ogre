@@ -282,6 +282,21 @@ var group___general =
       [ "operator new[]", "class_ogre_1_1_compositor_pass_translator.html#afa2943846ba6a2b5824a12857139cf5e", null ],
       [ "translate", "class_ogre_1_1_compositor_pass_translator.html#ae6b1de7bbb563ae6d7d2b1bc99dc3196", null ]
     ] ],
+    [ "CompositorShadowMapRepeatTranslator", "class_ogre_1_1_compositor_shadow_map_repeat_translator.html", [
+      [ "CompositorShadowMapRepeatTranslator", "class_ogre_1_1_compositor_shadow_map_repeat_translator.html#a581cf2b8e894934a11baa6595c4c7c70", null ],
+      [ "calculateNumTargets", "class_ogre_1_1_compositor_shadow_map_repeat_translator.html#a04ea23d362269f19a37496edb045635f", null ],
+      [ "operator delete", "class_ogre_1_1_compositor_shadow_map_repeat_translator.html#a8357fe4fb4849772b94baa4bf47c7ded", null ],
+      [ "operator delete", "class_ogre_1_1_compositor_shadow_map_repeat_translator.html#a1c727e879a260c37b00ce5505fe8e144", null ],
+      [ "operator delete", "class_ogre_1_1_compositor_shadow_map_repeat_translator.html#acb46d4b0a597156d9ba5abc39d127792", null ],
+      [ "operator delete[]", "class_ogre_1_1_compositor_shadow_map_repeat_translator.html#a93e6a86dde5483c053ca0f2a85bbfd6c", null ],
+      [ "operator delete[]", "class_ogre_1_1_compositor_shadow_map_repeat_translator.html#a595ea4c05da8aa987d3800e65d23355d", null ],
+      [ "operator new", "class_ogre_1_1_compositor_shadow_map_repeat_translator.html#a421b197ca3a38da17e2eb1531a645fa2", null ],
+      [ "operator new", "class_ogre_1_1_compositor_shadow_map_repeat_translator.html#ac4bdf968b7b9af8a5239a27da73d5711", null ],
+      [ "operator new", "class_ogre_1_1_compositor_shadow_map_repeat_translator.html#ab78a921e54419be677839cdf15d1f0b8", null ],
+      [ "operator new[]", "class_ogre_1_1_compositor_shadow_map_repeat_translator.html#a4be37baef81876985aa1071ad5acc6dd", null ],
+      [ "operator new[]", "class_ogre_1_1_compositor_shadow_map_repeat_translator.html#afa2943846ba6a2b5824a12857139cf5e", null ],
+      [ "translate", "class_ogre_1_1_compositor_shadow_map_repeat_translator.html#a82885c9b820855cdd2a1ec25b95ff1c6", null ]
+    ] ],
     [ "CompositorShadowMapTargetTranslator", "class_ogre_1_1_compositor_shadow_map_target_translator.html", [
       [ "CompositorShadowMapTargetTranslator", "class_ogre_1_1_compositor_shadow_map_target_translator.html#ab5c6e241903a418767807a3e17803d35", null ],
       [ "operator delete", "class_ogre_1_1_compositor_shadow_map_target_translator.html#a8357fe4fb4849772b94baa4bf47c7ded", null ],
@@ -295,6 +310,21 @@ var group___general =
       [ "operator new[]", "class_ogre_1_1_compositor_shadow_map_target_translator.html#a4be37baef81876985aa1071ad5acc6dd", null ],
       [ "operator new[]", "class_ogre_1_1_compositor_shadow_map_target_translator.html#afa2943846ba6a2b5824a12857139cf5e", null ],
       [ "translate", "class_ogre_1_1_compositor_shadow_map_target_translator.html#a274169dc0f0488120eec26123a67318a", null ]
+    ] ],
+    [ "CompositorShadowMapTargetTypeTranslator", "class_ogre_1_1_compositor_shadow_map_target_type_translator.html", [
+      [ "CompositorShadowMapTargetTypeTranslator", "class_ogre_1_1_compositor_shadow_map_target_type_translator.html#ab52481ee99a9d26ecf812f49fc90ef9c", null ],
+      [ "calculateNumTargets", "class_ogre_1_1_compositor_shadow_map_target_type_translator.html#abcc5ea0a61717512abd833f14dcc1b26", null ],
+      [ "operator delete", "class_ogre_1_1_compositor_shadow_map_target_type_translator.html#a8357fe4fb4849772b94baa4bf47c7ded", null ],
+      [ "operator delete", "class_ogre_1_1_compositor_shadow_map_target_type_translator.html#a1c727e879a260c37b00ce5505fe8e144", null ],
+      [ "operator delete", "class_ogre_1_1_compositor_shadow_map_target_type_translator.html#acb46d4b0a597156d9ba5abc39d127792", null ],
+      [ "operator delete[]", "class_ogre_1_1_compositor_shadow_map_target_type_translator.html#a93e6a86dde5483c053ca0f2a85bbfd6c", null ],
+      [ "operator delete[]", "class_ogre_1_1_compositor_shadow_map_target_type_translator.html#a595ea4c05da8aa987d3800e65d23355d", null ],
+      [ "operator new", "class_ogre_1_1_compositor_shadow_map_target_type_translator.html#a421b197ca3a38da17e2eb1531a645fa2", null ],
+      [ "operator new", "class_ogre_1_1_compositor_shadow_map_target_type_translator.html#ac4bdf968b7b9af8a5239a27da73d5711", null ],
+      [ "operator new", "class_ogre_1_1_compositor_shadow_map_target_type_translator.html#ab78a921e54419be677839cdf15d1f0b8", null ],
+      [ "operator new[]", "class_ogre_1_1_compositor_shadow_map_target_type_translator.html#a4be37baef81876985aa1071ad5acc6dd", null ],
+      [ "operator new[]", "class_ogre_1_1_compositor_shadow_map_target_type_translator.html#afa2943846ba6a2b5824a12857139cf5e", null ],
+      [ "translate", "class_ogre_1_1_compositor_shadow_map_target_type_translator.html#a1fc57a80f6c04eb756934d7f6f162dfd", null ]
     ] ],
     [ "CompositorShadowNodeTranslator", "class_ogre_1_1_compositor_shadow_node_translator.html", [
       [ "CompositorShadowNodeTranslator", "class_ogre_1_1_compositor_shadow_node_translator.html#a045a54527df9472ae0e6efb8e9251b07", null ],
@@ -1069,7 +1099,9 @@ var group___general =
       [ "operator<", "struct_ogre_1_1_light_closest.html#a4110cd956b540cf7c2a9d929c0c947d2", null ],
       [ "distance", "struct_ogre_1_1_light_closest.html#a43fe3b6affe917c42bb034ccf73d7f70", null ],
       [ "globalIndex", "struct_ogre_1_1_light_closest.html#aed0c94b9023439bf8fb67600270e9908", null ],
-      [ "light", "struct_ogre_1_1_light_closest.html#acbce018accfaf2c19f1e1d4cdf8d94c9", null ]
+      [ "isDirty", "struct_ogre_1_1_light_closest.html#a6bd8cb7091587a2252e78339cf3d9070", null ],
+      [ "isStatic", "struct_ogre_1_1_light_closest.html#aabcad38af292fdfc1e2179c1a9be4ac3", null ],
+      [ "light", "struct_ogre_1_1_light_closest.html#aa41b81d253b1af2e9951905238e0a7dc", null ]
     ] ],
     [ "LightListInfo", "struct_ogre_1_1_light_list_info.html", [
       [ "LightListInfo", "struct_ogre_1_1_light_list_info.html#ab20c71fb5b48f76f2c0da904583cb59c", null ],
@@ -2628,6 +2660,7 @@ var group___general =
       [ "ID_USES_UAV", "group___general.html#gga0b5cbeda8e74421290877666785271d3aa4fb28d56263f104142a594f01220ecb", null ],
       [ "ID_ALLOW_WRITE_AFTER_WRITE", "group___general.html#gga0b5cbeda8e74421290877666785271d3a7e097c81eaeb110052059b528a468caa", null ],
       [ "ID_EXPOSE", "group___general.html#gga0b5cbeda8e74421290877666785271d3a4120fab9883292ab8d8d34c61c7418cd", null ],
+      [ "ID_SHADOW_MAP_FULL_VIEWPORT", "group___general.html#gga0b5cbeda8e74421290877666785271d3acf1999a3da4f9e852e934a4180a84ffc", null ],
       [ "ID_LOD_BIAS", "group___general.html#gga0b5cbeda8e74421290877666785271d3a6b227676f10c3bb7b25b6070469e30aa", null ],
       [ "ID_LOD_UPDATE_LIST", "group___general.html#gga0b5cbeda8e74421290877666785271d3a9ba19226735926d946d1e48146b054eb", null ],
       [ "ID_LOD_CAMERA", "group___general.html#gga0b5cbeda8e74421290877666785271d3a29632d036320246b383baac33353de7c", null ],
@@ -2697,8 +2730,11 @@ var group___general =
       [ "ID_NUM_SPLITS", "group___general.html#gga0b5cbeda8e74421290877666785271d3a1526ee526526c370eaa8609edcd211c6", null ],
       [ "ID_PSSM_SPLIT_PADDING", "group___general.html#gga0b5cbeda8e74421290877666785271d3ab2248cdf337cd0f38241de0ec80e6a49", null ],
       [ "ID_PSSM_LAMBDA", "group___general.html#gga0b5cbeda8e74421290877666785271d3a8dd1a0e09c79afa1818de42aa26e7624", null ],
+      [ "ID_SHADOW_MAP_TARGET_TYPE", "group___general.html#gga0b5cbeda8e74421290877666785271d3a47d48e51e74026d78ad19d31f83dc415", null ],
+      [ "ID_SHADOW_MAP_REPEAT", "group___general.html#gga0b5cbeda8e74421290877666785271d3aad47abc04c9d9c97cce20fa145b11901", null ],
       [ "ID_SHADOW_MAP", "group___general.html#gga0b5cbeda8e74421290877666785271d3a152907bc201f5e3e1c40245117c0bedc", null ],
-      [ "ID_SHADOW_ATLAS", "group___general.html#gga0b5cbeda8e74421290877666785271d3a2d884dceeb5bc102043a0048a1e8300c", null ],
+      [ "ID_UV", "group___general.html#gga0b5cbeda8e74421290877666785271d3a78e88cb1ff5664c7f71b83cd0193e200", null ],
+      [ "ID_ARRAY_INDEX", "group___general.html#gga0b5cbeda8e74421290877666785271d3a3c3213a4174892559198604bc0e15f99", null ],
       [ "ID_FSAA", "group___general.html#gga0b5cbeda8e74421290877666785271d3a4d2780ec80e9c4cba88724d6fae8a210", null ],
       [ "ID_LIGHT", "group___general.html#gga0b5cbeda8e74421290877666785271d3a3fe9608609faf64f4832aec057798fc4", null ],
       [ "ID_SPLIT", "group___general.html#gga0b5cbeda8e74421290877666785271d3ad1cd27fad6157664510498a3871dd93f", null ],
